@@ -1,0 +1,33 @@
+//
+//  QklyBuyerDebug.xcconfig
+//  QklyBuyer
+//
+//  Created by arun sah on 24/01/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Qkly/Pods-QklyBuyer.debug.xcconfig"
+MarketPlace_BaseURL     = qkly-mp-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io
+Api_BaseURL             = qkly-profile-api.azurewebsites.net
+Auth_BaseURL            = qkly-auth-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io
+PEOPLEBASEURL           = qkly-people-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io
+PROFILEBASEURL          = qkly-profile-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io
+JOBBOARDBASEURL         = qkly-job-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io
+AZURE_MESSAGING_CONNECTION_SHAREDKEY = QklyNotificationHub.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=vhISJW1VxI1q41EVg+D+/RIwsplWZXOnV9J7/8mA4zY=
+AZURE_HUBNAME                        = QklyNotificationHub
+GiphyCredential                      = AJ4Fdz624FK5SiPYg0UHRUEyFkM7liWd
+GoogleAPICredential_clientID         = 886785808808-i1hfrhoaorq6gqkgenc3olatmo5bbmi9.apps.googleusercontent.com
+GoogleAPICredential_serverClientID   = 886785808808-g6qv4kmpk6994crcnimhumk7bj26mcds.apps.googleusercontent.com
+Server_Url                           = qkly-mp-staging-container.agreeablesmoke-bc62eae1.centralus.azurecontainerapps.io/notification
+Payment_clientId                      = ca_Gdv6lAnKdnfTMAHB6Tz9vgMpbqQvIm8I
+Invoice_CheckUrl                      = qkly-website-staging-ui.azurewebsites.net/invoicing
+LinkedinCredential_clientID           = 86u6sp29wouey9
+LinkedinCredential_clientSecret       = RJJEZKK7Vj3YmPVj
+LinkedinCredential_redirectURL        = qkly-website-staging-ui.azurewebsites.net/login
+LinkedinCredential_state              = DLKDJF45DIWOERCM
+QklyMiscURLs_baseUrl                  = qkly-website-ui.azurewebsites.net
+QklyMiscURLs_termsAndConditions       = qkly.io/termsofservice
+QklyMiscURLs_privacyPolicy            =  qkly-website-staging-ui.azurewebsites.net/privacy-policy
+QklyMiscURLs_jobbardId                = qkly-website-staging-ui.azurewebsites.net/jobboard?id=
+

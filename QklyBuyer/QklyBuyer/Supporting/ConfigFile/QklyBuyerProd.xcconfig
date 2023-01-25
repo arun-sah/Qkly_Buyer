@@ -1,0 +1,35 @@
+//
+//  QklyBuyerProd.xcconfig
+//  QklyBuyer
+//
+//  Created by arun sah on 24/01/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Qkly/Pods-QklyBuyer.release.xcconfig"
+
+
+MarketPlace_BaseURL     = qkly-mp-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
+Api_BaseURL             = jobs.qkly.io
+Auth_BaseURL            = qkly-auth-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
+PEOPLEBASEURL           = qkly-people-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
+PROFILEBASEURL          = qkly-profile-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
+JOBBOARDBASEURL         = qkly-job-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
+AZURE_MESSAGING_CONNECTION_SHAREDKEY = QklyNotificationHubProd.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=2SD0l8dAKwJzCbZ7EB7z6KxGLOJOn7NFEoWbHK38/fI=
+
+AZURE_HUBNAME                       = QklyNotificationHubProd
+GiphyCredential                     = AJ4Fdz624FK5SiPYg0UHRUEyFkM7liWd
+GoogleAPICredential_clientID        = 886785808808-i1hfrhoaorq6gqkgenc3olatmo5bbmi9.apps.googleusercontent.com
+GoogleAPICredential_serverClientID  = 886785808808-70hlabiqdcv4r31o8rjqckr72lkgstk3.apps.googleusercontent.com
+Server_Url                          = qkly-mp-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io/notification
+Payment_clientId                    = ca_Gdv6lAnKdnfTMAHB6Tz9vgMpbqQvIm8I
+Invoice_CheckUrl                    = qkly-website-staging-ui.azurewebsites.net/invoicing
+LinkedinCredential_clientID         = 86wllim9pmn672
+LinkedinCredential_clientSecret     = SMtIl61yh4rDWLIq
+LinkedinCredential_redirectURL      = qkly.io/login
+LinkedinCredential_state            = QKLYJF45DIWOERCM
+QklyMiscURLs_baseUrl                = qkly-website-ui.azurewebsites.net
+QklyMiscURLs_termsAndConditions     = qkly.io/termsofservice
+QklyMiscURLs_privacyPolicy          = qkly.io/privacy-policy
+QklyMiscURLs_jobbardId              = qkly.io/jobboard/jobs?id=

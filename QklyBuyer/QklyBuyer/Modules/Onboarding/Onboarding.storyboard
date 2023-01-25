@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Screen-->
+        <scene sceneID="ael-hY-Ma3">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingController" id="S3y-bb-5Se" userLabel="Onboarding Screen" customClass="OnboardingController" customModule="QklyBuyer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tb6-Yz-nTO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6C-Eg-5eA">
+                                <rect key="frame" x="0.0" y="7" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="S3y-bb-5Se" id="zdb-cs-KfG"/>
+                                </connections>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quI-jC-nuG">
+                                <rect key="frame" x="353" y="78" width="56" height="33"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                    <fontDescription key="titleFontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                    <color key="baseForegroundColor" name="qklyPurple"/>
+                                </buttonConfiguration>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6lB-1B-WKs">
+                                <rect key="frame" x="16" y="744.5" width="382" height="90"/>
+                                <subviews>
+                                    <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="WLu-TY-kyN">
+                                        <rect key="frame" x="124" y="0.0" width="134.5" height="30"/>
+                                        <color key="backgroundColor" red="0.96862745098039216" green="0.97254901960784312" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ib0-4x-nve"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" systemColor="systemMintColor"/>
+                                        <color key="currentPageIndicatorTintColor" systemColor="systemPurpleColor"/>
+                                    </pageControl>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRa-Tb-KY3">
+                                        <rect key="frame" x="0.0" y="40" width="382" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="N0x-hC-zgD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Get Started">
+                                            <fontDescription key="titleFontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jRa-Tb-KY3" secondAttribute="trailing" id="qTY-Yu-r5j"/>
+                                    <constraint firstItem="jRa-Tb-KY3" firstAttribute="leading" secondItem="6lB-1B-WKs" secondAttribute="leading" id="sL2-Dr-fRH"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JlU-TC-3O7"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u6C-Eg-5eA" firstAttribute="centerX" secondItem="JlU-TC-3O7" secondAttribute="centerX" id="BY3-Ue-lNc"/>
+                            <constraint firstItem="JlU-TC-3O7" firstAttribute="trailing" secondItem="quI-jC-nuG" secondAttribute="trailing" constant="5" id="Dda-Jj-hB6"/>
+                            <constraint firstItem="u6C-Eg-5eA" firstAttribute="height" secondItem="Tb6-Yz-nTO" secondAttribute="height" id="KA0-bu-hys"/>
+                            <constraint firstItem="u6C-Eg-5eA" firstAttribute="width" secondItem="Tb6-Yz-nTO" secondAttribute="width" id="Q4b-qS-n6x"/>
+                            <constraint firstItem="6lB-1B-WKs" firstAttribute="leading" secondItem="Tb6-Yz-nTO" secondAttribute="leading" constant="16" id="YJQ-bE-NXJ"/>
+                            <constraint firstItem="JlU-TC-3O7" firstAttribute="trailing" secondItem="6lB-1B-WKs" secondAttribute="trailing" constant="16" id="Z8w-6V-BOJ"/>
+                            <constraint firstItem="u6C-Eg-5eA" firstAttribute="centerY" secondItem="JlU-TC-3O7" secondAttribute="centerY" id="cGY-8c-0c8"/>
+                            <constraint firstItem="JlU-TC-3O7" firstAttribute="bottom" secondItem="6lB-1B-WKs" secondAttribute="bottom" constant="27.5" id="q91-9z-NMp"/>
+                            <constraint firstItem="quI-jC-nuG" firstAttribute="top" secondItem="JlU-TC-3O7" secondAttribute="top" constant="30" id="wun-Ij-Xrj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="jRa-Tb-KY3" id="VME-L2-lOz"/>
+                        <outlet property="pageControl" destination="WLu-TY-kyN" id="YvN-h9-g3z"/>
+                        <outlet property="scrollView" destination="u6C-Eg-5eA" id="Fh5-hA-pQQ"/>
+                        <outlet property="skipButton" destination="quI-jC-nuG" id="yJh-ly-kE6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shk-N3-uZF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="106.47321428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="qklyPurple">
+            <color red="0.62400001287460327" green="0.23499999940395355" blue="0.82700002193450928" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

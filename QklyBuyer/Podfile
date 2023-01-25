@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'QklyBuyer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+ 
+
+ pod 'MaterialComponents/TextControls+OutlinedTextFields'
+  pod 'MaterialComponents/TextFields'
+  pod 'BmoViewPager', '~> 5.2.0'
+  pod 'SwiftyJSON'
+  pod 'LayoutHelper'
+  # pod 'DropDown', :git =>'https://github.com/arun-sah/DropDown.git'
+  pod 'Cosmos'
+  pod 'Kingfisher'
+  pod 'Alamofire'
+  pod 'SJSegmentedScrollView', :git => 'https://github.com/kidvicious/SJSegmentedViewController'
+  pod 'PhoneNumberKit', '~> 3.3'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SideMenuSwift'
+  #  pod 'Charts', :git => 'https://github.com/kidvicious/Charts-qkly.git', :branch => 'textSize'
+  pod 'Charts', :git => 'https://github.com/kidvicious/Charts-qkly.git', :branch => 'textSize-update'
+  pod 'DropDown', :git => 'https://github.com/kidvicious/DropDown'
+  pod 'INSPhotoGallery'
+  pod 'TTGSnackbar'
+  pod 'TLPhotoPicker'
+  pod 'GoogleSignIn'
+  pod 'QCropper'
+  pod 'KeychainSwift'
+  pod 'SwiftyAttributes'
+  pod 'Wormholy', :configurations => ['Debug']
+  #pod 'JWTDecode'
+  pod 'AzureNotificationHubs-iOS'
+  pod 'SwiftSignalRClient'
+  pod 'LinkedinSwift', '~> 1.8.1'
+  pod 'FBSDKLoginKit'
+  pod 'Giphy'
+  pod 'MHLoadingButton'
+  pod 'Reactions', :git => 'https://github.com/arun-sah/Reactions'
+
+  
+   # Pods for QklyBuyer
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+      config.build_settings["DEVELOPMENT_TEAM"] = "867PL4RJ9N"
+      config.build_settings["GCC_WARN_INHIBIT_ALL_WARNINGS"] = "YES"
+    end
+  end
+end
+

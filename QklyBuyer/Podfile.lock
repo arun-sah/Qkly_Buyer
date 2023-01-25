@@ -1,0 +1,312 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.6.2)
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - AzureNotificationHubs-iOS (3.1.5)
+  - BmoViewPager (5.2.0)
+  - Charts (4.0.2):
+    - Charts/Core (= 4.0.2)
+  - Charts/Core (4.0.2):
+    - SwiftAlgorithms (~> 1.0)
+  - Cosmos (23.0.0)
+  - DropDown (2.3.13)
+  - FBAEMKit (15.0.0):
+    - FBSDKCoreKit_Basics (= 15.0.0)
+  - FBSDKCoreKit (15.0.0):
+    - FBAEMKit (= 15.0.0)
+    - FBSDKCoreKit_Basics (= 15.0.0)
+  - FBSDKCoreKit_Basics (15.0.0)
+  - FBSDKLoginKit (15.0.0):
+    - FBSDKCoreKit (= 15.0.0)
+  - Giphy (2.1.22):
+    - libwebp
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (2.1.0)
+  - INSPhotoGallery (1.2.8)
+  - IOSLinkedInAPIFix1 (2.0.7):
+    - AFNetworking (>= 3.0.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - KeychainSwift (20.0.0)
+  - Kingfisher (7.4.0)
+  - LayoutHelper (1.0.0)
+  - libwebp (1.2.3):
+    - libwebp/demux (= 1.2.3)
+    - libwebp/mux (= 1.2.3)
+    - libwebp/webp (= 1.2.3)
+  - libwebp/demux (1.2.3):
+    - libwebp/webp
+  - libwebp/mux (1.2.3):
+    - libwebp/demux
+  - libwebp/webp (1.2.3)
+  - LinkedinSwift (1.8.1):
+    - AFNetworking (>= 3.5.0)
+    - IOSLinkedInAPIFix1 (>= 2.0.7)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MaterialComponents/TextFields (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
+  - MHLoadingButton (0.1.3)
+  - PhoneNumberKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/UIKit (= 3.3.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
+  - PhoneNumberKit/UIKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - QCropper (0.1.7)
+  - Reactions (3.0.0)
+  - SideMenuSwift (2.0.9)
+  - SJSegmentedScrollView (1.5.0)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftSignalRClient (0.9.0)
+  - SwiftyAttributes (5.1.1)
+  - SwiftyJSON (5.0.1)
+  - TLPhotoPicker (2.1.9)
+  - TTGSnackbar (1.11.1)
+  - Wormholy (1.6.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - AzureNotificationHubs-iOS
+  - BmoViewPager (~> 5.2.0)
+  - Charts (from `https://github.com/kidvicious/Charts-qkly.git`, branch `textSize-update`)
+  - Cosmos
+  - DropDown (from `https://github.com/kidvicious/DropDown`)
+  - FBSDKLoginKit
+  - Giphy
+  - GoogleSignIn
+  - INSPhotoGallery
+  - IQKeyboardManagerSwift
+  - KeychainSwift
+  - Kingfisher
+  - LayoutHelper
+  - LinkedinSwift (~> 1.8.1)
+  - "MaterialComponents/TextControls+OutlinedTextFields"
+  - MaterialComponents/TextFields
+  - MHLoadingButton
+  - PhoneNumberKit (~> 3.3)
+  - QCropper
+  - Reactions (from `https://github.com/arun-sah/Reactions`)
+  - SideMenuSwift
+  - SJSegmentedScrollView (from `https://github.com/kidvicious/SJSegmentedViewController`)
+  - SwiftSignalRClient
+  - SwiftyAttributes
+  - SwiftyJSON
+  - TLPhotoPicker
+  - TTGSnackbar
+  - Wormholy
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - AppAuth
+    - AzureNotificationHubs-iOS
+    - BmoViewPager
+    - Cosmos
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - Giphy
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - INSPhotoGallery
+    - IOSLinkedInAPIFix1
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Kingfisher
+    - LayoutHelper
+    - libwebp
+    - LinkedinSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MHLoadingButton
+    - PhoneNumberKit
+    - QCropper
+    - SideMenuSwift
+    - SwiftAlgorithms
+    - SwiftSignalRClient
+    - SwiftyAttributes
+    - SwiftyJSON
+    - TLPhotoPicker
+    - TTGSnackbar
+    - Wormholy
+
+EXTERNAL SOURCES:
+  Charts:
+    :branch: textSize-update
+    :git: https://github.com/kidvicious/Charts-qkly.git
+  DropDown:
+    :git: https://github.com/kidvicious/DropDown
+  Reactions:
+    :git: https://github.com/arun-sah/Reactions
+  SJSegmentedScrollView:
+    :git: https://github.com/kidvicious/SJSegmentedViewController
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: bc9766e9a987e2a675f2f5fc4a156721bb714fa5
+    :git: https://github.com/kidvicious/Charts-qkly.git
+  DropDown:
+    :commit: 8dba0e6cca2d9ef290e18a685bb3af63ec838f20
+    :git: https://github.com/kidvicious/DropDown
+  Reactions:
+    :commit: 9832ed7e1ee95255a1f7c298a9c373c374da487f
+    :git: https://github.com/arun-sah/Reactions
+  SJSegmentedScrollView:
+    :commit: dc631d9c2e9a195d82ce0f22b7f308c776b2e26a
+    :git: https://github.com/kidvicious/SJSegmentedViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
+  BmoViewPager: f06da0dd20d115e2ced117268465230d922624b7
+  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DropDown: bf260fd688978138019ad7d94f63a2362dad85ba
+  FBAEMKit: d8312d8451ead46282adc7f3565ffc4965e3a4a7
+  FBSDKCoreKit: 81879058dd06208c0820fc713d054ca54903e8ba
+  FBSDKCoreKit_Basics: eebc9bb69a0e5d133b92dca53a20716227faa454
+  FBSDKLoginKit: 11995469cd7da16fd4d5245e8d2ec61060479270
+  Giphy: 6757d929878ef45f70ed62a02a2c9a03994e7b6c
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: ffbb25ec00ebcb5201adab0a56d808f6f1902d9f
+  INSPhotoGallery: ad317cb9a59c7a5f08550e4155b49622c24dcab3
+  IOSLinkedInAPIFix1: 3500bcb827ed39db15fe40bb8278568d66c809bd
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  Kingfisher: 596b207973051aae5e4c54a1c1cb39837ea10d36
+  LayoutHelper: fd809f52e0ae583f7576bf5d2af8248b5c3ec4d0
+  libwebp: 60305b2e989864154bd9be3d772730f08fc6a59c
+  LinkedinSwift: 8801a880fb9c59e18c95f40c8bf44b07c5dd1a2d
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  MHLoadingButton: 13bab47a3ce9d88df15638b7a5b73a8ac9f21077
+  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
+  QCropper: aef6bad1e683e62b501fb8258359ccd10c68b4f2
+  Reactions: 4994c6bb3e7c6b75756a0b26a4d4f5bde1a47dc7
+  SideMenuSwift: 39f1922e225da4aaa8b16591037a929defe960c9
+  SJSegmentedScrollView: 67ca97389a9c3a409d3b54c88781f031f5091c61
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftSignalRClient: aba134f3d30f7eeb01008929e387b6e66546c7d5
+  SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TLPhotoPicker: 939c40eaad130b69f9571e61e021e8120fa76329
+  TTGSnackbar: fea91c62637b5662f808a4c3b55f7631cb7e1ef7
+  Wormholy: 3252bc3e55a1847ef9a0976c1377bd77bf3635fa
+
+PODFILE CHECKSUM: 670d3aef5999bcc8fa96aa171f382f29137b08d3
+
+COCOAPODS: 1.11.3
