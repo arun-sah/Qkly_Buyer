@@ -12,7 +12,7 @@ import UIKit
 class OutlinedTextField: UITextField{
     func setUpTextField(textfield:MDCOutlinedTextField, placeholder:String){
         textfield.label.text = placeholder
-        textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
         textfield.sizeToFit()
     }
     func setUpTextFieldDropDown(textfield:MDCOutlinedTextField, placeholder:String){
@@ -22,13 +22,13 @@ class OutlinedTextField: UITextField{
       //  imageview.tintColor = UIColor.black
        // textfield.rightView = imageview
         textfield.rightViewMode = .always
-        textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
         textfield.sizeToFit()
     }
     func setUpTextFieldForPassword(textfield:MDCOutlinedTextField, placeholder:String){
         textfield.label.text = placeholder
         textfield.isSecureTextEntry = true
-        textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
         textfield.sizeToFit()
     }
     
