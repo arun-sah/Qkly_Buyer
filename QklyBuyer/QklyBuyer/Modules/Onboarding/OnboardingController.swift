@@ -18,6 +18,8 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
         }
     }
     
+    var isLastPage: Bool = false
+    var offSet:CGFloat = 0
     @IBOutlet weak var pageControl: UIPageControl!
 
     var viewModel: OnboardingViewModel!
@@ -30,7 +32,7 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
         super.viewDidLoad()
         
         setupSlideScrollView(slides: viewModel.slides)
-
+        getStartedButton.setTitle("Next", for: .normal)
         pageControl.numberOfPages = viewModel.slides.count
         pageControl.currentPage = 0
         view.bringSubviewToFront(pageControl)
@@ -44,6 +46,17 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
     @objc func onboardingDone(){
         self.viewModel.cacheManager.set(Bool.self, value: true, key: FrameworkCacheKey.isOnboardingDone)
         viewModel.trigger.send(AuthRoute.finish)
+    }
+    @objc func onboardNext(){
+        let totalPossibleOffset = CGFloat(slides.count - 1) * self.view.bounds.size.width
+            
+                  offSet += self.view.bounds.size.width
+    
+              DispatchQueue.main.async() {
+                  UIView.animate(withDuration: 0.3, delay: 0, options: UIView.AnimationOptions.curveLinear, animations: {
+                      self.scrollView.contentOffset.x = CGFloat(self.offSet)
+                  }, completion: nil)
+              }
     }
     
     func setupSlideScrollView(slides : [OnboardingSlide]) {
@@ -71,7 +84,15 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
         let currentPage = Int(pageIndex)
         pageControl.currentPage = currentPage
         
-       
+        isLastPage  = currentPage == (slides.count - 1)
+        if isLastPage {
+            getStartedButton.setTitle("Get Started", for: .normal)
+            getStartedButton.addTarget(self, action: #selector(onboardingDone), for: .touchUpInside)
+        }else {
+            getStartedButton.addTarget(self, action: #selector(onboardNext), for: .touchUpInside)
+
+        }
+
     }
     
     func scrollView(_ scrollView: UIScrollView, didScrollToPercentageOffset percentageHorizontalOffset: CGFloat) {
