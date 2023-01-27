@@ -10,6 +10,7 @@ import UIKit
 
 enum AppFontWeight: String{
     case bold = "Bold"
+    case extraBold = "ExtraBold"
     case light = "Light"
     case medium = "Medium"
     case regular = "Regular"
@@ -27,7 +28,7 @@ extension UIFont {
         return font!
     }
     static func appBoldFont(ofSize size: AppFontSize) -> UIFont {
-        let font = UIFont(name: AppFontWeight.bold.fontName, size: size.value)
+        let font = UIFont(name: AppFontWeight.extraBold.fontName, size: size.value)
         return font!
     }
     static func appSemiBoldFont(ofSize size: AppFontSize) -> UIFont {
