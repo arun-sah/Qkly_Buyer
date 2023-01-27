@@ -46,6 +46,7 @@
 		140568A22977EF7A0068573F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A12977EF7A0068573F /* Connection.swift */; };
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
+		1433E81729839D1F00736907 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1433E81629839D1F00736907 /* Fonts */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
 		1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */; };
 		1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */; };
@@ -165,6 +166,7 @@
 		140568A12977EF7A0068573F /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		1433E81629839D1F00736907 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		1487C28A29790BA300FBF9CD /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchBuilder.swift; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 		1487C28929790B7200FBF9CD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1433E81629839D1F00736907 /* Fonts */,
 				1487C2E3297A412500FBF9CD /* Color.xcassets */,
 				14C746322977BEAF0002BF26 /* Assets.xcassets */,
 				1487C2DD297A409D00FBF9CD /* UIFont.swift */,
@@ -794,6 +797,7 @@
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
 				1487C298297933E100FBF9CD /* QklyNavigationView.xib in Resources */,
+				1433E81729839D1F00736907 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

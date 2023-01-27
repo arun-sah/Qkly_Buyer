@@ -75,7 +75,14 @@ extension UIImage {
     static var icon_zip_code : UIImage? { return UIImage.named("zip_code") }
    
 
-    // MARK: Images
+    // MARK: Onboarding
+    static var onboarding_background_map :   UIImage? { return UIImage.named("onboarding_background_map") }
+    static var onboarding_1 :                UIImage? { return UIImage.named("onboarding_1") }
+    static var onboarding_2 :                UIImage? { return UIImage.named("onboarding_2") }
+    static var onboarding_3 :                UIImage? { return UIImage.named("onboarding_3") }
+    static var onboarding_4 :                UIImage? { return UIImage.named("onboarding_4") }
+
+    
     
 
   

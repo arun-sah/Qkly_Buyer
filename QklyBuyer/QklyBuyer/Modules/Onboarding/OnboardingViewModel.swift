@@ -18,23 +18,19 @@ class OnboardingViewModel: BaseViewModel {
     }
 
     var slides: [OnboardingSlide] = [
-        OnboardingSlide(title: "Find Your Dream Career",
-                        imageName: "onboarding-1",
-                        description: "",
-                        actionTitle: "",
-                        initial: true),
-        OnboardingSlide(title: "60%",
-                        imageName: "onboarding-2",
-                        description: "of job seekers quit in the middle of filling out online job applications because of their length or complexity. \n\n -talentlyft.com", actionTitle: "",
-                        titleColor:  .blue),
-        OnboardingSlide(title: "Search Out Your Passion",
-                        imageName: "onboarding-3",
-                        description: "-Full-time and part-time positions for both remote and onsite work\n\n-Upload your resume or use our online resume builder\n\n-Easily apply to jobs with one click",
-                        actionTitle: "", titleColor: .black),
-        OnboardingSlide(title: "75%",
-                        imageName: "onboarding-4",
-                        description: "of candidates will research a company's reputation before applying for a job opening.\n\n -talentlyft.com",
-                        actionTitle: ""),
+        OnboardingSlide(title: "Get Discovered",
+                        imageName: "onboarding_1",
+                        description: "Get Discovered & Find world class\ntalent Top talent to provide the services\nyou need"
+                       ),
+        OnboardingSlide(title: "Perfect Freelancer",
+                        imageName: "onboarding_2",
+                        description: "Find the perfect freelancer for\nyour business & projects."),
+        OnboardingSlide(title: "Track Job Openings",
+                        imageName: "onboarding_3",
+                        description: "Track all your job applications\nand don’t get\nlost in the process "),
+        OnboardingSlide(title: "Invoice & Payment Record",
+                        imageName: "onboarding_4",
+                        description: "Keep track of all your invoices and\npayments to increase your earnings and\nbusiness quickly."),
     ]
     
 }

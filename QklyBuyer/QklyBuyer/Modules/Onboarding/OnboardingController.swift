@@ -42,21 +42,24 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
         getStartedButton.addTarget(self, action: #selector(onboardingDone), for: .touchUpInside)
         skipButton.addTarget(self, action: #selector(onboardingDone), for: .touchUpInside)
         
+        
     }
     @objc func onboardingDone(){
-        self.viewModel.cacheManager.set(Bool.self, value: true, key: FrameworkCacheKey.isOnboardingDone)
-        viewModel.trigger.send(AuthRoute.finish)
-    }
-    @objc func onboardNext(){
-        let totalPossibleOffset = CGFloat(slides.count - 1) * self.view.bounds.size.width
-            
+        if isLastPage {
+            //    self.viewModel.cacheManager.set(Bool.self, value: true, key: FrameworkCacheKey.isOnboardingDone)
+            viewModel.trigger.send(AuthRoute.finish)
+        } else {
                   offSet += self.view.bounds.size.width
-    
               DispatchQueue.main.async() {
                   UIView.animate(withDuration: 0.3, delay: 0, options: UIView.AnimationOptions.curveLinear, animations: {
                       self.scrollView.contentOffset.x = CGFloat(self.offSet)
                   }, completion: nil)
               }
+        }
+    }
+    @objc func onboardNext(){
+        let totalPossibleOffset = CGFloat(slides.count - 1) * self.view.bounds.size.width
+            
     }
     
     func setupSlideScrollView(slides : [OnboardingSlide]) {
@@ -87,10 +90,6 @@ class OnboardingController: BaseController, UIScrollViewDelegate {
         isLastPage  = currentPage == (slides.count - 1)
         if isLastPage {
             getStartedButton.setTitle("Get Started", for: .normal)
-            getStartedButton.addTarget(self, action: #selector(onboardingDone), for: .touchUpInside)
-        }else {
-            getStartedButton.addTarget(self, action: #selector(onboardNext), for: .touchUpInside)
-
         }
 
     }

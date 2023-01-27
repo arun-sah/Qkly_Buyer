@@ -22,14 +22,6 @@
                                     <outlet property="delegate" destination="S3y-bb-5Se" id="zdb-cs-KfG"/>
                                 </connections>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quI-jC-nuG">
-                                <rect key="frame" x="353" y="78" width="56" height="33"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Skip">
-                                    <fontDescription key="titleFontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
-                                    <color key="baseForegroundColor" name="qklyPurple"/>
-                                </buttonConfiguration>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6lB-1B-WKs">
                                 <rect key="frame" x="16" y="744.5" width="382" height="90"/>
                                 <subviews>
@@ -60,17 +52,43 @@
                                     <constraint firstItem="jRa-Tb-KY3" firstAttribute="leading" secondItem="6lB-1B-WKs" secondAttribute="leading" id="sL2-Dr-fRH"/>
                                 </constraints>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_background_map" translatesAutoresizingMaskIntoConstraints="NO" id="2FD-uR-Xan" userLabel="ImageView">
+                                <rect key="frame" x="0.0" y="339.5" width="414" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2FD-uR-Xan" secondAttribute="height" multiplier="416:226" id="wne-B4-pAH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quI-jC-nuG">
+                                <rect key="frame" x="349" y="78" width="60" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                    <fontDescription key="titleFontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                    <color key="baseForegroundColor" name="qklyPurple"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qkly_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5En-Gi-ju4">
+                                <rect key="frame" x="20" y="78" width="60" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="a2s-vr-KbH"/>
+                                    <constraint firstAttribute="height" constant="20" id="hOj-X1-nwQ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JlU-TC-3O7"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6lB-1B-WKs" firstAttribute="top" secondItem="2FD-uR-Xan" secondAttribute="bottom" constant="180" id="2Xw-JG-ZAD"/>
                             <constraint firstItem="u6C-Eg-5eA" firstAttribute="centerX" secondItem="JlU-TC-3O7" secondAttribute="centerX" id="BY3-Ue-lNc"/>
                             <constraint firstItem="JlU-TC-3O7" firstAttribute="trailing" secondItem="quI-jC-nuG" secondAttribute="trailing" constant="5" id="Dda-Jj-hB6"/>
                             <constraint firstItem="u6C-Eg-5eA" firstAttribute="height" secondItem="Tb6-Yz-nTO" secondAttribute="height" id="KA0-bu-hys"/>
+                            <constraint firstItem="5En-Gi-ju4" firstAttribute="leading" secondItem="JlU-TC-3O7" secondAttribute="leading" constant="20" id="OOt-eT-KSe"/>
                             <constraint firstItem="u6C-Eg-5eA" firstAttribute="width" secondItem="Tb6-Yz-nTO" secondAttribute="width" id="Q4b-qS-n6x"/>
+                            <constraint firstAttribute="trailing" secondItem="2FD-uR-Xan" secondAttribute="trailing" id="T9H-88-ZXX"/>
                             <constraint firstItem="6lB-1B-WKs" firstAttribute="leading" secondItem="Tb6-Yz-nTO" secondAttribute="leading" constant="16" id="YJQ-bE-NXJ"/>
                             <constraint firstItem="JlU-TC-3O7" firstAttribute="trailing" secondItem="6lB-1B-WKs" secondAttribute="trailing" constant="16" id="Z8w-6V-BOJ"/>
                             <constraint firstItem="u6C-Eg-5eA" firstAttribute="centerY" secondItem="JlU-TC-3O7" secondAttribute="centerY" id="cGY-8c-0c8"/>
+                            <constraint firstItem="5En-Gi-ju4" firstAttribute="top" secondItem="JlU-TC-3O7" secondAttribute="top" constant="30" id="ewW-41-8BI"/>
+                            <constraint firstItem="2FD-uR-Xan" firstAttribute="leading" secondItem="JlU-TC-3O7" secondAttribute="leading" id="hLR-l2-adR"/>
                             <constraint firstItem="JlU-TC-3O7" firstAttribute="bottom" secondItem="6lB-1B-WKs" secondAttribute="bottom" constant="27.5" id="q91-9z-NMp"/>
                             <constraint firstItem="quI-jC-nuG" firstAttribute="top" secondItem="JlU-TC-3O7" secondAttribute="top" constant="30" id="wun-Ij-Xrj"/>
                         </constraints>
@@ -88,6 +106,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="onboarding_background_map" width="375" height="226"/>
+        <image name="qkly_logo" width="62" height="20"/>
         <namedColor name="app_Off_White">
             <color red="0.96862745098039216" green="0.97254901960784312" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
