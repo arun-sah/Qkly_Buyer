@@ -12,7 +12,13 @@ enum AppString: String {
     case qkly = "Qkly"
     case buyer = "Buyer"
     case ok = "OK"
-   
+    case faceId = "Face ID "
+    case fingerPrint = "Fingerprint "
+    case login = "Login"
+    case signinQklyFaceid = "Sign in quickly using your \n Face ID."
+    case signinQklyFingerprint = "Sign in quickly using your \n Fingerprint."
+   case enableFaceId = "Enable Face ID"
+    case enableFingerprint = "Enable Fingerprint"
     var value: String {
         return self.rawValue
     }

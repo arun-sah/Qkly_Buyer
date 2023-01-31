@@ -11,6 +11,11 @@ class OnboardingViewModel: BaseViewModel {
     /// The cacheManager
      let cacheManager: CacheManager
     
+    
+    var isLastPage: Bool = false
+    var offSet:CGFloat = 0
+    var currentPage = 0
+    
     override init() {
         self.cacheManager = UserDefaultCacheManagerFactory.get()
         super.init()
@@ -32,5 +37,10 @@ class OnboardingViewModel: BaseViewModel {
                         imageName: "onboarding_4",
                         description: "Keep track of all your invoices and\npayments to increase your earnings and\nbusiness quickly."),
     ]
+    
+    func changeValue(pageIndex:CGFloat){
+        currentPage = Int(pageIndex)
+    isLastPage  = currentPage == (slides.count - 1)
+    }
     
 }

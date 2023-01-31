@@ -16,4 +16,9 @@ struct ControllerRoute {
         onController.viewModel = viewmodel as? OnboardingViewModel
         return onController
     }
+    static func bioMetricController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = BioMetricController.initialize(from: .biometric)
+        controller.viewModel = viewmodel as? BioMetricViewModel
+        return controller
+    }
 }

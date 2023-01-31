@@ -46,7 +46,17 @@
 		140568A22977EF7A0068573F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A12977EF7A0068573F /* Connection.swift */; };
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
-		1433E81729839D1F00736907 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1433E81629839D1F00736907 /* Fonts */; };
+		1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */; };
+		1426D3B22988E013003E9ED3 /* BioMetric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */; };
+		1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B02988E013003E9ED3 /* BioMetricController.swift */; };
+		1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */; };
+		1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */; };
+		1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */; };
+		1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */; };
+		1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */; };
+		1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */; };
+		1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */; };
+		1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
 		1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */; };
 		1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */; };
@@ -166,7 +176,17 @@
 		140568A12977EF7A0068573F /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
-		1433E81629839D1F00736907 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BioMetric.storyboard; sourceTree = "<group>"; };
+		1426D3B02988E013003E9ED3 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
+		1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
+		1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		1487C28A29790BA300FBF9CD /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchBuilder.swift; sourceTree = "<group>"; };
@@ -461,10 +481,43 @@
 			path = Decodable;
 			sourceTree = "<group>";
 		};
+		1426D3AB2988DF13003E9ED3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3AE2988DFEF003E9ED3 /* BioMetric */,
+				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1426D3AE2988DFEF003E9ED3 /* BioMetric */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */,
+				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
+				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
+			);
+			path = BioMetric;
+			sourceTree = "<group>";
+		};
+		1426D3B5298908CC003E9ED3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */,
+				1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */,
+				1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */,
+				1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */,
+				1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */,
+				1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */,
+				1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		1487C28929790B7200FBF9CD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1433E81629839D1F00736907 /* Fonts */,
+				1426D3B5298908CC003E9ED3 /* Font */,
 				1487C2E3297A412500FBF9CD /* Color.xcassets */,
 				14C746322977BEAF0002BF26 /* Assets.xcassets */,
 				1487C2DD297A409D00FBF9CD /* UIFont.swift */,
@@ -672,6 +725,7 @@
 		14C746202977BEAE0002BF26 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1426D3AB2988DF13003E9ED3 /* Auth */,
 				1487C30E297FDC2600FBF9CD /* Onboarding */,
 			);
 			path = Modules;
@@ -792,12 +846,19 @@
 			files = (
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
+				1426D3B22988E013003E9ED3 /* BioMetric.storyboard in Resources */,
 				1487C2E4297A412500FBF9CD /* Color.xcassets in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
+				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
+				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
+				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
+				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
+				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
+				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
+				1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */,
 				1487C298297933E100FBF9CD /* QklyNavigationView.xib in Resources */,
-				1433E81729839D1F00736907 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,6 +942,7 @@
 				1487C2C22979354C00FBF9CD /* Int.swift in Sources */,
 				1487C2BC2979354C00FBF9CD /* OutlinedTextField.swift in Sources */,
 				1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */,
+				1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */,
 				1487C2C32979354C00FBF9CD /* Data.swift in Sources */,
 				1487C2C02979354C00FBF9CD /* CLLocation.swift in Sources */,
 				1487C2BE2979354C00FBF9CD /* UITextFieldExtension.swift in Sources */,
@@ -888,6 +950,7 @@
 				1487C2DE297A409D00FBF9CD /* UIFont.swift in Sources */,
 				1487C29B297934D500FBF9CD /* ResizingTableView.swift in Sources */,
 				1487C297297933E100FBF9CD /* QklyNavigationView.swift in Sources */,
+				1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */,
 				1487C2D12979433D00FBF9CD /* StoryBoardEnum.swift in Sources */,
 				1487C302297F90B500FBF9CD /* SignUpModel.swift in Sources */,
 				1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */,
@@ -920,6 +983,7 @@
 				140568672977EA330068573F /* Protocol.swift in Sources */,
 				1487C2CD2979354C00FBF9CD /* UIApplication.swift in Sources */,
 				140568952977EEA60068573F /* OperationQueueable.swift in Sources */,
+				1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */,
 				1487C2B92979354C00FBF9CD /* Nibloadable.swift in Sources */,
 				1487C2CF2979354C00FBF9CD /* UIView.swift in Sources */,
 				1487C2F4297F8FB500FBF9CD /* ProfilePicture.swift in Sources */,
@@ -1098,7 +1162,7 @@
 		};
 		14C7463B2977BEAF0002BF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109F017B6D50F16A9EAB3F62 /* Pods-QklyBuyer.debug.xcconfig */;
+			baseConfigurationReference = 1487C30A297FA52F00FBF9CD /* QklyBuyerDebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1111,8 +1175,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1128,7 +1192,7 @@
 		};
 		14C7463C2977BEAF0002BF26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487F875905C6B28CC037562F /* Pods-QklyBuyer.release.xcconfig */;
+			baseConfigurationReference = 1487C30C297FA57300FBF9CD /* QklyBuyerProd.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1141,8 +1205,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,7 +8,7 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-#include "Pods/Target Support Files/Pods-Qkly/Pods-QklyBuyer.release.xcconfig"
+#include "Pods/Target Support Files/Pods-QklyBuyer/Pods-QklyBuyer.release.xcconfig"
 MarketPlace_BaseURL     = qkly-mp-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io
 Api_BaseURL             = jobs.qkly.io
 Auth_BaseURL            = qkly-auth-prod-container.redsea-17ffd9ff.centralus.azurecontainerapps.io

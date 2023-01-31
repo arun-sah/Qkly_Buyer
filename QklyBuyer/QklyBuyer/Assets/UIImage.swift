@@ -81,6 +81,10 @@ extension UIImage {
     static var onboarding_2 :                UIImage? { return UIImage.named("onboarding_2") }
     static var onboarding_3 :                UIImage? { return UIImage.named("onboarding_3") }
     static var onboarding_4 :                UIImage? { return UIImage.named("onboarding_4") }
+    
+    //MARK:- biometric login
+    static var fingerprint_enable :                UIImage? { return UIImage.named("fingerprint_enable") }
+    static var faceid_enable :                UIImage? { return UIImage.named("faceid_enable") }
 
     
     

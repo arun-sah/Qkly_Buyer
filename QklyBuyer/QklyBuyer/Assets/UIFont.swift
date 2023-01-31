@@ -65,7 +65,6 @@ enum AppFontSize {
     
     var value: CGFloat {
         let isPad = UIDevice.current.userInterfaceIdiom == .pad
-
         switch self {
         case .size_32:
             return isPad ? 40.0 : 32.0

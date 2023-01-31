@@ -155,10 +155,5 @@ extension AppLaunchBuilder {
         IQKeyboardManager.shared.toolbarTintColor = UIColor.app_primary_purple
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 30.0
-        
-        
     }
-    
-
-    
 }

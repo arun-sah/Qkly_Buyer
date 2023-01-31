@@ -31,6 +31,7 @@ extension UIViewController: StoryboardInitializable {}
 enum Storyboard {
     case main
     case onboarding
+    case biometric
     
     var name: String {
         switch self {
@@ -38,7 +39,8 @@ enum Storyboard {
             return "Main"
         case .onboarding:
             return "Onboarding"
-      
+        case .biometric:
+            return "BioMetric"
        
         }
     }
