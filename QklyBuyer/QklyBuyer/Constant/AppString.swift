@@ -19,6 +19,8 @@ enum AppString: String {
     case signinQklyFingerprint = "Sign in quickly using your \n Fingerprint."
    case enableFaceId = "Enable Face ID"
     case enableFingerprint = "Enable Fingerprint"
+    case loginToYourAccount = "Log in to your account"
+    case enterUsernamePassword = "Enter Username/Password"
     var value: String {
         return self.rawValue
     }

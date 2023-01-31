@@ -90,12 +90,12 @@ extension BioMetricController {
     @objc func faceAuthinication(){
         viewModel.context = LAContext()
         
-        viewModel.context.localizedCancelTitle = "Enter Username/Password"
+        viewModel.context.localizedCancelTitle = AppString.enterUsernamePassword.value
         // First check if we have the needed hardware support.
         var error: NSError?
         if viewModel.context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
             
-            let reason = "Log in to your account"
+            let reason = AppString.loginToYourAccount.value
                 viewModel.context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason ) { success, error in
                 
                 if success {
