@@ -60,7 +60,9 @@
                 <constraint firstItem="QOr-gh-HEr" firstAttribute="trailing" secondItem="hBc-in-xnZ" secondAttribute="trailing" id="ZmG-lh-WuL"/>
                 <constraint firstItem="oI9-FV-lWr" firstAttribute="leading" secondItem="QOr-gh-HEr" secondAttribute="leading" constant="40" id="jQG-DB-feH"/>
                 <constraint firstItem="hBc-in-xnZ" firstAttribute="top" secondItem="bne-Kc-yiD" secondAttribute="bottom" constant="8" symbolic="YES" id="jon-Ea-vAl"/>
-                <constraint firstItem="hBc-in-xnZ" firstAttribute="bottom" secondItem="QOr-gh-HEr" secondAttribute="bottom" constant="-150" id="urp-9C-yYJ"/>
+                <constraint firstItem="hBc-in-xnZ" firstAttribute="bottom" secondItem="QOr-gh-HEr" secondAttribute="bottom" constant="-210" id="urp-9C-yYJ">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-150"/>
+                </constraint>
                 <constraint firstItem="bne-Kc-yiD" firstAttribute="leading" secondItem="QOr-gh-HEr" secondAttribute="leading" id="xTT-Ju-0ta"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

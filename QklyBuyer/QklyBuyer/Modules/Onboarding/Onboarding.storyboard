@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -18,20 +18,20 @@
             <objects>
                 <viewController storyboardIdentifier="OnboardingController" id="S3y-bb-5Se" userLabel="Onboarding Screen" customClass="OnboardingController" customModule="QklyBuyer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tb6-Yz-nTO">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6C-Eg-5eA">
-                                <rect key="frame" x="0.0" y="10" width="1024" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <connections>
                                     <outlet property="delegate" destination="S3y-bb-5Se" id="zdb-cs-KfG"/>
                                 </connections>
                             </scrollView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6lB-1B-WKs">
-                                <rect key="frame" x="16" y="1248.5" width="992" height="90"/>
+                                <rect key="frame" x="16" y="450.5" width="288" height="90"/>
                                 <subviews>
                                     <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="WLu-TY-kyN">
-                                        <rect key="frame" x="429" y="0.0" width="134.5" height="30"/>
+                                        <rect key="frame" x="77" y="0.0" width="134.5" height="30"/>
                                         <color key="backgroundColor" name="app_Off_White"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="ib0-4x-nve"/>
@@ -40,7 +40,7 @@
                                         <color key="currentPageIndicatorTintColor" name="app_primary_purple"/>
                                     </pageControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRa-Tb-KY3">
-                                        <rect key="frame" x="0.0" y="40" width="992" height="50"/>
+                                        <rect key="frame" x="0.0" y="40" width="288" height="50"/>
                                         <color key="backgroundColor" name="app_primary_purple"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="N0x-hC-zgD"/>
@@ -58,13 +58,13 @@
                                 </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_background_map" translatesAutoresizingMaskIntoConstraints="NO" id="2FD-uR-Xan" userLabel="ImageView">
-                                <rect key="frame" x="0.0" y="512" width="1024" height="556.5"/>
+                                <rect key="frame" x="0.0" y="96.5" width="320" height="174"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2FD-uR-Xan" secondAttribute="height" multiplier="416:226" id="wne-B4-pAH"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quI-jC-nuG">
-                                <rect key="frame" x="940" y="50" width="59" height="44"/>
+                                <rect key="frame" x="269" y="30" width="36" height="32"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Skip">
@@ -75,7 +75,7 @@
                                 </variation>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qkly_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5En-Gi-ju4">
-                                <rect key="frame" x="20" y="50" width="120" height="40"/>
+                                <rect key="frame" x="20" y="30" width="60" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="a2s-vr-KbH">
                                         <variation key="heightClass=regular-widthClass=regular" constant="120"/>
@@ -89,7 +89,9 @@
                         <viewLayoutGuide key="safeArea" id="JlU-TC-3O7"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6lB-1B-WKs" firstAttribute="top" secondItem="2FD-uR-Xan" secondAttribute="bottom" constant="180" id="2Xw-JG-ZAD"/>
+                            <constraint firstItem="6lB-1B-WKs" firstAttribute="top" secondItem="2FD-uR-Xan" secondAttribute="bottom" constant="250" id="2Xw-JG-ZAD">
+                                <variation key="heightClass=regular-widthClass=compact" constant="180"/>
+                            </constraint>
                             <constraint firstItem="u6C-Eg-5eA" firstAttribute="centerX" secondItem="JlU-TC-3O7" secondAttribute="centerX" id="BY3-Ue-lNc"/>
                             <constraint firstItem="JlU-TC-3O7" firstAttribute="trailing" secondItem="quI-jC-nuG" secondAttribute="trailing" constant="15" id="Dda-Jj-hB6">
                                 <variation key="heightClass=regular-widthClass=regular" constant="25"/>
