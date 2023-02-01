@@ -21,4 +21,19 @@ struct ControllerRoute {
         controller.viewModel = viewmodel as? BioMetricViewModel
         return controller
     }
+    static func congratulationController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = CongratulationController.initialize(from: .congratulation)
+        controller.viewModel = viewmodel as? CongratulationViewModel
+        return controller
+    }
+    static func forgotPasswordController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = ForgotPasswordController.initialize(from: .forgotPassword)
+        controller.viewModel = viewmodel as? ForgotPasswordViewModel
+        return controller
+    }
+    static func emailConfirmationController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = EmailConfirmationController.initialize(from: .emailConfirmation)
+        controller.viewModel = viewmodel as? EmailConfirmationViewModel
+        return controller
+    }
 }

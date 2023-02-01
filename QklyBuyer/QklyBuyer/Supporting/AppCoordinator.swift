@@ -45,11 +45,11 @@ final class AppCoordinator: BaseCoordinator {
             guard let self = self else {
                 return
             }
-            let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
-            if !isonboardingDone {
+           // let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
+          //  if !isonboardingDone {
                 self.runOnboardingCoordinator(with: deeplink)
-                return
-            }
+              //  return
+           // }
             self.runAuthCoordinator(with: deeplink)
                
         }
@@ -66,7 +66,8 @@ final class AppCoordinator: BaseCoordinator {
         let onboardingCoordinator = OnboardingCoordinator(route: route)
         onboardingCoordinator.onFinish = { [weak self] in
             guard let self = self else {return}
-            self.performRedirection()
+           // self.performRedirection()
+            self.runAuthCoordinator(with: deepLink)
         }
         coordinate(to: onboardingCoordinator)
     }

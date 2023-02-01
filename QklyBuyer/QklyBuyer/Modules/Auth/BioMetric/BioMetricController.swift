@@ -27,8 +27,9 @@ class BioMetricController: BaseController {
    
     
     @IBAction func bioMetricbuttonAction(_ sender: Any) {
-        firstLoginComplete()
-        faceAuthinication()
+       // firstLoginComplete()
+       // faceAuthinication()
+        self.viewModel.trigger.send(AuthRoute.forgotPassword)
     }
     
     
@@ -46,15 +47,15 @@ extension BioMetricController {
      func setUpView() {
          let faceId = AppString.faceId.value.withAttributes([
              .textColor(UIColor.app_primary_purple ?? .purple),
-             .font(UIFont.appBoldFont(ofSize: .size_24))
+             .font(UIFont.appBoldFont(ofSize: .size_32))
          ])
          let bioMetric = AppString.fingerPrint.value.withAttributes([
              .textColor(UIColor.app_primary_purple ?? .purple),
-             .font(UIFont.appBoldFont(ofSize: .size_24))
+             .font(UIFont.appBoldFont(ofSize: .size_32))
          ])
          let login = AppString.login.value.withAttributes([
              .textColor(UIColor.app_primary_purple ?? .purple),
-             .font(UIFont.appBoldFont(ofSize: .size_24))
+             .font(UIFont.appBoldFont(ofSize: .size_32))
          ])
          
              viewModel.context.canEvaluatePolicy(.deviceOwnerAuthentication, error: nil)

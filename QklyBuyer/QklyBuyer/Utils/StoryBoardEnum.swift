@@ -32,6 +32,9 @@ enum Storyboard {
     case main
     case onboarding
     case biometric
+    case congratulation
+    case forgotPassword
+    case emailConfirmation
     
     var name: String {
         switch self {
@@ -41,6 +44,12 @@ enum Storyboard {
             return "Onboarding"
         case .biometric:
             return "BioMetric"
+        case .congratulation:
+            return "Congratulation"
+        case .forgotPassword:
+            return "ForgotPassword"
+        case .emailConfirmation:
+            return "EmailConfirmation"
        
         }
     }
