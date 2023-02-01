@@ -14,6 +14,7 @@ enum AuthRoute: AppRoutable {
     case forgotPassword
     case emailConfirmation
     case congratulation
+    case facebookEmail
    
 }
 

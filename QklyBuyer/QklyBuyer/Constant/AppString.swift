@@ -26,6 +26,8 @@ enum AppString: String {
     case forgotDesc = "Don’t worry we got you covered\nEnter your email and we’ll send you the \ninstructions."
     case didntSeeIt = "Didn't see it?"
     case contactUs = " Contact Us"
+    case enterYour = "Enter your"
+    case email = " Email"
     var value: String {
         return self.rawValue
     }

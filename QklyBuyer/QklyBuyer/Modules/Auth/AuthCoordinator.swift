@@ -79,6 +79,17 @@ class AuthCoordinator: BaseCoordinator {
 
         route.push(controller)
     }
+    
+    private func showFacebookEmailConfirmationController() {
+        let viewModel = FaceBookEmailViewModel(userManager: userManager)
+        let controller = ControllerRoute.faceBookEmailController(viewmodel: viewModel)
+        viewModel.trigger.sink { [weak self] route in
+            guard let self = self else { return }
+            self.handleRoutes(route)
+        }.store(in: &bag)
+
+        route.push(controller)
+    }
    
      /// handle routes
     /// - Parameter route: app routable
@@ -88,6 +99,8 @@ class AuthCoordinator: BaseCoordinator {
             showForgotPasswordController()
         case AuthRoute.emailConfirmation:
             showEmailConfirmationController()
+        case AuthRoute.facebookEmail:
+            showFacebookEmailConfirmationController()
 //        case AuthRoute.congratulation:
 //            showCongratulationsController()
         default:

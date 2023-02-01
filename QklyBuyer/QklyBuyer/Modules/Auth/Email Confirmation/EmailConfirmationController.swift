@@ -26,5 +26,8 @@ class EmailConfirmationController: BaseController {
         let text = didntSeeIt + contactUs
         contactUsButton.setAttributedTitle(text, for: .normal)
     }
+    @IBAction func continueButtonAction(_ sender: UIButton) {
+        viewModel.trigger.send(AuthRoute.facebookEmail)
+    }
     
 }

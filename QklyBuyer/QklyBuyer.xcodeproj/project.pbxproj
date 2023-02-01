@@ -127,6 +127,8 @@
 		14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */; };
 		14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */; };
 		14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D7D298A5F380022A5EE /* Auth.storyboard */; };
+		14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */; };
+		14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */; };
 		14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746102977BEAE0002BF26 /* AppDelegate.swift */; };
 		14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746122977BEAE0002BF26 /* SceneDelegate.swift */; };
 		14C746162977BEAE0002BF26 /* Vender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746152977BEAE0002BF26 /* Vender.swift */; };
@@ -267,6 +269,8 @@
 		14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationController.swift; sourceTree = "<group>"; };
 		14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewModel.swift; sourceTree = "<group>"; };
 		14C45D7D298A5F380022A5EE /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailController.swift; sourceTree = "<group>"; };
+		14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailViewModel.swift; sourceTree = "<group>"; };
 		14C7460D2977BEAE0002BF26 /* QklyBuyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QklyBuyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C746102977BEAE0002BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C746122977BEAE0002BF26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -496,6 +500,7 @@
 		1426D3AB2988DF13003E9ED3 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				14C45D7F298A65010022A5EE /* FaceBook Email */,
 				14C45D76298A2CD70022A5EE /* Email Confirmation */,
 				1426D3CB298933A9003E9ED3 /* Forgot Password */,
 				1426D3C429891C25003E9ED3 /* Congratulation */,
@@ -686,6 +691,15 @@
 				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
 			);
 			path = "Email Confirmation";
+			sourceTree = "<group>";
+		};
+		14C45D7F298A65010022A5EE /* FaceBook Email */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */,
+				14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */,
+			);
+			path = "FaceBook Email";
 			sourceTree = "<group>";
 		};
 		14C746042977BEAE0002BF26 = {
@@ -1012,6 +1026,7 @@
 				1487C2C72979354C00FBF9CD /* Date.swift in Sources */,
 				1487C2932979328000FBF9CD /* AppString.swift in Sources */,
 				1487C2FC297F903D00FBF9CD /* CurrentUserDetailsResponse.swift in Sources */,
+				14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */,
 				140568852977ED080068573F /* AutoCompleteParser.swift in Sources */,
 				14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */,
 				140568722977EC050068573F /* CacheManager.swift in Sources */,
@@ -1063,6 +1078,7 @@
 				140568A52977EFE10068573F /* Factory.swift in Sources */,
 				140568642977E9E30068573F /* Route.swift in Sources */,
 				140568972977EEB80068573F /* RequestSynchronizer.swift in Sources */,
+				14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */,
 				140568742977EC1B0068573F /* CacheManageable.swift in Sources */,
 				1405684E2977E3D30068573F /* Framework.swift in Sources */,
 				1487C2BF2979354C00FBF9CD /* ValueOrError.swift in Sources */,

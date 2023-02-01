@@ -36,4 +36,9 @@ struct ControllerRoute {
         controller.viewModel = viewmodel as? EmailConfirmationViewModel
         return controller
     }
+    static func faceBookEmailController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = FaceBookEmailController.initialize(from: .auth)
+        controller.viewModel = viewmodel as? FaceBookEmailViewModel
+        return controller
+    }
 }

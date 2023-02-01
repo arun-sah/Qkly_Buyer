@@ -90,6 +90,7 @@ extension UIImage {
     static var congratulation :                UIImage? { return UIImage.named("congratulation") }
     static var forgotPassword :                UIImage? { return UIImage.named("forgotPassword") }
     static var emailSent :                     UIImage? { return UIImage.named("emailSent") }
+    static var facebook_email_background :     UIImage? { return UIImage.named("facebook_email_background") }
 
     
     

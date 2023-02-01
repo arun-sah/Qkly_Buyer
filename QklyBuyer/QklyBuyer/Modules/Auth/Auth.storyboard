@@ -67,6 +67,9 @@
                                         <variation key="heightClass=regular-widthClass=regular">
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="26"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="continueButtonAction:" destination="PBI-VA-Gkj" eventType="touchUpInside" id="j6p-WT-OmG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZf-po-cZx">
                                         <rect key="frame" x="0.0" y="60" width="333" height="20"/>
@@ -154,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pas-Ry-V5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1790" y="-51"/>
+            <point key="canvasLocation" x="1176" y="-27"/>
         </scene>
         <!--Forgot Password Controller-->
         <scene sceneID="viI-50-JLm">
@@ -263,7 +266,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Don’t worry we got you covered\nEnter your email and we’ll send you the\ninstructions." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Zh0-um-Fcj">
-                                <rect key="frame" x="30" y="389.66666666666669" width="333" height="73.333333333333314"/>
+                                <rect key="frame" x="30" y="393" width="333" height="70"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" name="app_primary_black"/>
                                 <nil key="highlightedColor"/>
@@ -272,7 +275,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ran into trouble?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="l6v-do-Cfm">
-                                <rect key="frame" x="30" y="329.33333333333331" width="333" height="45.333333333333314"/>
+                                <rect key="frame" x="30" y="334.66666666666669" width="333" height="43.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="28"/>
                                 <color key="textColor" red="0.30196078430000001" green="0.30980392159999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -281,7 +284,7 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forgotPassword" translatesAutoresizingMaskIntoConstraints="NO" id="SJi-fc-G5V">
-                                <rect key="frame" x="87" y="143.33333333333334" width="219" height="136.00000000000003"/>
+                                <rect key="frame" x="87" y="148.66666666666666" width="219" height="135.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SJi-fc-G5V" secondAttribute="height" multiplier="240:149" id="1I3-Ar-VFf"/>
                                 </constraints>
@@ -377,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xZK-87-Sz6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="195" y="-27"/>
+            <point key="canvasLocation" x="-253" y="-27"/>
         </scene>
         <!--Congratulation Controller-->
         <scene sceneID="HBR-6m-IHs">
@@ -457,7 +460,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5U-tX-nzl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="406" y="767"/>
+            <point key="canvasLocation" x="-944" y="661"/>
         </scene>
         <!--Bio Metric Controller-->
         <scene sceneID="Ugm-Qx-t78">
@@ -608,7 +611,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="You can always setup biometric login from the settings menu" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gq1-Lh-laB">
-                                <rect key="frame" x="30" y="579" width="333" height="49"/>
+                                <rect key="frame" x="30" y="581.33333333333337" width="333" height="46.666666666666629"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" name="app_primary_black_0_6"/>
                                 <nil key="highlightedColor"/>
@@ -617,7 +620,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Sign in quickly using your fingerprint." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="XKt-Ka-NfO">
-                                <rect key="frame" x="30" y="479" width="333" height="50"/>
+                                <rect key="frame" x="30" y="481.33333333333331" width="333" height="49.999999999999943"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="xiV-Q8-fdv"/>
                                 </constraints>
@@ -629,7 +632,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="281-A7-gmd">
-                                <rect key="frame" x="30" y="379" width="333" height="65"/>
+                                <rect key="frame" x="30" y="381.33333333333331" width="333" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="w0A-GQ-Mwh">
                                         <variation key="heightClass=regular-widthClass=regular" constant="65"/>
@@ -643,7 +646,7 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="fingerprint_enable" translatesAutoresizingMaskIntoConstraints="NO" id="WrR-42-33i">
-                                <rect key="frame" x="90" y="259" width="213" height="20"/>
+                                <rect key="frame" x="90" y="259" width="213" height="22.333333333333314"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zZ8-51-7Kr"/>
@@ -696,24 +699,260 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ujw-w5-QJ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100" y="-27"/>
+            <point key="canvasLocation" x="500" y="-27"/>
+        </scene>
+        <!--Face Book Email Controller-->
+        <scene sceneID="JZp-lC-ht9">
+            <objects>
+                <viewController storyboardIdentifier="FaceBookEmailController" id="eoq-cT-ppo" customClass="FaceBookEmailController" customModule="QklyBuyer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rhY-fl-aMC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ye0-jJ-BtI">
+                                <rect key="frame" x="30" y="698" width="333" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjl-re-O1Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="50"/>
+                                        <color key="backgroundColor" name="app_primary_purple"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="w86-dZ-4Cs">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Continue">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="26"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJ9-9M-XFF" customClass="UIButtonHelper" customModule="LayoutHelper">
+                                        <rect key="frame" x="0.0" y="60" width="333" height="50"/>
+                                        <color key="backgroundColor" name="app_primary_black_0_1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ycc-F5-sZ5">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" name="app_primary_black"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone12Mini">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone12">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone12ProMax">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPadMini">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPadPro9_7">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPadPro10_5">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPadPro12_9">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone4s">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneSE2G">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone8Plus">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Pro">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone11">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhone11Max">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="26"/>
+                                        </variation>
+                                    </button>
+                                </subviews>
+                                <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Email. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="bVm-8Z-dPq">
+                                <rect key="frame" x="30" y="406" width="333" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hlA-D5-DSn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="28"/>
+                                <color key="textColor" red="0.30196078430000001" green="0.30980392159999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="37"/>
+                                </variation>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ppn-5b-6dc">
+                                <rect key="frame" x="30" y="496" width="333" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Email Id" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="r0a-d3-Lc3">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="xxP-Dd-LDU">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" red="0.43137254899999999" green="0.43529411759999997" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="26"/>
+                                        </variation>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ato-hy-5gy">
+                                        <rect key="frame" x="0.0" y="35" width="333" height="50"/>
+                                        <color key="backgroundColor" name="app_Off_White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="nZF-Fw-fmh">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="65"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="24"/>
+                                        </variation>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRA-rP-YEN">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="338"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook_email_background" translatesAutoresizingMaskIntoConstraints="NO" id="Z6C-31-FDO">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="338"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A6-Oc-sJM">
+                                        <rect key="frame" x="16" y="49" width="48" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow-left">
+                                            <color key="baseForegroundColor" red="0.96862745100000003" green="0.97254901959999995" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBY-M7-0K0">
+                                        <rect key="frame" x="153.66666666666666" y="295" width="86" height="86"/>
+                                        <color key="backgroundColor" red="0.96862745100000003" green="0.97254901959999995" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="86" id="FNm-5B-cxI"/>
+                                            <constraint firstAttribute="height" constant="86" id="I3o-aA-sTo"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="faceBook_icon"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="43"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Z6C-31-FDO" secondAttribute="bottom" id="Cv3-bv-ccO"/>
+                                    <constraint firstItem="Z6C-31-FDO" firstAttribute="top" secondItem="pRA-rP-YEN" secondAttribute="top" id="R8P-h2-Zis"/>
+                                    <constraint firstItem="SBY-M7-0K0" firstAttribute="centerX" secondItem="pRA-rP-YEN" secondAttribute="centerX" id="WJi-Nf-zQK"/>
+                                    <constraint firstItem="Z6C-31-FDO" firstAttribute="leading" secondItem="pRA-rP-YEN" secondAttribute="leading" id="hLu-Ou-dhY"/>
+                                    <constraint firstAttribute="bottom" secondItem="SBY-M7-0K0" secondAttribute="bottom" constant="-43" id="iNR-n0-UHg"/>
+                                    <constraint firstItem="8A6-Oc-sJM" firstAttribute="leading" secondItem="pRA-rP-YEN" secondAttribute="leading" constant="16" id="nbm-C7-EyD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z6C-31-FDO" secondAttribute="trailing" id="pJ5-nJ-429"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3hr-bY-Nbi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bVm-8Z-dPq" firstAttribute="leading" secondItem="3hr-bY-Nbi" secondAttribute="leading" constant="30" id="BcR-gB-RIa"/>
+                            <constraint firstItem="bVm-8Z-dPq" firstAttribute="top" secondItem="pRA-rP-YEN" secondAttribute="bottom" constant="68" id="CHc-Af-ORN"/>
+                            <constraint firstItem="Ye0-jJ-BtI" firstAttribute="leading" secondItem="3hr-bY-Nbi" secondAttribute="leading" constant="30" id="Eqn-BX-SyY">
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="bVm-8Z-dPq" firstAttribute="centerY" secondItem="rhY-fl-aMC" secondAttribute="centerY" id="Fea-fA-85a"/>
+                            <constraint firstItem="ppn-5b-6dc" firstAttribute="top" secondItem="bVm-8Z-dPq" secondAttribute="bottom" constant="50" id="J9b-Vh-nOu"/>
+                            <constraint firstItem="pRA-rP-YEN" firstAttribute="leading" secondItem="3hr-bY-Nbi" secondAttribute="leading" id="PA9-3y-eDq"/>
+                            <constraint firstItem="3hr-bY-Nbi" firstAttribute="top" secondItem="8A6-Oc-sJM" secondAttribute="top" constant="10" id="Wvb-Ag-Ew9"/>
+                            <constraint firstItem="3hr-bY-Nbi" firstAttribute="trailing" secondItem="ppn-5b-6dc" secondAttribute="trailing" constant="30" id="eGn-nz-QdK">
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="pRA-rP-YEN" firstAttribute="trailing" secondItem="3hr-bY-Nbi" secondAttribute="trailing" id="ecE-2i-6Qx"/>
+                            <constraint firstItem="ppn-5b-6dc" firstAttribute="leading" secondItem="3hr-bY-Nbi" secondAttribute="leading" constant="30" id="elb-qG-QJC">
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="3hr-bY-Nbi" firstAttribute="trailing" secondItem="bVm-8Z-dPq" secondAttribute="trailing" constant="30" id="exM-YG-mWC"/>
+                            <constraint firstItem="3hr-bY-Nbi" firstAttribute="trailing" secondItem="Ye0-jJ-BtI" secondAttribute="trailing" constant="30" id="gKV-mX-ld5">
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="pRA-rP-YEN" firstAttribute="top" secondItem="rhY-fl-aMC" secondAttribute="top" id="oNk-H7-w9W"/>
+                            <constraint firstItem="Ye0-jJ-BtI" firstAttribute="bottom" secondItem="3hr-bY-Nbi" secondAttribute="bottom" constant="-10" id="uJc-Bf-hlk"/>
+                            <constraint firstItem="bVm-8Z-dPq" firstAttribute="centerX" secondItem="rhY-fl-aMC" secondAttribute="centerX" id="xmM-xS-cDc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="enterYouEmailLabel" destination="bVm-8Z-dPq" id="Xup-IP-01w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8d-Um-DMm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254.19847328244273" y="638.73239436619724"/>
         </scene>
     </scenes>
     <designables>
         <designable name="NhB-QA-jDa">
-            <size key="intrinsicContentSize" width="90" height="44"/>
+            <size key="intrinsicContentSize" width="81" height="43"/>
         </designable>
         <designable name="OK4-F9-L2K">
-            <size key="intrinsicContentSize" width="90" height="44"/>
+            <size key="intrinsicContentSize" width="81" height="43"/>
         </designable>
         <designable name="Uzv-LQ-ChG">
-            <size key="intrinsicContentSize" width="229" height="44"/>
+            <size key="intrinsicContentSize" width="198" height="43"/>
+        </designable>
+        <designable name="eJ9-9M-XFF">
+            <size key="intrinsicContentSize" width="50" height="31"/>
         </designable>
     </designables>
     <resources>
         <image name="arrow-left" width="24" height="24"/>
         <image name="congratulation" width="289.33334350585938" height="248.66667175292969"/>
         <image name="emailSent" width="306" height="268.66665649414062"/>
+        <image name="faceBook_icon" width="42.333332061767578" height="67"/>
+        <image name="facebook_email_background" width="375" height="252"/>
         <image name="fingerprint_enable" width="147" height="275"/>
         <image name="forgotPassword" width="200.66667175292969" height="149.66667175292969"/>
         <namedColor name="app_Off_White">
