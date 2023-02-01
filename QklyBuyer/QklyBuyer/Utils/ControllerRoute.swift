@@ -17,22 +17,22 @@ struct ControllerRoute {
         return onController
     }
     static func bioMetricController(viewmodel:BaseViewModel) -> UIViewController {
-        let controller = BioMetricController.initialize(from: .biometric)
+        let controller = BioMetricController.initialize(from: .auth)
         controller.viewModel = viewmodel as? BioMetricViewModel
         return controller
     }
     static func congratulationController(viewmodel:BaseViewModel) -> UIViewController {
-        let controller = CongratulationController.initialize(from: .congratulation)
+        let controller = CongratulationController.initialize(from: .auth)
         controller.viewModel = viewmodel as? CongratulationViewModel
         return controller
     }
     static func forgotPasswordController(viewmodel:BaseViewModel) -> UIViewController {
-        let controller = ForgotPasswordController.initialize(from: .forgotPassword)
+        let controller = ForgotPasswordController.initialize(from: .auth)
         controller.viewModel = viewmodel as? ForgotPasswordViewModel
         return controller
     }
     static func emailConfirmationController(viewmodel:BaseViewModel) -> UIViewController {
-        let controller = EmailConfirmationController.initialize(from: .emailConfirmation)
+        let controller = EmailConfirmationController.initialize(from: .auth)
         controller.viewModel = viewmodel as? EmailConfirmationViewModel
         return controller
     }

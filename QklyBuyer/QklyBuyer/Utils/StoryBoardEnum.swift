@@ -31,10 +31,8 @@ extension UIViewController: StoryboardInitializable {}
 enum Storyboard {
     case main
     case onboarding
-    case biometric
-    case congratulation
-    case forgotPassword
-    case emailConfirmation
+    case auth
+  
     
     var name: String {
         switch self {
@@ -42,14 +40,9 @@ enum Storyboard {
             return "Main"
         case .onboarding:
             return "Onboarding"
-        case .biometric:
-            return "BioMetric"
-        case .congratulation:
-            return "Congratulation"
-        case .forgotPassword:
-            return "ForgotPassword"
-        case .emailConfirmation:
-            return "EmailConfirmation"
+        case .auth:
+            return "Auth"
+       
        
         }
     }

@@ -47,7 +47,6 @@
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
 		1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */; };
-		1426D3B22988E013003E9ED3 /* BioMetric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */; };
 		1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B02988E013003E9ED3 /* BioMetricController.swift */; };
 		1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */; };
 		1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */; };
@@ -57,10 +56,8 @@
 		1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */; };
 		1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */; };
 		1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */; };
-		1426D3C629891C56003E9ED3 /* Congratulation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3C529891C56003E9ED3 /* Congratulation.storyboard */; };
 		1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */; };
 		1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C829891C8A003E9ED3 /* CongratulationController.swift */; };
-		1426D3CD2989348E003E9ED3 /* ForgotPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3CC2989348E003E9ED3 /* ForgotPassword.storyboard */; };
 		1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */; };
 		1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
@@ -127,9 +124,9 @@
 		1487C31B297FDC7F00FBF9CD /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */; };
 		1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */; };
 		1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */; };
-		14C45D78298A2CFB0022A5EE /* EmailConfirmation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D77298A2CFB0022A5EE /* EmailConfirmation.storyboard */; };
 		14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */; };
 		14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */; };
+		14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D7D298A5F380022A5EE /* Auth.storyboard */; };
 		14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746102977BEAE0002BF26 /* AppDelegate.swift */; };
 		14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746122977BEAE0002BF26 /* SceneDelegate.swift */; };
 		14C746162977BEAE0002BF26 /* Vender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746152977BEAE0002BF26 /* Vender.swift */; };
@@ -186,7 +183,6 @@
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
 		1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
-		1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BioMetric.storyboard; sourceTree = "<group>"; };
 		1426D3B02988E013003E9ED3 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
 		1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
 		1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
@@ -196,10 +192,8 @@
 		1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		1426D3C529891C56003E9ED3 /* Congratulation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Congratulation.storyboard; sourceTree = "<group>"; };
 		1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewModel.swift; sourceTree = "<group>"; };
 		1426D3C829891C8A003E9ED3 /* CongratulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationController.swift; sourceTree = "<group>"; };
-		1426D3CC2989348E003E9ED3 /* ForgotPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgotPassword.storyboard; sourceTree = "<group>"; };
 		1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
 		1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		1487C28A29790BA300FBF9CD /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
@@ -270,9 +264,9 @@
 		1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingSlideView.xib; sourceTree = "<group>"; };
 		1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlideView.swift; sourceTree = "<group>"; };
-		14C45D77298A2CFB0022A5EE /* EmailConfirmation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmailConfirmation.storyboard; sourceTree = "<group>"; };
 		14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationController.swift; sourceTree = "<group>"; };
 		14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewModel.swift; sourceTree = "<group>"; };
+		14C45D7D298A5F380022A5EE /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		14C7460D2977BEAE0002BF26 /* QklyBuyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QklyBuyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C746102977BEAE0002BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C746122977BEAE0002BF26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -507,6 +501,7 @@
 				1426D3C429891C25003E9ED3 /* Congratulation */,
 				1426D3AE2988DFEF003E9ED3 /* BioMetric */,
 				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
+				14C45D7D298A5F380022A5EE /* Auth.storyboard */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -514,7 +509,6 @@
 		1426D3AE2988DFEF003E9ED3 /* BioMetric */ = {
 			isa = PBXGroup;
 			children = (
-				1426D3AF2988E013003E9ED3 /* BioMetric.storyboard */,
 				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
 				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
 			);
@@ -540,7 +534,6 @@
 			children = (
 				1426D3C829891C8A003E9ED3 /* CongratulationController.swift */,
 				1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */,
-				1426D3C529891C56003E9ED3 /* Congratulation.storyboard */,
 			);
 			path = Congratulation;
 			sourceTree = "<group>";
@@ -550,7 +543,6 @@
 			children = (
 				1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */,
 				1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */,
-				1426D3CC2989348E003E9ED3 /* ForgotPassword.storyboard */,
 			);
 			path = "Forgot Password";
 			sourceTree = "<group>";
@@ -690,7 +682,6 @@
 		14C45D76298A2CD70022A5EE /* Email Confirmation */ = {
 			isa = PBXGroup;
 			children = (
-				14C45D77298A2CFB0022A5EE /* EmailConfirmation.storyboard */,
 				14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */,
 				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
 			);
@@ -895,20 +886,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */,
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
-				1426D3B22988E013003E9ED3 /* BioMetric.storyboard in Resources */,
 				1487C2E4297A412500FBF9CD /* Color.xcassets in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
 				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
 				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
 				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
-				14C45D78298A2CFB0022A5EE /* EmailConfirmation.storyboard in Resources */,
 				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
-				1426D3C629891C56003E9ED3 /* Congratulation.storyboard in Resources */,
 				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
-				1426D3CD2989348E003E9ED3 /* ForgotPassword.storyboard in Resources */,
 				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
 				1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */,
