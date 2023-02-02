@@ -140,7 +140,10 @@ class CreateAccountController: BaseController {
         
         signupButton.formButtonTapped.receive(on: RunLoop.main).sink {[weak self] _ in
             guard let self else {return}
-            self.validateForm()
+            //self.validateForm()
+            
+            let controller = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginController")
+            self.navigationController?.pushViewController(controller, animated: true)
         }.store(in: &viewModel.bag)
     }
     
@@ -216,6 +219,10 @@ class CreateAccountController: BaseController {
         
         _ = viewModel.validateAndSendRequest()
     }
+    
+//    @IBAction func signinButtonTapped(_ sender: UIButton) {
+//
+//    }
 
 }
 
