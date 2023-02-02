@@ -49,7 +49,11 @@ final class QklyAlertController: UIViewController {
     var titleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
+<<<<<<< HEAD
         label.font = .appBoldFont(ofSize: .size_14)
+=======
+        label.font = .appFont(ofSize: .size_14, weight: .bold)
+>>>>>>> 194c11db3ca1f81afa63a34e1ca8e536f382809e
         label.textColor = .app_primary_black!
         return label
     }()
@@ -57,7 +61,11 @@ final class QklyAlertController: UIViewController {
     var messageLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
+<<<<<<< HEAD
         label.font = .appRegularFont(ofSize: .size_12)
+=======
+        label.font = .appFont(ofSize: .size_10, weight: .regular)
+>>>>>>> 194c11db3ca1f81afa63a34e1ca8e536f382809e
         label.textColor = .app_primary_black!
         return label
     }()
@@ -143,7 +151,11 @@ class QklyAlertActionButton: UIButton {
         setTitle(title, for: .normal)
         backgroundColor = buttonColor
         titleLabel?.textColor = textColor
+<<<<<<< HEAD
+        titleLabel?.font = .appRegularFont(ofSize: .size_12)
+=======
         titleLabel?.font = .appFont(ofSize: .size_12, weight: .regular)
+>>>>>>> 194c11db3ca1f81afa63a34e1ca8e536f382809e
         self.action = action
         self.parent = parent
         round(cornerRadius: 4.0)

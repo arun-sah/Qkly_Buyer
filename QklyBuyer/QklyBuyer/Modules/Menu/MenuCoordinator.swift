@@ -27,7 +27,7 @@ class MenuCoordinator: BaseCoordinator {
     /// the tab bar controller
     
     
-    var sideMenuViewModel: MenuViewModel
+    var sideMenuViewModel: MenuViewModel!
     
     init(route: Route, userManager: UserManager,deepLink:DeepLink?) {
         self.route = route

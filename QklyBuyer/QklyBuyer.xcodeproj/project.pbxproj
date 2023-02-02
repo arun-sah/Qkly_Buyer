@@ -46,9 +46,10 @@
 		140568A22977EF7A0068573F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A12977EF7A0068573F /* Connection.swift */; };
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
-		1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */; };
-		1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B02988E013003E9ED3 /* BioMetricController.swift */; };
-		1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */; };
+		14204046298B895200784BBB /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14204045298B895200784BBB /* MenuViewModel.swift */; };
+		1420404A298B89D900784BBB /* CountryPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14204047298B89D900784BBB /* CountryPickerViewModel.swift */; };
+		1420404B298B89D900784BBB /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 14204048298B89D900784BBB /* Countries.json */; };
+		1420404C298B89D900784BBB /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14204049298B89D900784BBB /* CountryPicker.swift */; };
 		1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */; };
 		1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */; };
 		1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */; };
@@ -56,10 +57,6 @@
 		1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */; };
 		1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */; };
 		1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */; };
-		1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */; };
-		1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C829891C8A003E9ED3 /* CongratulationController.swift */; };
-		1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */; };
-		1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
 		1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */; };
 		1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */; };
@@ -124,11 +121,6 @@
 		1487C31B297FDC7F00FBF9CD /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */; };
 		1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */; };
 		1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */; };
-		14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */; };
-		14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */; };
-		14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D7D298A5F380022A5EE /* Auth.storyboard */; };
-		14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */; };
-		14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */; };
 		14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746102977BEAE0002BF26 /* AppDelegate.swift */; };
 		14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746122977BEAE0002BF26 /* SceneDelegate.swift */; };
 		14C746162977BEAE0002BF26 /* Vender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746152977BEAE0002BF26 /* Vender.swift */; };
@@ -145,7 +137,6 @@
 		14DC889F298B757B0084FAE2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC8899298B757B0084FAE2 /* MenuCell.swift */; };
 		14DC88A0298B757B0084FAE2 /* MenuSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */; };
 		14DC88A1298B757B0084FAE2 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */; };
-		14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889C298B757B0084FAE2 /* MenuViewModel.swift */; };
 		14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */; };
 		14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A7298B760E0084FAE2 /* DashBoardController.swift */; };
 		14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */; };
@@ -162,8 +153,19 @@
 		E0A162722988D9FF00D8A244 /* FormActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A162712988D9FF00D8A244 /* FormActionButton.swift */; };
 		E0A1627729890F6000D8A244 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627629890F6000D8A244 /* BottomSheetViewController.swift */; };
 		E0A1627D29893ABE00D8A244 /* QklyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627C29893ABE00D8A244 /* QklyAlertController.swift */; };
-		E0A1627F298A667800D8A244 /* CountryPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627E298A667800D8A244 /* CountryPickerViewModel.swift */; };
-		E0A16285298A67CF00D8A244 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A16284298A67CF00D8A244 /* Countries.json */; };
+		E0A1629C298B837B00D8A244 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1628C298B837B00D8A244 /* BioMetricController.swift */; };
+		E0A1629D298B837B00D8A244 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1628D298B837B00D8A244 /* BioMetricViewModel.swift */; };
+		E0A1629E298B837B00D8A244 /* CongratulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1628F298B837B00D8A244 /* CongratulationViewModel.swift */; };
+		E0A1629F298B837B00D8A244 /* CongratulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16290298B837B00D8A244 /* CongratulationController.swift */; };
+		E0A162A0298B837B00D8A244 /* FaceBookEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16292298B837B00D8A244 /* FaceBookEmailViewModel.swift */; };
+		E0A162A1298B837B00D8A244 /* FaceBookEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16293298B837B00D8A244 /* FaceBookEmailController.swift */; };
+		E0A162A2298B837B00D8A244 /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16295298B837B00D8A244 /* EmailConfirmationViewModel.swift */; };
+		E0A162A3298B837B00D8A244 /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16296298B837B00D8A244 /* EmailConfirmationController.swift */; };
+		E0A162A4298B837B00D8A244 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A16297298B837B00D8A244 /* Auth.storyboard */; };
+		E0A162A5298B837B00D8A244 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16299298B837B00D8A244 /* ForgotPasswordController.swift */; };
+		E0A162A6298B837B00D8A244 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1629A298B837B00D8A244 /* ForgotPasswordViewModel.swift */; };
+		E0A162A7298B837B00D8A244 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1629B298B837B00D8A244 /* AuthCoordinator.swift */; };
+		E0A162A8298B86B900D8A244 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D372B2983D23900DFC86D /* CreateAccount.storyboard */; };
 		E0F22F4B298776F400157B15 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F22F4A298776F400157B15 /* CreateAccountViewModel.swift */; };
 		E0F22F4D2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F22F4C2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -209,6 +211,10 @@
 		140568A12977EF7A0068573F /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		14204045298B895200784BBB /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewModel.swift; path = QklyBuyer/Modules/Menu/Menu/MenuViewModel.swift; sourceTree = SOURCE_ROOT; };
+		14204047298B89D900784BBB /* CountryPickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerViewModel.swift; sourceTree = "<group>"; };
+		14204048298B89D900784BBB /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		14204049298B89D900784BBB /* CountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
 		1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		1426D3B02988E013003E9ED3 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
 		1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
@@ -314,7 +320,6 @@
 		14DC8899298B757B0084FAE2 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSectionCell.swift; sourceTree = "<group>"; };
 		14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
-		14DC889C298B757B0084FAE2 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
 		14DC88A7298B760E0084FAE2 /* DashBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardController.swift; sourceTree = "<group>"; };
 		14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
@@ -332,10 +337,19 @@
 		E0A1626F2988C98F00D8A244 /* CheckRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRoundButton.swift; sourceTree = "<group>"; };
 		E0A162712988D9FF00D8A244 /* FormActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormActionButton.swift; sourceTree = "<group>"; };
 		E0A1627629890F6000D8A244 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
-		E0A1627A29890FFB00D8A244 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
 		E0A1627C29893ABE00D8A244 /* QklyAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QklyAlertController.swift; sourceTree = "<group>"; };
-		E0A1627E298A667800D8A244 /* CountryPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerViewModel.swift; sourceTree = "<group>"; };
-		E0A16284298A67CF00D8A244 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		E0A1628C298B837B00D8A244 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
+		E0A1628D298B837B00D8A244 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
+		E0A1628F298B837B00D8A244 /* CongratulationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewModel.swift; sourceTree = "<group>"; };
+		E0A16290298B837B00D8A244 /* CongratulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationController.swift; sourceTree = "<group>"; };
+		E0A16292298B837B00D8A244 /* FaceBookEmailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceBookEmailViewModel.swift; sourceTree = "<group>"; };
+		E0A16293298B837B00D8A244 /* FaceBookEmailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceBookEmailController.swift; sourceTree = "<group>"; };
+		E0A16295298B837B00D8A244 /* EmailConfirmationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewModel.swift; sourceTree = "<group>"; };
+		E0A16296298B837B00D8A244 /* EmailConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailConfirmationController.swift; sourceTree = "<group>"; };
+		E0A16297298B837B00D8A244 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		E0A16299298B837B00D8A244 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		E0A1629A298B837B00D8A244 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		E0A1629B298B837B00D8A244 /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		E0F22F4A298776F400157B15 /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
 		E0F22F4C2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateAccountController+ScrollViewDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -549,30 +563,6 @@
 			path = Decodable;
 			sourceTree = "<group>";
 		};
-		1426D3AB2988DF13003E9ED3 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E06D372A2983D1DB00DFC86D /* Create Account */,
-				14C45D7F298A65010022A5EE /* FaceBook Email */,
-				14C45D76298A2CD70022A5EE /* Email Confirmation */,
-				1426D3CB298933A9003E9ED3 /* Forgot Password */,
-				1426D3C429891C25003E9ED3 /* Congratulation */,
-				1426D3AE2988DFEF003E9ED3 /* BioMetric */,
-				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
-				14C45D7D298A5F380022A5EE /* Auth.storyboard */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		1426D3AE2988DFEF003E9ED3 /* BioMetric */ = {
-			isa = PBXGroup;
-			children = (
-				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
-				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
-			);
-			path = BioMetric;
-			sourceTree = "<group>";
-		};
 		1426D3B5298908CC003E9ED3 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,24 +575,6 @@
 				1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */,
 			);
 			path = Font;
-			sourceTree = "<group>";
-		};
-		1426D3C429891C25003E9ED3 /* Congratulation */ = {
-			isa = PBXGroup;
-			children = (
-				1426D3C829891C8A003E9ED3 /* CongratulationController.swift */,
-				1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */,
-			);
-			path = Congratulation;
-			sourceTree = "<group>";
-		};
-		1426D3CB298933A9003E9ED3 /* Forgot Password */ = {
-			isa = PBXGroup;
-			children = (
-				1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */,
-				1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */,
-			);
-			path = "Forgot Password";
 			sourceTree = "<group>";
 		};
 		1487C28929790B7200FBF9CD /* Assets */ = {
@@ -746,24 +718,6 @@
 			path = Slide;
 			sourceTree = "<group>";
 		};
-		14C45D76298A2CD70022A5EE /* Email Confirmation */ = {
-			isa = PBXGroup;
-			children = (
-				14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */,
-				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
-			);
-			path = "Email Confirmation";
-			sourceTree = "<group>";
-		};
-		14C45D7F298A65010022A5EE /* FaceBook Email */ = {
-			isa = PBXGroup;
-			children = (
-				14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */,
-				14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */,
-			);
-			path = "FaceBook Email";
-			sourceTree = "<group>";
-		};
 		14C746042977BEAE0002BF26 = {
 			isa = PBXGroup;
 			children = (
@@ -771,6 +725,7 @@
 				14C7460E2977BEAE0002BF26 /* Products */,
 				E627E57E51D558D1F810352E /* Pods */,
 				7F8C36C215B5ADE35D05608E /* Frameworks */,
+				E0A1628A298B834B00D8A244 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -846,7 +801,7 @@
 				E0A1627329890F0000D8A244 /* Miscellaneous */,
 				14DC88A3298B75DD0084FAE2 /* DashBoard */,
 				14DC8896298B75120084FAE2 /* Menu */,
-				1426D3AB2988DF13003E9ED3 /* Auth */,
+				E06D37292983D1D200DFC86D /* Auth */,
 				1487C30E297FDC2600FBF9CD /* Onboarding */,
 			);
 			path = Modules;
@@ -920,7 +875,6 @@
 			isa = PBXGroup;
 			children = (
 				14DC88AE298B790E0084FAE2 /* MenuCell */,
-				14DC889C298B757B0084FAE2 /* MenuViewModel.swift */,
 				14DC8897298B757B0084FAE2 /* MenuController.swift */,
 				14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */,
 			);
@@ -930,6 +884,7 @@
 		14DC88AE298B790E0084FAE2 /* MenuCell */ = {
 			isa = PBXGroup;
 			children = (
+				14204045298B895200784BBB /* MenuViewModel.swift */,
 				14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */,
 				14DC8899298B757B0084FAE2 /* MenuCell.swift */,
 			);
@@ -942,6 +897,21 @@
 				7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06D37292983D1D200DFC86D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E0A16297298B837B00D8A244 /* Auth.storyboard */,
+				E0A1629B298B837B00D8A244 /* AuthCoordinator.swift */,
+				E0A1628B298B837B00D8A244 /* BioMetric */,
+				E0A1628E298B837B00D8A244 /* Congratulation */,
+				E0A16294298B837B00D8A244 /* Email Confirmation */,
+				E0A16291298B837B00D8A244 /* FaceBook Email */,
+				E0A16298298B837B00D8A244 /* Forgot Password */,
+				E06D372A2983D1DB00DFC86D /* Create Account */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		E06D372A2983D1DB00DFC86D /* Create Account */ = {
@@ -958,11 +928,75 @@
 		E0A1627329890F0000D8A244 /* Miscellaneous */ = {
 			isa = PBXGroup;
 			children = (
-				E0A16284298A67CF00D8A244 /* Countries.json */,
-				E0A1627A29890FFB00D8A244 /* CountryPicker.swift */,
-				E0A1627E298A667800D8A244 /* CountryPickerViewModel.swift */,
+				14204048298B89D900784BBB /* Countries.json */,
+				14204049298B89D900784BBB /* CountryPicker.swift */,
+				14204047298B89D900784BBB /* CountryPickerViewModel.swift */,
 			);
 			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		E0A1628A298B834B00D8A244 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
+				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
+				1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */,
+				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
+				14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */,
+				14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */,
+				1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */,
+				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
+				1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */,
+				1426D3C829891C8A003E9ED3 /* CongratulationController.swift */,
+				14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */,
+				14C45D7D298A5F380022A5EE /* Auth.storyboard */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		E0A1628B298B837B00D8A244 /* BioMetric */ = {
+			isa = PBXGroup;
+			children = (
+				E0A1628C298B837B00D8A244 /* BioMetricController.swift */,
+				E0A1628D298B837B00D8A244 /* BioMetricViewModel.swift */,
+			);
+			path = BioMetric;
+			sourceTree = "<group>";
+		};
+		E0A1628E298B837B00D8A244 /* Congratulation */ = {
+			isa = PBXGroup;
+			children = (
+				E0A1628F298B837B00D8A244 /* CongratulationViewModel.swift */,
+				E0A16290298B837B00D8A244 /* CongratulationController.swift */,
+			);
+			path = Congratulation;
+			sourceTree = "<group>";
+		};
+		E0A16291298B837B00D8A244 /* FaceBook Email */ = {
+			isa = PBXGroup;
+			children = (
+				E0A16292298B837B00D8A244 /* FaceBookEmailViewModel.swift */,
+				E0A16293298B837B00D8A244 /* FaceBookEmailController.swift */,
+			);
+			path = "FaceBook Email";
+			sourceTree = "<group>";
+		};
+		E0A16294298B837B00D8A244 /* Email Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				E0A16295298B837B00D8A244 /* EmailConfirmationViewModel.swift */,
+				E0A16296298B837B00D8A244 /* EmailConfirmationController.swift */,
+			);
+			path = "Email Confirmation";
+			sourceTree = "<group>";
+		};
+		E0A16298298B837B00D8A244 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				E0A16299298B837B00D8A244 /* ForgotPasswordController.swift */,
+				E0A1629A298B837B00D8A244 /* ForgotPasswordViewModel.swift */,
+			);
+			path = "Forgot Password";
 			sourceTree = "<group>";
 		};
 		E627E57E51D558D1F810352E /* Pods */ = {
@@ -1035,22 +1069,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */,
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
 				1487C2E4297A412500FBF9CD /* Color.xcassets in Resources */,
 				14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */,
 				14DC889E298B757B0084FAE2 /* Menu.storyboard in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
+				1420404B298B89D900784BBB /* Countries.json in Resources */,
 				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
 				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
 				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
 				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
+				E0A162A8298B86B900D8A244 /* CreateAccount.storyboard in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
 				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
 				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
+				E0A162A4298B837B00D8A244 /* Auth.storyboard in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
-				E0A16285298A67CF00D8A244 /* Countries.json in Resources */,
 				1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */,
 				1487C298297933E100FBF9CD /* QklyNavigationView.xib in Resources */,
 			);
@@ -1109,11 +1144,13 @@
 				1487C2F0297F8F7600FBF9CD /* ForgotPasswordModel.swift in Sources */,
 				1405689C2977EF120068573F /* UIControlPublisher.swift in Sources */,
 				E0A16229298791EB00D8A244 /* Combine+Publishers.swift in Sources */,
+				E0A162A0298B837B00D8A244 /* FaceBookEmailViewModel.swift in Sources */,
 				1487C2F6297F8FE000FBF9CD /* JSONAny.swift in Sources */,
-				14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */,
 				14C746162977BEAE0002BF26 /* Vender.swift in Sources */,
 				140568992977EECA0068573F /* OperationState.swift in Sources */,
 				1487C308297F9F6700FBF9CD /* JSONNull.swift in Sources */,
+				E0A162A5298B837B00D8A244 /* ForgotPasswordController.swift in Sources */,
+				E0A162A2298B837B00D8A244 /* EmailConfirmationViewModel.swift in Sources */,
 				1405684B2977E3810068573F /* MimeType.swift in Sources */,
 				1487C2912979325F00FBF9CD /* Handler.swift in Sources */,
 				1487C29F297934DF00FBF9CD /* PaddedTextField.swift in Sources */,
@@ -1145,23 +1182,22 @@
 				1487C2C22979354C00FBF9CD /* Int.swift in Sources */,
 				1487C2BC2979354C00FBF9CD /* OutlinedTextField.swift in Sources */,
 				1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */,
-				1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */,
 				1487C2C32979354C00FBF9CD /* Data.swift in Sources */,
+				14204046298B895200784BBB /* MenuViewModel.swift in Sources */,
 				1487C2C02979354C00FBF9CD /* CLLocation.swift in Sources */,
 				1487C2BE2979354C00FBF9CD /* UITextFieldExtension.swift in Sources */,
 				1487C2C92979354C00FBF9CD /* ArrayEncoder.swift in Sources */,
-				1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */,
 				1487C2DE297A409D00FBF9CD /* UIFont.swift in Sources */,
 				1487C29B297934D500FBF9CD /* ResizingTableView.swift in Sources */,
 				1487C297297933E100FBF9CD /* QklyNavigationView.swift in Sources */,
-				1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */,
 				1487C2D12979433D00FBF9CD /* StoryBoardEnum.swift in Sources */,
+				E0A1629E298B837B00D8A244 /* CongratulationViewModel.swift in Sources */,
 				1487C302297F90B500FBF9CD /* SignUpModel.swift in Sources */,
 				14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */,
 				1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */,
+				E0A1629D298B837B00D8A244 /* BioMetricViewModel.swift in Sources */,
 				1487C2CA2979354C00FBF9CD /* UITableViewExtension.swift in Sources */,
 				1405685F2977E98E0068573F /* FrameworkConstant.swift in Sources */,
-				E0A1627F298A667800D8A244 /* CountryPickerViewModel.swift in Sources */,
 				14C7461C2977BEAE0002BF26 /* Util.swift in Sources */,
 				E06D37272983C71F00DFC86D /* AnimatedTypeTextLabel.swift in Sources */,
 				1487C2FA297F902B00FBF9CD /* UpdateProfileResponse.swift in Sources */,
@@ -1171,22 +1207,20 @@
 				1487C2E0297A40B400FBF9CD /* UIImage.swift in Sources */,
 				140568512977E4150068573F /* FrameworkBaseController.swift in Sources */,
 				1487C314297FDC7400FBF9CD /* OnboardingController.swift in Sources */,
-				14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */,
+				E0A1629C298B837B00D8A244 /* BioMetricController.swift in Sources */,
 				1487C2F2297F8F9B00FBF9CD /* Profile.swift in Sources */,
 				1487C2C52979354C00FBF9CD /* String.swift in Sources */,
 				1487C2C72979354C00FBF9CD /* Date.swift in Sources */,
 				1487C2932979328000FBF9CD /* AppString.swift in Sources */,
 				1487C2FC297F903D00FBF9CD /* CurrentUserDetailsResponse.swift in Sources */,
-				14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */,
 				140568852977ED080068573F /* AutoCompleteParser.swift in Sources */,
-				14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */,
 				140568722977EC050068573F /* CacheManager.swift in Sources */,
 				140568A22977EF7A0068573F /* Connection.swift in Sources */,
 				140568582977E4950068573F /* ClientConfig.swift in Sources */,
 				14DC88B0298B7BDB0084FAE2 /* Menu+Data.swift in Sources */,
-				1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */,
 				1405685C2977E4C20068573F /* Environment.swift in Sources */,
 				14C7462C2977BEAE0002BF26 /* ViewController.swift in Sources */,
+				E0A162A6298B837B00D8A244 /* ForgotPasswordViewModel.swift in Sources */,
 				1487C2E2297A40E200FBF9CD /* UIColor.swift in Sources */,
 				140568882977ED2D0068573F /* Networking.swift in Sources */,
 				140568762977EC330068573F /* CacheError.swift in Sources */,
@@ -1194,11 +1228,12 @@
 				14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */,
 				1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */,
 				1487C2C12979354C00FBF9CD /* NSAttributedString.swift in Sources */,
+				E0A1629F298B837B00D8A244 /* CongratulationController.swift in Sources */,
 				140568672977EA330068573F /* Protocol.swift in Sources */,
 				1487C2CD2979354C00FBF9CD /* UIApplication.swift in Sources */,
 				140568952977EEA60068573F /* OperationQueueable.swift in Sources */,
 				14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */,
-				1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */,
+				E0A162A1298B837B00D8A244 /* FaceBookEmailController.swift in Sources */,
 				1487C2B92979354C00FBF9CD /* Nibloadable.swift in Sources */,
 				1487C2CF2979354C00FBF9CD /* UIView.swift in Sources */,
 				E0A162722988D9FF00D8A244 /* FormActionButton.swift in Sources */,
@@ -1207,6 +1242,7 @@
 				1487C2C62979354C00FBF9CD /* CollectionViewExtensions.swift in Sources */,
 				1487C2FE297F904E00FBF9CD /* UserProfileResponse.swift in Sources */,
 				1487C2D52979439B00FBF9CD /* PhoneNumberFormatter.swift in Sources */,
+				E0A162A7298B837B00D8A244 /* AuthCoordinator.swift in Sources */,
 				1405686D2977EB340068573F /* TokenManager.swift in Sources */,
 				1487C2C82979354C00FBF9CD /* BaseController.swift in Sources */,
 				140568932977EE940068573F /* FrameworkOperation.swift in Sources */,
@@ -1214,8 +1250,6 @@
 				1487C2CC2979354C00FBF9CD /* Encodable.swift in Sources */,
 				1487C300297F909800FBF9CD /* LoginEmailResponse.swift in Sources */,
 				14C7462A2977BEAE0002BF26 /* Constant.swift in Sources */,
-				1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */,
-				1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */,
 				1405687E2977EC9E0068573F /* Logger.swift in Sources */,
 				1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */,
 				1487C2BD2979354C00FBF9CD /* UINavigationControllerExtension.swift in Sources */,
@@ -1227,17 +1261,18 @@
 				1487C2EE297F8F5500FBF9CD /* SocialLoginResponse.swift in Sources */,
 				1487C2BB2979354C00FBF9CD /* BaseCoordinator+Nav Extension.swift in Sources */,
 				14DC889D298B757B0084FAE2 /* MenuController.swift in Sources */,
+				1420404A298B89D900784BBB /* CountryPickerViewModel.swift in Sources */,
 				1405689F2977EF4C0068573F /* Token.swift in Sources */,
 				1487C2CB2979354C00FBF9CD /* AlertAction.swift in Sources */,
 				E0A1627D29893ABE00D8A244 /* QklyAlertController.swift in Sources */,
 				1405685A2977E4AB0068573F /* Config.swift in Sources */,
 				1405688C2977EE420068573F /* NetworkingError.swift in Sources */,
+				1420404C298B89D900784BBB /* CountryPicker.swift in Sources */,
 				1487C317297FDC7400FBF9CD /* OnboardingCoordinator.swift in Sources */,
 				1405686F2977EBE60068573F /* UserDefaultCacher.swift in Sources */,
 				140568A52977EFE10068573F /* Factory.swift in Sources */,
 				140568642977E9E30068573F /* Route.swift in Sources */,
 				140568972977EEB80068573F /* RequestSynchronizer.swift in Sources */,
-				14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */,
 				140568742977EC1B0068573F /* CacheManageable.swift in Sources */,
 				1405684E2977E3D30068573F /* Framework.swift in Sources */,
 				E0A162702988C98F00D8A244 /* CheckRoundButton.swift in Sources */,
@@ -1245,6 +1280,7 @@
 				1487C29C297934D500FBF9CD /* UnderLineView.swift in Sources */,
 				1487C2DC29795FFE00FBF9CD /* UserManager.swift in Sources */,
 				140568492977E3570068573F /* Swime.swift in Sources */,
+				E0A162A3298B837B00D8A244 /* EmailConfirmationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

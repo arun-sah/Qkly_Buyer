@@ -88,7 +88,7 @@ class QBValidationTextField: UIControl {
         let leftView = UIView(frame: CGRect(x: 0, y: 0, width: 16.0, height: 20.0))
         textfield.leftView = leftView
         textfield.leftViewMode = .always
-        textfield.font = .appFont(ofSize: 16.0, weight: .regular)
+        textfield.font = .appFont(ofSize: .size_16, weight: .regular)
         textfield.backgroundColor = defaultBackgroundColor
         textfield.layer.masksToBounds = true
         textfield.layer.cornerRadius = 8
@@ -97,7 +97,7 @@ class QBValidationTextField: UIControl {
     
     private lazy var validationMessageLabel: UILabel = {
         let label = UILabel()
-        label.font = .appFont(ofSize: 12.0, weight: .regular)
+        label.font = .appFont(ofSize: .size_12, weight: .regular)
         label.textColor = defaultSupplementaryTextColor
         label.text = ""
         label.numberOfLines = 2
@@ -107,7 +107,7 @@ class QBValidationTextField: UIControl {
     private lazy var textFieldLabel: UILabel = {
         let label = UILabel()
         label.textColor = UIColor(rgb: 0x4D4F5C)
-        label.font = .appFont(ofSize: 16.0, weight: .regular)
+        label.font = .appFont(ofSize: .size_16, weight: .regular)
         return label
     }()
     
