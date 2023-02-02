@@ -157,6 +157,8 @@
 		E0A162A5298B837B00D8A244 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16299298B837B00D8A244 /* ForgotPasswordController.swift */; };
 		E0A162A6298B837B00D8A244 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1629A298B837B00D8A244 /* ForgotPasswordViewModel.swift */; };
 		E0A162A7298B837B00D8A244 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1629B298B837B00D8A244 /* AuthCoordinator.swift */; };
+		E0A162A8298B86B900D8A244 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D372B2983D23900DFC86D /* CreateAccount.storyboard */; };
+		E0A162A9298B86F900D8A244 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A16284298A67CF00D8A244 /* Countries.json */; };
 		E0F22F4B298776F400157B15 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F22F4A298776F400157B15 /* CreateAccountViewModel.swift */; };
 		E0F22F4D2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F22F4C2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -1034,6 +1036,7 @@
 				E0A162542987E1A900D8A244 /* SourceSansPro-BlackItalic.ttf in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
 				E0A162602987E1A900D8A244 /* SourceSansPro-Light.ttf in Resources */,
+				E0A162A9298B86F900D8A244 /* Countries.json in Resources */,
 				1487C2E4297A412500FBF9CD /* Color.xcassets in Resources */,
 				E0A1626A2987E1A900D8A244 /* SourceSansPro-Black.ttf in Resources */,
 				E0A162662987E1A900D8A244 /* SourceSansPro-SemiBold.ttf in Resources */,
@@ -1042,6 +1045,7 @@
 				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
 				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
 				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
+				E0A162A8298B86B900D8A244 /* CreateAccount.storyboard in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
 				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
 				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
