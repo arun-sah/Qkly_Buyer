@@ -90,7 +90,18 @@ class AuthCoordinator: BaseCoordinator {
 
         route.push(controller)
     }
-   
+    private func showCreateAccountController() {
+        let viewModel = CreateAccountViewModel(userManager: userManager)
+        let controller = ControllerRoute.createAccountController(viewmodel: viewModel)
+        viewModel.trigger.sink { [weak self] route in
+            guard let self = self else { return }
+            self.handleRoutes(route)
+        }.store(in: &bag)
+        route.push(controller)
+    }
+    
+    
+    
      /// handle routes
     /// - Parameter route: app routable
     private func handleRoutes(_ route: AppRoutable) {
@@ -101,6 +112,8 @@ class AuthCoordinator: BaseCoordinator {
             showEmailConfirmationController()
         case AuthRoute.facebookEmail:
             showFacebookEmailConfirmationController()
+        case AuthRoute.createAccount:
+            showCreateAccountController()
 //        case AuthRoute.congratulation:
 //            showCongratulationsController()
         case AuthRoute.finish:
