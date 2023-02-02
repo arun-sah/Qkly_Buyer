@@ -22,7 +22,7 @@ extension UITextView{
 
         let placeholderLabel = UILabel()
         placeholderLabel.text = placeHolderText
-        placeholderLabel.font = UIFont.appFont(ofSize: 12, weight: .regular)
+     //   placeholderLabel.font = UIFont.appFont(ofSize: 12, weight: .regular)
         placeholderLabel.sizeToFit()
         placeholderLabel.tag = 22222
         placeholderLabel.frame.origin = CGPoint(x: 5, y: 9)

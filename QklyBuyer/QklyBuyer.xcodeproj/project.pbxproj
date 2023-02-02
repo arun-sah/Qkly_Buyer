@@ -46,6 +46,20 @@
 		140568A22977EF7A0068573F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A12977EF7A0068573F /* Connection.swift */; };
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
+		1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */; };
+		1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B02988E013003E9ED3 /* BioMetricController.swift */; };
+		1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */; };
+		1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */; };
+		1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */; };
+		1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */; };
+		1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */; };
+		1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */; };
+		1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */; };
+		1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */; };
+		1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */; };
+		1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C829891C8A003E9ED3 /* CongratulationController.swift */; };
+		1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */; };
+		1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
 		1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */; };
 		1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */; };
@@ -110,6 +124,11 @@
 		1487C31B297FDC7F00FBF9CD /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */; };
 		1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */; };
 		1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */; };
+		14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */; };
+		14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */; };
+		14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D7D298A5F380022A5EE /* Auth.storyboard */; };
+		14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */; };
+		14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */; };
 		14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746102977BEAE0002BF26 /* AppDelegate.swift */; };
 		14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746122977BEAE0002BF26 /* SceneDelegate.swift */; };
 		14C746162977BEAE0002BF26 /* Vender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746152977BEAE0002BF26 /* Vender.swift */; };
@@ -211,6 +230,20 @@
 		140568A12977EF7A0068573F /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		1426D3B02988E013003E9ED3 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
+		1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
+		1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewModel.swift; sourceTree = "<group>"; };
+		1426D3C829891C8A003E9ED3 /* CongratulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationController.swift; sourceTree = "<group>"; };
+		1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		1487C28A29790BA300FBF9CD /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchBuilder.swift; sourceTree = "<group>"; };
@@ -279,6 +312,11 @@
 		1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingSlideView.xib; sourceTree = "<group>"; };
 		1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlideView.swift; sourceTree = "<group>"; };
+		14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationController.swift; sourceTree = "<group>"; };
+		14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewModel.swift; sourceTree = "<group>"; };
+		14C45D7D298A5F380022A5EE /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailController.swift; sourceTree = "<group>"; };
+		14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailViewModel.swift; sourceTree = "<group>"; };
 		14C7460D2977BEAE0002BF26 /* QklyBuyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QklyBuyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C746102977BEAE0002BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C746122977BEAE0002BF26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -551,9 +589,65 @@
 			path = Decodable;
 			sourceTree = "<group>";
 		};
+		1426D3AB2988DF13003E9ED3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D7F298A65010022A5EE /* FaceBook Email */,
+				14C45D76298A2CD70022A5EE /* Email Confirmation */,
+				1426D3CB298933A9003E9ED3 /* Forgot Password */,
+				1426D3C429891C25003E9ED3 /* Congratulation */,
+				1426D3AE2988DFEF003E9ED3 /* BioMetric */,
+				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
+				14C45D7D298A5F380022A5EE /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1426D3AE2988DFEF003E9ED3 /* BioMetric */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
+				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
+			);
+			path = BioMetric;
+			sourceTree = "<group>";
+		};
+		1426D3B5298908CC003E9ED3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */,
+				1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */,
+				1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */,
+				1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */,
+				1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */,
+				1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */,
+				1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1426D3C429891C25003E9ED3 /* Congratulation */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3C829891C8A003E9ED3 /* CongratulationController.swift */,
+				1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */,
+			);
+			path = Congratulation;
+			sourceTree = "<group>";
+		};
+		1426D3CB298933A9003E9ED3 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */,
+				1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
 		1487C28929790B7200FBF9CD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1426D3B5298908CC003E9ED3 /* Font */,
 				1487C2E3297A412500FBF9CD /* Color.xcassets */,
 				14C746322977BEAF0002BF26 /* Assets.xcassets */,
 				1487C2DD297A409D00FBF9CD /* UIFont.swift */,
@@ -690,6 +784,24 @@
 				1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */,
 			);
 			path = Slide;
+			sourceTree = "<group>";
+		};
+		14C45D76298A2CD70022A5EE /* Email Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */,
+				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
+			);
+			path = "Email Confirmation";
+			sourceTree = "<group>";
+		};
+		14C45D7F298A65010022A5EE /* FaceBook Email */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */,
+				14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */,
+			);
+			path = "FaceBook Email";
 			sourceTree = "<group>";
 		};
 		14C746042977BEAE0002BF26 = {
@@ -957,15 +1069,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A162592987E1A900D8A244 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				E0A162502987E1A900D8A244 /* Montserrat-BoldItalic.ttf in Resources */,
-				E0A162562987E1A900D8A244 /* SourceSansPro-BoldItalic.ttf in Resources */,
-				E0A162652987E1A900D8A244 /* Montserrat-BlackItalic.ttf in Resources */,
-				E06D372C2983D23900DFC86D /* CreateAccount.storyboard in Resources */,
-				E0A1626C2987E1A900D8A244 /* SourceSansPro-Regular.ttf in Resources */,
-				E0A162612987E1A900D8A244 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
-				E0A162682987E1A900D8A244 /* Montserrat-Light.ttf in Resources */,
-				E0A162522987E1A900D8A244 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */,
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				E0A162542987E1A900D8A244 /* SourceSansPro-BlackItalic.ttf in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
@@ -980,21 +1084,15 @@
 				E0A162512987E1A900D8A244 /* Montserrat-Italic.ttf in Resources */,
 				E0A162582987E1A900D8A244 /* Montserrat-MediumItalic.ttf in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
+				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
+				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
+				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
+				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
-				E0A1625C2987E1A900D8A244 /* SourceSansPro-ExtraLight.ttf in Resources */,
-				E0A162552987E1A900D8A244 /* Montserrat-SemiBold.ttf in Resources */,
-				E0A1626D2987E1AA00D8A244 /* Montserrat-Regular.ttf in Resources */,
-				E0A1625E2987E1A900D8A244 /* SourceSansPro-Bold.ttf in Resources */,
-				E0A1625D2987E1A900D8A244 /* SourceSansPro-LightItalic.ttf in Resources */,
-				E0A162572987E1A900D8A244 /* Montserrat-Bold.ttf in Resources */,
-				E0A162642987E1A900D8A244 /* Montserrat-ExtraBold.ttf in Resources */,
-				E0A1625F2987E1A900D8A244 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
-				E0A162622987E1A900D8A244 /* Montserrat-ThinItalic.ttf in Resources */,
+				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
+				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
-				E0A16285298A67CF00D8A244 /* Countries.json in Resources */,
-				E0A162692987E1A900D8A244 /* Montserrat-LightItalic.ttf in Resources */,
-				E0A162632987E1A900D8A244 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				E0A162532987E1A900D8A244 /* SourceSansPro-Italic.ttf in Resources */,
+				1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */,
 				1487C298297933E100FBF9CD /* QklyNavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1053,6 +1151,7 @@
 				1405689C2977EF120068573F /* UIControlPublisher.swift in Sources */,
 				E0A16229298791EB00D8A244 /* Combine+Publishers.swift in Sources */,
 				1487C2F6297F8FE000FBF9CD /* JSONAny.swift in Sources */,
+				14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */,
 				14C746162977BEAE0002BF26 /* Vender.swift in Sources */,
 				140568992977EECA0068573F /* OperationState.swift in Sources */,
 				1487C308297F9F6700FBF9CD /* JSONNull.swift in Sources */,
@@ -1085,13 +1184,16 @@
 				1487C2C22979354C00FBF9CD /* Int.swift in Sources */,
 				1487C2BC2979354C00FBF9CD /* OutlinedTextField.swift in Sources */,
 				1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */,
+				1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */,
 				1487C2C32979354C00FBF9CD /* Data.swift in Sources */,
 				1487C2C02979354C00FBF9CD /* CLLocation.swift in Sources */,
 				1487C2BE2979354C00FBF9CD /* UITextFieldExtension.swift in Sources */,
 				1487C2C92979354C00FBF9CD /* ArrayEncoder.swift in Sources */,
+				1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */,
 				1487C2DE297A409D00FBF9CD /* UIFont.swift in Sources */,
 				1487C29B297934D500FBF9CD /* ResizingTableView.swift in Sources */,
 				1487C297297933E100FBF9CD /* QklyNavigationView.swift in Sources */,
+				1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */,
 				1487C2D12979433D00FBF9CD /* StoryBoardEnum.swift in Sources */,
 				1487C302297F90B500FBF9CD /* SignUpModel.swift in Sources */,
 				1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */,
@@ -1113,10 +1215,13 @@
 				1487C2932979328000FBF9CD /* AppString.swift in Sources */,
 				1487C2FC297F903D00FBF9CD /* CurrentUserDetailsResponse.swift in Sources */,
 				E0A1627B29890FFB00D8A244 /* CountryPicker.swift in Sources */,
+				14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */,
 				140568852977ED080068573F /* AutoCompleteParser.swift in Sources */,
+				14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */,
 				140568722977EC050068573F /* CacheManager.swift in Sources */,
 				140568A22977EF7A0068573F /* Connection.swift in Sources */,
 				140568582977E4950068573F /* ClientConfig.swift in Sources */,
+				1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */,
 				1405685C2977E4C20068573F /* Environment.swift in Sources */,
 				14C7462C2977BEAE0002BF26 /* ViewController.swift in Sources */,
 				1487C2E2297A40E200FBF9CD /* UIColor.swift in Sources */,
@@ -1128,6 +1233,7 @@
 				140568672977EA330068573F /* Protocol.swift in Sources */,
 				1487C2CD2979354C00FBF9CD /* UIApplication.swift in Sources */,
 				140568952977EEA60068573F /* OperationQueueable.swift in Sources */,
+				1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */,
 				1487C2B92979354C00FBF9CD /* Nibloadable.swift in Sources */,
 				1487C2CF2979354C00FBF9CD /* UIView.swift in Sources */,
 				E0A162722988D9FF00D8A244 /* FormActionButton.swift in Sources */,
@@ -1142,6 +1248,8 @@
 				1487C2CC2979354C00FBF9CD /* Encodable.swift in Sources */,
 				1487C300297F909800FBF9CD /* LoginEmailResponse.swift in Sources */,
 				14C7462A2977BEAE0002BF26 /* Constant.swift in Sources */,
+				1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */,
+				1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */,
 				1405687E2977EC9E0068573F /* Logger.swift in Sources */,
 				1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */,
 				1487C2BD2979354C00FBF9CD /* UINavigationControllerExtension.swift in Sources */,
@@ -1162,6 +1270,7 @@
 				140568A52977EFE10068573F /* Factory.swift in Sources */,
 				140568642977E9E30068573F /* Route.swift in Sources */,
 				140568972977EEB80068573F /* RequestSynchronizer.swift in Sources */,
+				14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */,
 				140568742977EC1B0068573F /* CacheManageable.swift in Sources */,
 				1405684E2977E3D30068573F /* Framework.swift in Sources */,
 				E0A162702988C98F00D8A244 /* CheckRoundButton.swift in Sources */,
@@ -1310,7 +1419,7 @@
 		};
 		14C7463B2977BEAF0002BF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109F017B6D50F16A9EAB3F62 /* Pods-QklyBuyer.debug.xcconfig */;
+			baseConfigurationReference = 1487C30A297FA52F00FBF9CD /* QklyBuyerDebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1323,8 +1432,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1340,7 +1449,7 @@
 		};
 		14C7463C2977BEAF0002BF26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487F875905C6B28CC037562F /* Pods-QklyBuyer.release.xcconfig */;
+			baseConfigurationReference = 1487C30C297FA57300FBF9CD /* QklyBuyerProd.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1353,8 +1462,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

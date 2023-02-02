@@ -39,8 +39,10 @@ extension UIColor {
     static let app_primary_yellow_0_6        = UIColor(named: "app_primary_yellow_0_6")
     static let app_primary_yellow_0_8        = UIColor(named: "app_primary_yellow_0_8")
     static let app_primary_yellow            = UIColor(named: "app_primary_yellow")
+    static let app_white                     = UIColor(named: "app_white")
+    static let app_Off_White                 = UIColor(named: "app_Off_White")
 
-  
+    
 }
 
 extension UIColor {
