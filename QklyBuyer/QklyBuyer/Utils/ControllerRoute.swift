@@ -54,4 +54,10 @@ struct ControllerRoute {
         controller.viewModel = viewmodel as? MenuViewModel
         return controller
     }
+    
+    static func createAccountController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = CreateAccountController.initialize(from: .createAccount)
+        controller.viewModel = viewmodel as? CreateAccountViewModel
+        return controller
+    }
 }

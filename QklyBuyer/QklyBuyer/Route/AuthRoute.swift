@@ -9,7 +9,7 @@ import Foundation
 
 enum AuthRoute: AppRoutable {
     case signIn
-    case signUp
+    case createAccount
     case facebookEmailUpdate
     case finish
     case forgotPassword

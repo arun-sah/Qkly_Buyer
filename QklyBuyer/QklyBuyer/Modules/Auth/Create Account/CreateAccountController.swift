@@ -46,8 +46,7 @@ class CreateAccountController: BaseController {
     
     //MARK:- Variables and objects
     
-    var viewModel: CreateAccountViewModel = CreateAccountViewModel(userManager: UserManagerFactory.get())
-
+    var viewModel: CreateAccountViewModel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
