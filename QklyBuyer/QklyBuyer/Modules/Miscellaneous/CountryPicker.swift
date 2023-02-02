@@ -29,7 +29,7 @@ struct CountryPicker: View {
     
     var titleText: some View {
         Text("Select Country")
-            .font(Font(UIFont.appFont(ofSize: 16.0, weight: .bold)))
+            .font(Font(UIFont.appFont(ofSize: .size_16, weight: .bold)))
             .padding()
     }
     
@@ -39,7 +39,7 @@ struct CountryPicker: View {
                 Image("search").frame(width: 35.0)
                 TextField("Search here...", text: $searchboxText.onChange(searchValueChanged))
                     .cornerRadius(6.0)
-                    .font(Font(UIFont.appFont(ofSize: 16.0, weight: .regular)))
+                    .font(Font(UIFont.appFont(ofSize: .size_16, weight: .regular)))
                     .frame(height: 20.0)
             }
             .padding()
@@ -69,7 +69,7 @@ struct CountryPicker: View {
             .foregroundColor(Color(uiColor: .app_primary_black!))
             .background(Color(uiColor: .app_primary_black_0_1!))
             .cornerRadius(4)
-            .font(Font(UIFont.appFont(ofSize: 16.0, weight: .medium)))
+            .font(Font(UIFont.appFont(ofSize: .size_16, weight: .medium)))
     }
     
     func searchValueChanged(to value: String) {
@@ -88,7 +88,7 @@ struct CountryCell: View {
     
     var body: some View {
         Text(countryName)
-            .font(Font(UIFont.appFont(ofSize: 16.0, weight: .medium)))
+            .font(Font(UIFont.appFont(ofSize: .size_16, weight: .medium)))
             .foregroundColor(Color(uiColor: .app_primary_black!))
             .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 10))
             .frame(height: 24.0)

@@ -48,18 +48,16 @@ final class QklyAlertController: UIViewController {
     
     var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "HELLO!!!!!"
         label.numberOfLines = 0
-        label.font = .appFont(ofSize: 14.0, weight: .bold)
+        label.font = .appFont(ofSize: .size_14, weight: .bold)
         label.textColor = .app_primary_black!
         return label
     }()
     
     var messageLabel: UILabel = {
         let label = UILabel()
-        label.text = "An email has been sent to\nmckageor@gmail.com with further \ninstructions. Please check.An email has been sent to\nmckageor@gmail.com with further \ninstructions. Please check.An email has been sent to\nmckageor@gmail.com with further \ninstructions. Please check.An email has been sent to\nmckageor@gmail.com with further \ninstructions. Please check."
         label.numberOfLines = 0
-        label.font = .appFont(ofSize: 11.0, weight: .regular)
+        label.font = .appFont(ofSize: .size_10, weight: .regular)
         label.textColor = .app_primary_black!
         return label
     }()
@@ -145,7 +143,7 @@ class QklyAlertActionButton: UIButton {
         setTitle(title, for: .normal)
         backgroundColor = buttonColor
         titleLabel?.textColor = textColor
-        titleLabel?.font = .appFont(ofSize: 12.0, weight: .regular)
+        titleLabel?.font = .appFont(ofSize: .size_12, weight: .regular)
         self.action = action
         self.parent = parent
         round(cornerRadius: 4.0)

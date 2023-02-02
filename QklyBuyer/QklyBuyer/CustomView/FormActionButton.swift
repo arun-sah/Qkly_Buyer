@@ -15,7 +15,7 @@ class FormActionButton: UIButton {
     override func awakeFromNib() {
         backgroundColor = .app_primary_purple
         setTitleColor(.white, for: .normal)
-        titleLabel?.font = .appFont(ofSize: 16.0, weight: .medium)
+        titleLabel?.font = .appFont(ofSize: .size_16, weight: .medium)
         round(cornerRadius: 4.0)
         
         addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
