@@ -98,7 +98,7 @@ public struct ResponseParser: Parser {
             guard let data = response.data else {
                 return NetworkingResult(success: false, error: .nonParsableErrorReceived, router: router, data: nil)
             }
-            var builderInfo = try prepareInfo(data, statusCode: response.response?.statusCode ?? 0)
+            let builderInfo = try prepareInfo(data, statusCode: response.response?.statusCode ?? 0)
             
             var apiResponse = NetworkingResult<O>(router: router)
             let statusCode = apiResponse.statusCode != 0 ? apiResponse.statusCode : response.response?.statusCode ?? 0

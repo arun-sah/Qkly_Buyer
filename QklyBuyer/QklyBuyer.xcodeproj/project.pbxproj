@@ -46,6 +46,20 @@
 		140568A22977EF7A0068573F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A12977EF7A0068573F /* Connection.swift */; };
 		140568A52977EFE10068573F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A42977EFE10068573F /* Factory.swift */; };
 		140568A82977EFFD0068573F /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140568A72977EFFD0068573F /* Decodable.swift */; };
+		1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */; };
+		1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B02988E013003E9ED3 /* BioMetricController.swift */; };
+		1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */; };
+		1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */; };
+		1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */; };
+		1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */; };
+		1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */; };
+		1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */; };
+		1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */; };
+		1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */; };
+		1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */; };
+		1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3C829891C8A003E9ED3 /* CongratulationController.swift */; };
+		1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */; };
+		1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */; };
 		1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28A29790BA300FBF9CD /* AppEnviroment.swift */; };
 		1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */; };
 		1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */; };
@@ -110,6 +124,11 @@
 		1487C31B297FDC7F00FBF9CD /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */; };
 		1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */; };
 		1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */; };
+		14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */; };
+		14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */; };
+		14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C45D7D298A5F380022A5EE /* Auth.storyboard */; };
+		14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */; };
+		14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */; };
 		14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746102977BEAE0002BF26 /* AppDelegate.swift */; };
 		14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746122977BEAE0002BF26 /* SceneDelegate.swift */; };
 		14C746162977BEAE0002BF26 /* Vender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C746152977BEAE0002BF26 /* Vender.swift */; };
@@ -121,24 +140,30 @@
 		14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C7462D2977BEAE0002BF26 /* Main.storyboard */; };
 		14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C746322977BEAF0002BF26 /* Assets.xcassets */; };
 		14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C746342977BEAF0002BF26 /* LaunchScreen.storyboard */; };
+		14DC889D298B757B0084FAE2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC8897298B757B0084FAE2 /* MenuController.swift */; };
+		14DC889E298B757B0084FAE2 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC8898298B757B0084FAE2 /* Menu.storyboard */; };
+		14DC889F298B757B0084FAE2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC8899298B757B0084FAE2 /* MenuCell.swift */; };
+		14DC88A0298B757B0084FAE2 /* MenuSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */; };
+		14DC88A1298B757B0084FAE2 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */; };
+		14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889C298B757B0084FAE2 /* MenuViewModel.swift */; };
+		14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */; };
+		14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A7298B760E0084FAE2 /* DashBoardController.swift */; };
+		14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */; };
+		14DC88AC298B76310084FAE2 /* DashBoardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */; };
+		14DC88B0298B7BDB0084FAE2 /* Menu+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */; };
 		48DE0CB32D1B643EF60EB791 /* Pods_QklyBuyer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */; };
 		E06D37212983C6AD00DFC86D /* StepperControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D37202983C6AD00DFC86D /* StepperControl.swift */; };
 		E06D37232983C6C900DFC86D /* DropdownField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D37222983C6C900DFC86D /* DropdownField.swift */; };
 		E06D37252983C6EF00DFC86D /* QBValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D37242983C6EF00DFC86D /* QBValidationTextField.swift */; };
 		E06D37272983C71F00DFC86D /* AnimatedTypeTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D37262983C71F00DFC86D /* AnimatedTypeTextLabel.swift */; };
-		E06D372C2983D23900DFC86D /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D372B2983D23900DFC86D /* CreateAccount.storyboard */; };
 		E06D372E2983D30400DFC86D /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D372D2983D30400DFC86D /* CreateAccountController.swift */; };
 		E0A16229298791EB00D8A244 /* Combine+Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A16228298791EB00D8A244 /* Combine+Publishers.swift */; };
-		E0A162502987E1A900D8A244 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162322987E1A500D8A244 /* Montserrat-BoldItalic.ttf */; };
 		E0A162512987E1A900D8A244 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162332987E1A500D8A244 /* Montserrat-Italic.ttf */; };
-		E0A162522987E1A900D8A244 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162342987E1A600D8A244 /* Montserrat-ExtraLightItalic.ttf */; };
 		E0A162532987E1A900D8A244 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162352987E1A600D8A244 /* SourceSansPro-Italic.ttf */; };
 		E0A162542987E1A900D8A244 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162362987E1A600D8A244 /* SourceSansPro-BlackItalic.ttf */; };
 		E0A162552987E1A900D8A244 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162372987E1A600D8A244 /* Montserrat-SemiBold.ttf */; };
-		E0A162562987E1A900D8A244 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162382987E1A600D8A244 /* SourceSansPro-BoldItalic.ttf */; };
 		E0A162572987E1A900D8A244 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162392987E1A600D8A244 /* Montserrat-Bold.ttf */; };
 		E0A162582987E1A900D8A244 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1623A2987E1A600D8A244 /* Montserrat-MediumItalic.ttf */; };
-		E0A162592987E1A900D8A244 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1623B2987E1A700D8A244 /* Montserrat-SemiBoldItalic.ttf */; };
 		E0A1625A2987E1A900D8A244 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1623C2987E1A700D8A244 /* Montserrat-Medium.ttf */; };
 		E0A1625B2987E1A900D8A244 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1623D2987E1A700D8A244 /* Montserrat-Thin.ttf */; };
 		E0A1625C2987E1A900D8A244 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1623E2987E1A700D8A244 /* SourceSansPro-ExtraLight.ttf */; };
@@ -146,23 +171,18 @@
 		E0A1625E2987E1A900D8A244 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162402987E1A700D8A244 /* SourceSansPro-Bold.ttf */; };
 		E0A1625F2987E1A900D8A244 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162412987E1A700D8A244 /* SourceSansPro-ExtraLightItalic.ttf */; };
 		E0A162602987E1A900D8A244 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162422987E1A800D8A244 /* SourceSansPro-Light.ttf */; };
-		E0A162612987E1A900D8A244 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162432987E1A800D8A244 /* SourceSansPro-SemiBoldItalic.ttf */; };
 		E0A162622987E1A900D8A244 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162442987E1A800D8A244 /* Montserrat-ThinItalic.ttf */; };
 		E0A162632987E1A900D8A244 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162452987E1A800D8A244 /* Montserrat-ExtraBoldItalic.ttf */; };
 		E0A162642987E1A900D8A244 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162462987E1A800D8A244 /* Montserrat-ExtraBold.ttf */; };
-		E0A162652987E1A900D8A244 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162472987E1A800D8A244 /* Montserrat-BlackItalic.ttf */; };
 		E0A162662987E1A900D8A244 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162482987E1A800D8A244 /* SourceSansPro-SemiBold.ttf */; };
 		E0A162672987E1A900D8A244 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A162492987E1A800D8A244 /* Montserrat-ExtraLight.ttf */; };
-		E0A162682987E1A900D8A244 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624A2987E1A900D8A244 /* Montserrat-Light.ttf */; };
 		E0A162692987E1A900D8A244 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624B2987E1A900D8A244 /* Montserrat-LightItalic.ttf */; };
 		E0A1626A2987E1A900D8A244 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624C2987E1A900D8A244 /* SourceSansPro-Black.ttf */; };
 		E0A1626B2987E1A900D8A244 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624D2987E1A900D8A244 /* Montserrat-Black.ttf */; };
-		E0A1626C2987E1A900D8A244 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624E2987E1A900D8A244 /* SourceSansPro-Regular.ttf */; };
 		E0A1626D2987E1AA00D8A244 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A1624F2987E1A900D8A244 /* Montserrat-Regular.ttf */; };
 		E0A162702988C98F00D8A244 /* CheckRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1626F2988C98F00D8A244 /* CheckRoundButton.swift */; };
 		E0A162722988D9FF00D8A244 /* FormActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A162712988D9FF00D8A244 /* FormActionButton.swift */; };
 		E0A1627729890F6000D8A244 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627629890F6000D8A244 /* BottomSheetViewController.swift */; };
-		E0A1627B29890FFB00D8A244 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627A29890FFB00D8A244 /* CountryPicker.swift */; };
 		E0A1627D29893ABE00D8A244 /* QklyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627C29893ABE00D8A244 /* QklyAlertController.swift */; };
 		E0A1627F298A667800D8A244 /* CountryPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A1627E298A667800D8A244 /* CountryPickerViewModel.swift */; };
 		E0A16285298A67CF00D8A244 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = E0A16284298A67CF00D8A244 /* Countries.json */; };
@@ -211,6 +231,20 @@
 		140568A12977EF7A0068573F /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		140568A42977EFE10068573F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		140568A72977EFFD0068573F /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		1426D3B02988E013003E9ED3 /* BioMetricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricController.swift; sourceTree = "<group>"; };
+		1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioMetricViewModel.swift; sourceTree = "<group>"; };
+		1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewModel.swift; sourceTree = "<group>"; };
+		1426D3C829891C8A003E9ED3 /* CongratulationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationController.swift; sourceTree = "<group>"; };
+		1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		1487C28A29790BA300FBF9CD /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
 		1487C28C29790BBD00FBF9CD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchBuilder.swift; sourceTree = "<group>"; };
@@ -279,6 +313,11 @@
 		1487C318297FDC7F00FBF9CD /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		1487C319297FDC7F00FBF9CD /* OnboardingSlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingSlideView.xib; sourceTree = "<group>"; };
 		1487C31A297FDC7F00FBF9CD /* OnboardingSlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlideView.swift; sourceTree = "<group>"; };
+		14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationController.swift; sourceTree = "<group>"; };
+		14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewModel.swift; sourceTree = "<group>"; };
+		14C45D7D298A5F380022A5EE /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailController.swift; sourceTree = "<group>"; };
+		14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookEmailViewModel.swift; sourceTree = "<group>"; };
 		14C7460D2977BEAE0002BF26 /* QklyBuyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QklyBuyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C746102977BEAE0002BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C746122977BEAE0002BF26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -292,6 +331,17 @@
 		14C746322977BEAF0002BF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C746352977BEAF0002BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C746372977BEAF0002BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DC8897298B757B0084FAE2 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		14DC8898298B757B0084FAE2 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		14DC8899298B757B0084FAE2 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSectionCell.swift; sourceTree = "<group>"; };
+		14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		14DC889C298B757B0084FAE2 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		14DC88A7298B760E0084FAE2 /* DashBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardController.swift; sourceTree = "<group>"; };
+		14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCoordinator.swift; sourceTree = "<group>"; };
+		14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Menu+Data.swift"; sourceTree = "<group>"; };
 		487F875905C6B28CC037562F /* Pods-QklyBuyer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QklyBuyer.release.xcconfig"; path = "Target Support Files/Pods-QklyBuyer/Pods-QklyBuyer.release.xcconfig"; sourceTree = "<group>"; };
 		7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QklyBuyer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06D37202983C6AD00DFC86D /* StepperControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperControl.swift; sourceTree = "<group>"; };
@@ -551,9 +601,66 @@
 			path = Decodable;
 			sourceTree = "<group>";
 		};
+		1426D3AB2988DF13003E9ED3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E06D372A2983D1DB00DFC86D /* Create Account */,
+				14C45D7F298A65010022A5EE /* FaceBook Email */,
+				14C45D76298A2CD70022A5EE /* Email Confirmation */,
+				1426D3CB298933A9003E9ED3 /* Forgot Password */,
+				1426D3C429891C25003E9ED3 /* Congratulation */,
+				1426D3AE2988DFEF003E9ED3 /* BioMetric */,
+				1426D3AC2988DF47003E9ED3 /* AuthCoordinator.swift */,
+				14C45D7D298A5F380022A5EE /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1426D3AE2988DFEF003E9ED3 /* BioMetric */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3B02988E013003E9ED3 /* BioMetricController.swift */,
+				1426D3B12988E013003E9ED3 /* BioMetricViewModel.swift */,
+			);
+			path = BioMetric;
+			sourceTree = "<group>";
+		};
+		1426D3B5298908CC003E9ED3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3BC298908E6003E9ED3 /* Montserrat-Bold.ttf */,
+				1426D3BA298908E6003E9ED3 /* Montserrat-ExtraBold.ttf */,
+				1426D3B8298908E6003E9ED3 /* Montserrat-Light.ttf */,
+				1426D3B9298908E6003E9ED3 /* Montserrat-Medium.ttf */,
+				1426D3B7298908E6003E9ED3 /* Montserrat-Regular.ttf */,
+				1426D3BB298908E6003E9ED3 /* Montserrat-SemiBold.ttf */,
+				1426D3B6298908E6003E9ED3 /* Montserrat-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1426D3C429891C25003E9ED3 /* Congratulation */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3C829891C8A003E9ED3 /* CongratulationController.swift */,
+				1426D3C729891C8A003E9ED3 /* CongratulationViewModel.swift */,
+			);
+			path = Congratulation;
+			sourceTree = "<group>";
+		};
+		1426D3CB298933A9003E9ED3 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				1426D3CE298934BD003E9ED3 /* ForgotPasswordController.swift */,
+				1426D3CF298934BD003E9ED3 /* ForgotPasswordViewModel.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
 		1487C28929790B7200FBF9CD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1426D3B5298908CC003E9ED3 /* Font */,
 				1487C2E3297A412500FBF9CD /* Color.xcassets */,
 				14C746322977BEAF0002BF26 /* Assets.xcassets */,
 				1487C2DD297A409D00FBF9CD /* UIFont.swift */,
@@ -692,6 +799,24 @@
 			path = Slide;
 			sourceTree = "<group>";
 		};
+		14C45D76298A2CD70022A5EE /* Email Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D79298A2D100022A5EE /* EmailConfirmationController.swift */,
+				14C45D7B298A2D370022A5EE /* EmailConfirmationViewModel.swift */,
+			);
+			path = "Email Confirmation";
+			sourceTree = "<group>";
+		};
+		14C45D7F298A65010022A5EE /* FaceBook Email */ = {
+			isa = PBXGroup;
+			children = (
+				14C45D80298A652E0022A5EE /* FaceBookEmailController.swift */,
+				14C45D82298A65430022A5EE /* FaceBookEmailViewModel.swift */,
+			);
+			path = "FaceBook Email";
+			sourceTree = "<group>";
+		};
 		14C746042977BEAE0002BF26 = {
 			isa = PBXGroup;
 			children = (
@@ -772,7 +897,9 @@
 			isa = PBXGroup;
 			children = (
 				E0A1627329890F0000D8A244 /* Miscellaneous */,
-				E06D37292983D1D200DFC86D /* Auth */,
+				14DC88A3298B75DD0084FAE2 /* DashBoard */,
+				14DC8896298B75120084FAE2 /* Menu */,
+				1426D3AB2988DF13003E9ED3 /* Auth */,
 				1487C30E297FDC2600FBF9CD /* Onboarding */,
 			);
 			path = Modules;
@@ -813,20 +940,61 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
+		14DC8896298B75120084FAE2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88AD298B78D10084FAE2 /* Menu */,
+				14DC8898298B757B0084FAE2 /* Menu.storyboard */,
+				14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		14DC88A3298B75DD0084FAE2 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88A6298B75F90084FAE2 /* DashBoard */,
+				14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */,
+				14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		14DC88A6298B75F90084FAE2 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88A7298B760E0084FAE2 /* DashBoardController.swift */,
+				14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		14DC88AD298B78D10084FAE2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88AE298B790E0084FAE2 /* MenuCell */,
+				14DC889C298B757B0084FAE2 /* MenuViewModel.swift */,
+				14DC8897298B757B0084FAE2 /* MenuController.swift */,
+				14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		14DC88AE298B790E0084FAE2 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */,
+				14DC8899298B757B0084FAE2 /* MenuCell.swift */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
 		7F8C36C215B5ADE35D05608E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E06D37292983D1D200DFC86D /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E06D372A2983D1DB00DFC86D /* Create Account */,
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 		E06D372A2983D1DB00DFC86D /* Create Account */ = {
@@ -957,15 +1125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A162592987E1A900D8A244 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				E0A162502987E1A900D8A244 /* Montserrat-BoldItalic.ttf in Resources */,
-				E0A162562987E1A900D8A244 /* SourceSansPro-BoldItalic.ttf in Resources */,
-				E0A162652987E1A900D8A244 /* Montserrat-BlackItalic.ttf in Resources */,
-				E06D372C2983D23900DFC86D /* CreateAccount.storyboard in Resources */,
-				E0A1626C2987E1A900D8A244 /* SourceSansPro-Regular.ttf in Resources */,
-				E0A162612987E1A900D8A244 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
-				E0A162682987E1A900D8A244 /* Montserrat-Light.ttf in Resources */,
-				E0A162522987E1A900D8A244 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				14C45D7E298A5F380022A5EE /* Auth.storyboard in Resources */,
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				E0A162542987E1A900D8A244 /* SourceSansPro-BlackItalic.ttf in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
@@ -979,7 +1139,13 @@
 				E0A162662987E1A900D8A244 /* SourceSansPro-SemiBold.ttf in Resources */,
 				E0A162512987E1A900D8A244 /* Montserrat-Italic.ttf in Resources */,
 				E0A162582987E1A900D8A244 /* Montserrat-MediumItalic.ttf in Resources */,
+				14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */,
+				14DC889E298B757B0084FAE2 /* Menu.storyboard in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
+				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
+				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
+				1426D3BF29890987003E9ED3 /* Montserrat-Light.ttf in Resources */,
+				1426D3BD29890981003E9ED3 /* Montserrat-Bold.ttf in Resources */,
 				14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */,
 				E0A1625C2987E1A900D8A244 /* SourceSansPro-ExtraLight.ttf in Resources */,
 				E0A162552987E1A900D8A244 /* Montserrat-SemiBold.ttf in Resources */,
@@ -990,11 +1156,14 @@
 				E0A162642987E1A900D8A244 /* Montserrat-ExtraBold.ttf in Resources */,
 				E0A1625F2987E1A900D8A244 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
 				E0A162622987E1A900D8A244 /* Montserrat-ThinItalic.ttf in Resources */,
+				1426D3C329890992003E9ED3 /* Montserrat-Thin.ttf in Resources */,
+				1426D3C22989098F003E9ED3 /* Montserrat-SemiBold.ttf in Resources */,
 				1487C31C297FDC7F00FBF9CD /* OnboardingSlideView.xib in Resources */,
 				E0A16285298A67CF00D8A244 /* Countries.json in Resources */,
 				E0A162692987E1A900D8A244 /* Montserrat-LightItalic.ttf in Resources */,
 				E0A162632987E1A900D8A244 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				E0A162532987E1A900D8A244 /* SourceSansPro-Italic.ttf in Resources */,
+				1426D3C029890989003E9ED3 /* Montserrat-Medium.ttf in Resources */,
 				1487C298297933E100FBF9CD /* QklyNavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1053,6 +1222,7 @@
 				1405689C2977EF120068573F /* UIControlPublisher.swift in Sources */,
 				E0A16229298791EB00D8A244 /* Combine+Publishers.swift in Sources */,
 				1487C2F6297F8FE000FBF9CD /* JSONAny.swift in Sources */,
+				14C45D7C298A2D370022A5EE /* EmailConfirmationViewModel.swift in Sources */,
 				14C746162977BEAE0002BF26 /* Vender.swift in Sources */,
 				140568992977EECA0068573F /* OperationState.swift in Sources */,
 				1487C308297F9F6700FBF9CD /* JSONNull.swift in Sources */,
@@ -1061,6 +1231,7 @@
 				1487C29F297934DF00FBF9CD /* PaddedTextField.swift in Sources */,
 				1487C2F8297F900300FBF9CD /* ProfileDetailResponse.swift in Sources */,
 				1405688E2977EE550068573F /* NetworkingResult.swift in Sources */,
+				14DC88AC298B76310084FAE2 /* DashBoardCoordinator.swift in Sources */,
 				14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */,
 				E06D37232983C6C900DFC86D /* DropdownField.swift in Sources */,
 				E0F22F4D2987783A00157B15 /* CreateAccountController+ScrollViewDelegate.swift in Sources */,
@@ -1070,6 +1241,7 @@
 				1405686B2977EB050068573F /* FrameworkCacheKey.swift in Sources */,
 				140568832977ECE20068573F /* ResultBuilder.swift in Sources */,
 				140568532977E4340068573F /* BaseView.swift in Sources */,
+				14DC88A0298B757B0084FAE2 /* MenuSectionCell.swift in Sources */,
 				1487C2A0297934DF00FBF9CD /* GradientView.swift in Sources */,
 				1487C315297FDC7400FBF9CD /* OnboardingViewModel.swift in Sources */,
 				1405687A2977EC720068573F /* Client.swift in Sources */,
@@ -1085,15 +1257,19 @@
 				1487C2C22979354C00FBF9CD /* Int.swift in Sources */,
 				1487C2BC2979354C00FBF9CD /* OutlinedTextField.swift in Sources */,
 				1487C28B29790BA300FBF9CD /* AppEnviroment.swift in Sources */,
+				1426D3B32988E013003E9ED3 /* BioMetricController.swift in Sources */,
 				1487C2C32979354C00FBF9CD /* Data.swift in Sources */,
 				1487C2C02979354C00FBF9CD /* CLLocation.swift in Sources */,
 				1487C2BE2979354C00FBF9CD /* UITextFieldExtension.swift in Sources */,
 				1487C2C92979354C00FBF9CD /* ArrayEncoder.swift in Sources */,
+				1426D3D1298934BD003E9ED3 /* ForgotPasswordViewModel.swift in Sources */,
 				1487C2DE297A409D00FBF9CD /* UIFont.swift in Sources */,
 				1487C29B297934D500FBF9CD /* ResizingTableView.swift in Sources */,
 				1487C297297933E100FBF9CD /* QklyNavigationView.swift in Sources */,
+				1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */,
 				1487C2D12979433D00FBF9CD /* StoryBoardEnum.swift in Sources */,
 				1487C302297F90B500FBF9CD /* SignUpModel.swift in Sources */,
+				14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */,
 				1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */,
 				1487C2CA2979354C00FBF9CD /* UITableViewExtension.swift in Sources */,
 				1405685F2977E98E0068573F /* FrameworkConstant.swift in Sources */,
@@ -1107,27 +1283,34 @@
 				1487C2E0297A40B400FBF9CD /* UIImage.swift in Sources */,
 				140568512977E4150068573F /* FrameworkBaseController.swift in Sources */,
 				1487C314297FDC7400FBF9CD /* OnboardingController.swift in Sources */,
+				14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */,
 				1487C2F2297F8F9B00FBF9CD /* Profile.swift in Sources */,
 				1487C2C52979354C00FBF9CD /* String.swift in Sources */,
 				1487C2C72979354C00FBF9CD /* Date.swift in Sources */,
 				1487C2932979328000FBF9CD /* AppString.swift in Sources */,
 				1487C2FC297F903D00FBF9CD /* CurrentUserDetailsResponse.swift in Sources */,
-				E0A1627B29890FFB00D8A244 /* CountryPicker.swift in Sources */,
+				14C45D81298A652E0022A5EE /* FaceBookEmailController.swift in Sources */,
 				140568852977ED080068573F /* AutoCompleteParser.swift in Sources */,
+				14C45D7A298A2D100022A5EE /* EmailConfirmationController.swift in Sources */,
 				140568722977EC050068573F /* CacheManager.swift in Sources */,
 				140568A22977EF7A0068573F /* Connection.swift in Sources */,
 				140568582977E4950068573F /* ClientConfig.swift in Sources */,
+				14DC88B0298B7BDB0084FAE2 /* Menu+Data.swift in Sources */,
+				1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */,
 				1405685C2977E4C20068573F /* Environment.swift in Sources */,
 				14C7462C2977BEAE0002BF26 /* ViewController.swift in Sources */,
 				1487C2E2297A40E200FBF9CD /* UIColor.swift in Sources */,
 				140568882977ED2D0068573F /* Networking.swift in Sources */,
 				140568762977EC330068573F /* CacheError.swift in Sources */,
+				14DC889F298B757B0084FAE2 /* MenuCell.swift in Sources */,
 				14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */,
 				1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */,
 				1487C2C12979354C00FBF9CD /* NSAttributedString.swift in Sources */,
 				140568672977EA330068573F /* Protocol.swift in Sources */,
 				1487C2CD2979354C00FBF9CD /* UIApplication.swift in Sources */,
 				140568952977EEA60068573F /* OperationQueueable.swift in Sources */,
+				14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */,
+				1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */,
 				1487C2B92979354C00FBF9CD /* Nibloadable.swift in Sources */,
 				1487C2CF2979354C00FBF9CD /* UIView.swift in Sources */,
 				E0A162722988D9FF00D8A244 /* FormActionButton.swift in Sources */,
@@ -1139,9 +1322,12 @@
 				1405686D2977EB340068573F /* TokenManager.swift in Sources */,
 				1487C2C82979354C00FBF9CD /* BaseController.swift in Sources */,
 				140568932977EE940068573F /* FrameworkOperation.swift in Sources */,
+				14DC88A1298B757B0084FAE2 /* MenuCoordinator.swift in Sources */,
 				1487C2CC2979354C00FBF9CD /* Encodable.swift in Sources */,
 				1487C300297F909800FBF9CD /* LoginEmailResponse.swift in Sources */,
 				14C7462A2977BEAE0002BF26 /* Constant.swift in Sources */,
+				1426D3D0298934BD003E9ED3 /* ForgotPasswordController.swift in Sources */,
+				1426D3CA29891C8A003E9ED3 /* CongratulationController.swift in Sources */,
 				1405687E2977EC9E0068573F /* Logger.swift in Sources */,
 				1487C28D29790BBD00FBF9CD /* AppCoordinator.swift in Sources */,
 				1487C2BD2979354C00FBF9CD /* UINavigationControllerExtension.swift in Sources */,
@@ -1152,6 +1338,7 @@
 				14C746192977BEAE0002BF26 /* DiFactory.swift in Sources */,
 				1487C2EE297F8F5500FBF9CD /* SocialLoginResponse.swift in Sources */,
 				1487C2BB2979354C00FBF9CD /* BaseCoordinator+Nav Extension.swift in Sources */,
+				14DC889D298B757B0084FAE2 /* MenuController.swift in Sources */,
 				1405689F2977EF4C0068573F /* Token.swift in Sources */,
 				1487C2CB2979354C00FBF9CD /* AlertAction.swift in Sources */,
 				E0A1627D29893ABE00D8A244 /* QklyAlertController.swift in Sources */,
@@ -1162,6 +1349,7 @@
 				140568A52977EFE10068573F /* Factory.swift in Sources */,
 				140568642977E9E30068573F /* Route.swift in Sources */,
 				140568972977EEB80068573F /* RequestSynchronizer.swift in Sources */,
+				14C45D83298A65430022A5EE /* FaceBookEmailViewModel.swift in Sources */,
 				140568742977EC1B0068573F /* CacheManageable.swift in Sources */,
 				1405684E2977E3D30068573F /* Framework.swift in Sources */,
 				E0A162702988C98F00D8A244 /* CheckRoundButton.swift in Sources */,
@@ -1310,7 +1498,7 @@
 		};
 		14C7463B2977BEAF0002BF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109F017B6D50F16A9EAB3F62 /* Pods-QklyBuyer.debug.xcconfig */;
+			baseConfigurationReference = 1487C30A297FA52F00FBF9CD /* QklyBuyerDebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1323,8 +1511,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1340,7 +1528,7 @@
 		};
 		14C7463C2977BEAF0002BF26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487F875905C6B28CC037562F /* Pods-QklyBuyer.release.xcconfig */;
+			baseConfigurationReference = 1487C30C297FA57300FBF9CD /* QklyBuyerProd.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1353,8 +1541,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -17,7 +17,6 @@ final class AppCoordinator: BaseCoordinator {
     /// The instance of userManager
     private let userManager: UserManager
     
-    
     /// user defaults
     let defaults = UserDefaults.standard
     
@@ -32,27 +31,8 @@ final class AppCoordinator: BaseCoordinator {
         self.route = route
         self.userManager = userManager
         super.init()
-        self.getUserLocationDetail()
     }
-    
-    
-    private func getUserLocationDetail() {
-          let urlString = "http://ip-api.com/json"
-        guard  let url = URL(string: urlString) else {return}
-        let task = URLSession.shared.dataTask(with: url,completionHandler: {(data,responce,error) in
-            var str = ""
-            if error == nil{
-                if let data = data {
-                   str = String(decoding: data, as: UTF8.self)
-                    print(str)
-                    self.userDefaultCacheManager.set(String.self, value: str, key: FrameworkCacheKey.userLocationDetailFromAPIJson)
-                }
-            }
-            self.userDefaultCacheManager.set(String.self, value: str, key: FrameworkCacheKey.userLocationDetailFromAPIJson)
-        })
-        task.resume()
-      }
-    
+
     
     /// Start the coordinator process
     override func start(with deepLink: DeepLink?) {
@@ -65,60 +45,18 @@ final class AppCoordinator: BaseCoordinator {
             guard let self = self else {
                 return
             }
-            let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
-            if !isonboardingDone {
+           // let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
+          //  if !isonboardingDone {
                 self.runOnboardingCoordinator(with: deeplink)
-                return
-            }
-           
-            
-            let loginSignUpDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isLoginSignUpDone) ?? false
-            let needsFBEmailUpdate = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.needsEmailUpdateFB) ?? false
-            if loginSignUpDone && !needsFBEmailUpdate{
-               // self.runSideMenuCoordinator(with: deeplink)
-                return
-                
-            }
+              //  return
+           // }
            // self.runAuthCoordinator(with: deeplink)
+               
         }
     }
-    /// runs auth coordinator
-//    private func runAuthCoordinator(with deepLink: DeepLink?) {
-//        // check if coordinator already exists
-//        if let coordinator = self.getChild(type: AuthCoordinator.self) {
-//
-//            // coordinator already exists hence directly start
-//            coordinator.start(with: deepLink)
-//            return
-//        }
-//
-//        let authCoordinator = AuthCoordinator(route: route, userManager: userManager)
-//        authCoordinator.onFinish = { [weak self] in
-//            guard let self = self else { return }
-//            self.performRedirection()
-//        }
-//        coordinate(to: authCoordinator)
-//    }
+  
     
-    /// runs Side menu coordinator
-//    private func runSideMenuCoordinator(with deepLink: DeepLink?) {
-//        // check if coordinator already exists
-//        if let coordinator = self.getChild(type: SideMenuCoordinator.self) {
-//
-//            // coordinator already exists hence directly start
-//            coordinator.start(with: deepLink)
-//            return
-//        }
-//
-//        let coordinator = SideMenuCoordinator(route: route, userManager: userManager, jobBoardManager: jobBoardManager, deepLink: deepLink)
-//        coordinator.onFinish = { [weak self] in
-//            guard let self = self else { return }
-//            self.performRedirection()
-//        }
-//        coordinate(to: coordinator)
-//    }
-    
-   
+    /// runs Onboarding coordinator
     private func runOnboardingCoordinator(with deepLink: DeepLink?) {
         if let coordinator = self.getChild(type: OnboardingCoordinator.self) {
             coordinator.start(with: deepLink)
@@ -128,14 +66,52 @@ final class AppCoordinator: BaseCoordinator {
         let onboardingCoordinator = OnboardingCoordinator(route: route)
         onboardingCoordinator.onFinish = { [weak self] in
             guard let self = self else {return}
-            self.performRedirection()
+           // self.performRedirection()
+            self.runAuthCoordinator(with: deepLink)
         }
         coordinate(to: onboardingCoordinator)
+    }
+    
+    /// runs auth coordinator
+    private func runAuthCoordinator(with deepLink: DeepLink?) {
+        // check if coordinator already exists
+        if let coordinator = self.getChild(type: AuthCoordinator.self) {
+            
+            // coordinator already exists hence directly start
+            coordinator.start(with: deepLink)
+            return
+        }
+        
+        let authCoordinator = AuthCoordinator(route: route, userManager: userManager)
+        authCoordinator.onFinish = { [weak self] in
+            guard let self = self else { return }
+           // self.performRedirection()
+            
+            // fot checkSideMenu
+            self.runSideMenuCoordinator(with: deepLink)
+        }
+        coordinate(to: authCoordinator)
     }
 
     /// clears deep link
     private func clearDeepLink() {
         self.deepLink = nil
+    }
+    
+    /// runs Side menu coordinator
+    private func runSideMenuCoordinator(with deepLink: DeepLink?) {
+        // check if coordinator already exists
+        if let coordinator = self.getChild(type: MenuCoordinator.self) {
+            // coordinator already exists hence directly start
+            coordinator.start(with: deepLink)
+            return
+        }
+        let coordinator = MenuCoordinator(route: route, userManager: userManager, deepLink: deepLink)
+        coordinator.onFinish = { [weak self] in
+            guard let self = self else { return }
+            self.performRedirection()
+        }
+        coordinate(to: coordinator)
     }
     
 }

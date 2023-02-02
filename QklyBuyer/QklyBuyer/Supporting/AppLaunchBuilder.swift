@@ -152,13 +152,8 @@ extension AppLaunchBuilder {
     /// setting up IQKeyboard manager
     private func setupIQKeyboardManager() {
         IQKeyboardManager.shared.enable = true
-        //IQKeyboardManager.shared.toolbarTintColor = UIColor.appColor
+        IQKeyboardManager.shared.toolbarTintColor = UIColor.app_primary_purple
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 30.0
-        
-        
     }
-    
-
-    
 }
