@@ -10,11 +10,17 @@ import SwiftyAttributes
 
 class FaceBookEmailController: BaseController {
     
+    @IBOutlet weak var facebookButton: UIButton!
     @IBOutlet weak var enterYouEmailLabel: UILabel!
+    
+    @IBOutlet weak var backIconButton: UIButton!
     var viewModel: FaceBookEmailViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        backIconButton.setImage(UIImage.icon_arrow_left?.withTintColor(UIColor.app_white ?? .white, renderingMode: .alwaysOriginal), for: .normal)
+        
         let didntSeeIt = AppString.enterYour.value.withAttributes([
             .textColor(UIColor.app_primary_black ?? .black),
             .font(UIFont.appBoldFont(ofSize: .size_32))
@@ -25,6 +31,23 @@ class FaceBookEmailController: BaseController {
         ])
         let text = didntSeeIt + contactUs
         enterYouEmailLabel.attributedText = text
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            facebookButton.layer.cornerRadius = 50
+        } else {
+            facebookButton.layer.cornerRadius = 43
+
+        }
+    }
+    
+    @IBAction func continueButton(_ sender: Any) {
+    }
+    
+    @IBAction func cancelButton(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
     
 }
