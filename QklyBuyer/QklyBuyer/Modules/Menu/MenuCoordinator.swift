@@ -33,7 +33,7 @@ class MenuCoordinator: BaseCoordinator {
         self.route = route
         self.userManager = userManager
        
-        self.sideMenuViewModel = MenuViewModel(userManager: userManager, selectedSidemenuType: MenuJobBoardData.searchJobs)
+        self.sideMenuViewModel = MenuViewModel(userManager: userManager, selectedSidemenuType: MenuSectionData.postAjob)
         super.init()
         sideMenuViewModel.trigger.sink { [weak self] route in
             guard let self = self else { return }

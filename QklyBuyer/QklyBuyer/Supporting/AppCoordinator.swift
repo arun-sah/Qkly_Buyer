@@ -47,10 +47,12 @@ final class AppCoordinator: BaseCoordinator {
             }
            // let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
           //  if !isonboardingDone {
-                self.runOnboardingCoordinator(with: deeplink)
+              //  self.runOnboardingCoordinator(with: deeplink)
               //  return
            // }
            // self.runAuthCoordinator(with: deeplink)
+            
+            self.runSideMenuCoordinator(with: deeplink)
                
         }
     }

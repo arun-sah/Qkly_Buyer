@@ -12,7 +12,6 @@ import LocalAuthentication
 class MenuCell: UITableViewCell {
     
     @IBOutlet weak var iconImage: UIImageView!
-    @IBOutlet weak var `switch`: UISwitch!
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var shadowView: UIView!
     
@@ -26,25 +25,19 @@ class MenuCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func configure(iconName:UIImage, desc: String) {
-        iconImage.image = iconName.withRenderingMode(.alwaysTemplate)
-        descLabel.text = desc
-        `switch`.isHidden = true
-//        if desc == othersData.bioMetricId.rawValue {
-//            `switch`.isHidden = false
-//
-//            switch context.biometryType {
-//            case .none:
-//                iconImage.image = UIImage.faceIcon!.withRenderingMode(.alwaysTemplate)
-//            case .touchID:
-//                iconImage.image = UIImage.touchIcon!.withRenderingMode(.alwaysTemplate)
-//            case .faceID:
-//                iconImage.image = UIImage.faceIcon!.withRenderingMode(.alwaysTemplate)
-//            default : iconImage.image = UIImage.faceIcon!.withRenderingMode(.alwaysTemplate)
-//
-//            }
-//
+    func configure(celltype:MenuCellData) {
+        iconImage.image = celltype.image
+        descLabel.text = celltype.title
+        
+//        switch celltype {
+//        case .findFreelancer:
+//            <#code#>
+//        case .myFreelancer:
+//            <#code#>
+//        case .favouriteFreelancer:
+//            <#code#>
 //        }
+
     }
     
 

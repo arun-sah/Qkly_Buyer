@@ -13,9 +13,12 @@ class MenuSectionCell: UITableViewCell {
     
     
     @IBOutlet weak var descLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
+        descLabel.font = UIFont.appMediumFont(ofSize: .size_16)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -24,9 +27,8 @@ class MenuSectionCell: UITableViewCell {
     }
     
     func configure(desc: String) {
+        descLabel.font = UIFont.appMediumFont(ofSize: .size_16)
         descLabel.text = desc
-        
-        
     }
     
 

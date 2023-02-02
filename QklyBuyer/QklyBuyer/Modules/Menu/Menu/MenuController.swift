@@ -48,73 +48,18 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
         return MenuSectionData.allCases.count
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch MenuSectionData.allCases[section] {
-        case .Profile:
-            return MenuProfileData.allCases.count
-        case .jobBoard:
-            return MenuJobBoardData.allCases.count
-        case .freelance:
-           
-                return viewModel.freelanceMenuItemsForDisabled.count
-        
-        case .other:
-            return othersData.allCases.count
+        if MenuSectionData.allCases[section] == .freelancer {
+            return MenuCellData.allCases.count
+        }else {
+            return 0
         }
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MenuCell
-        
-        switch MenuSectionData.allCases[indexPath.section] {
-        case .Profile:
-            cell.configure(iconName: UIImage.icon_faceid!, desc: MenuProfileData.allCases[indexPath.row].rawValue)
-            if viewModel.selectedSidemenuType?.title == MenuProfileData.allCases[indexPath.row].title {
-                cell.descLabel.textColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.white
-                
-            } else {
-                cell.shadowView.backgroundColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.black
-            }
-        case .jobBoard:
-            cell.configure(iconName: UIImage.icon_faceid!, desc: MenuJobBoardData.allCases[indexPath.row].rawValue)
-            if viewModel.selectedSidemenuType?.title == MenuJobBoardData.allCases[indexPath.row].title {
-                cell.descLabel.textColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.white
-                
-            } else {
-                cell.shadowView.backgroundColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.black
-            }
-        case .freelance:
-            let items = viewModel.freelanceMenuItemsForDisabled
-            let item = items[indexPath.row]
-            cell.configure(iconName: UIImage.icon_faceid!, desc: item.title)
-            if viewModel.selectedSidemenuType?.title == item.title {
-                cell.descLabel.textColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.white
-                
-            } else {
-                cell.shadowView.backgroundColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.black
-            }
-        case .other:
-            cell.configure(iconName: UIImage.icon_faceid!, desc: othersData.allCases[indexPath.row].rawValue)
-            if viewModel.selectedSidemenuType?.title == othersData.allCases[indexPath.row].title {
-                cell.descLabel.textColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.white
-                
-            } else {
-                cell.shadowView.backgroundColor = UIColor.white
-                cell.iconImage.tintColor = UIColor.black
-            }
-        }
-        
-        let isBiometrictrue =  self.viewModel.userManager?.cacheManager.get(Bool.self, forKey: FrameworkCacheKey.isFaceid)
-        cell.`switch`.isOn = isBiometrictrue ?? false
-       
-        
+        let cellItem = MenuCellData.allCases[indexPath.row]
+        cell.configure(celltype: cellItem)
         return cell
         
     }
@@ -126,16 +71,9 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        switch MenuSectionData.allCases[section] {
-        case .Profile:
+     
             return 40
-        case .jobBoard:
-            return 40
-        case .freelance:
-            return 40
-        case .other:
-            return 0
-        }
+        
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
@@ -143,20 +81,8 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        switch MenuSectionData.allCases[indexPath.section] {
-        case .Profile:
             return 55
-        case .jobBoard:
-            return 55
-        case .freelance:
-            return 55
-        case .other:
-            if viewModel.userManager!.hasTokken() {
-                return 55
-            }else{
-                return othersData.allCases[indexPath.row].showForGuest ? 55 : 0
-            }
-        }
+       
     }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {

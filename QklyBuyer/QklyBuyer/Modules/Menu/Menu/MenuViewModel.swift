@@ -17,10 +17,4 @@ class MenuViewModel: BaseViewModel {
         self.userManager = userManager
         
     }
-    
-    var freelanceMenuItemsEnabled: [FreeLanceData] = FreeLanceData.allCases
-    
-    var freelanceMenuItemsForDisabled: [FreeLanceData] = [.searchForWork, .myWork, .favoriteWork]
-
-    
 }
