@@ -103,6 +103,8 @@ class AuthCoordinator: BaseCoordinator {
             showFacebookEmailConfirmationController()
 //        case AuthRoute.congratulation:
 //            showCongratulationsController()
+        case AuthRoute.finish:
+            self.finish()
         default:
             return
             

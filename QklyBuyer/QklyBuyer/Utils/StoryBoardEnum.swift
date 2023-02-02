@@ -32,6 +32,8 @@ enum Storyboard {
     case main
     case onboarding
     case auth
+    case dashBoard
+    case menu
   
     
     var name: String {
@@ -42,6 +44,10 @@ enum Storyboard {
             return "Onboarding"
         case .auth:
             return "Auth"
+        case .dashBoard:
+            return "DashBoard"
+        case .menu:
+            return "Menu"
        
        
         }

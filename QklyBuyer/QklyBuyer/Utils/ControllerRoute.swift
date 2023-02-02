@@ -8,6 +8,7 @@
 import Foundation
 import Foundation
 import UIKit
+import SideMenuSwift
 
 struct ControllerRoute {
     
@@ -39,6 +40,18 @@ struct ControllerRoute {
     static func faceBookEmailController(viewmodel:BaseViewModel) -> UIViewController {
         let controller = FaceBookEmailController.initialize(from: .auth)
         controller.viewModel = viewmodel as? FaceBookEmailViewModel
+        return controller
+    }
+    
+    static func dashboardController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = DashboardController.initialize(from: .dashBoard)
+        controller.viewModel = viewmodel as? DashboardViewModel
+        return controller
+    }
+    
+    static func menuController(viewmodel:BaseViewModel) -> UIViewController {
+        let controller = MenuController.initialize(from: .menu)
+        controller.viewModel = viewmodel as? MenuViewModel
         return controller
     }
 }

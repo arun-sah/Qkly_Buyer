@@ -44,6 +44,7 @@ class FaceBookEmailController: BaseController {
     }
     
     @IBAction func continueButton(_ sender: Any) {
+        self.viewModel.trigger.send(AuthRoute.finish)
     }
     
     @IBAction func cancelButton(_ sender: Any) {

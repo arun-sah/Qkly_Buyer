@@ -140,6 +140,17 @@
 		14C7462F2977BEAE0002BF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C7462D2977BEAE0002BF26 /* Main.storyboard */; };
 		14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C746322977BEAF0002BF26 /* Assets.xcassets */; };
 		14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C746342977BEAF0002BF26 /* LaunchScreen.storyboard */; };
+		14DC889D298B757B0084FAE2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC8897298B757B0084FAE2 /* MenuController.swift */; };
+		14DC889E298B757B0084FAE2 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC8898298B757B0084FAE2 /* Menu.storyboard */; };
+		14DC889F298B757B0084FAE2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC8899298B757B0084FAE2 /* MenuCell.swift */; };
+		14DC88A0298B757B0084FAE2 /* MenuSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */; };
+		14DC88A1298B757B0084FAE2 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */; };
+		14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC889C298B757B0084FAE2 /* MenuViewModel.swift */; };
+		14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */; };
+		14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A7298B760E0084FAE2 /* DashBoardController.swift */; };
+		14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */; };
+		14DC88AC298B76310084FAE2 /* DashBoardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */; };
+		14DC88B0298B7BDB0084FAE2 /* Menu+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */; };
 		48DE0CB32D1B643EF60EB791 /* Pods_QklyBuyer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */; };
 /* End PBXBuildFile section */
 
@@ -284,6 +295,17 @@
 		14C746322977BEAF0002BF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C746352977BEAF0002BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C746372977BEAF0002BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DC8897298B757B0084FAE2 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		14DC8898298B757B0084FAE2 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		14DC8899298B757B0084FAE2 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSectionCell.swift; sourceTree = "<group>"; };
+		14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		14DC889C298B757B0084FAE2 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		14DC88A7298B760E0084FAE2 /* DashBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardController.swift; sourceTree = "<group>"; };
+		14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCoordinator.swift; sourceTree = "<group>"; };
+		14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Menu+Data.swift"; sourceTree = "<group>"; };
 		487F875905C6B28CC037562F /* Pods-QklyBuyer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QklyBuyer.release.xcconfig"; path = "Target Support Files/Pods-QklyBuyer/Pods-QklyBuyer.release.xcconfig"; sourceTree = "<group>"; };
 		7D7931EE5D10D6CC9E832531 /* Pods_QklyBuyer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QklyBuyer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -781,6 +803,8 @@
 		14C746202977BEAE0002BF26 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				14DC88A3298B75DD0084FAE2 /* DashBoard */,
+				14DC8896298B75120084FAE2 /* Menu */,
 				1426D3AB2988DF13003E9ED3 /* Auth */,
 				1487C30E297FDC2600FBF9CD /* Onboarding */,
 			);
@@ -820,6 +844,55 @@
 				1487C28E29790C2600FBF9CD /* AppLaunchBuilder.swift */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		14DC8896298B75120084FAE2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88AD298B78D10084FAE2 /* Menu */,
+				14DC8898298B757B0084FAE2 /* Menu.storyboard */,
+				14DC889B298B757B0084FAE2 /* MenuCoordinator.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		14DC88A3298B75DD0084FAE2 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88A6298B75F90084FAE2 /* DashBoard */,
+				14DC88A4298B75EE0084FAE2 /* DashBoard.storyboard */,
+				14DC88AB298B76310084FAE2 /* DashBoardCoordinator.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		14DC88A6298B75F90084FAE2 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88A7298B760E0084FAE2 /* DashBoardController.swift */,
+				14DC88A9298B76200084FAE2 /* DashBoardViewModel.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		14DC88AD298B78D10084FAE2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				14DC88AE298B790E0084FAE2 /* MenuCell */,
+				14DC889C298B757B0084FAE2 /* MenuViewModel.swift */,
+				14DC8897298B757B0084FAE2 /* MenuController.swift */,
+				14DC88AF298B7BDB0084FAE2 /* Menu+Data.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		14DC88AE298B790E0084FAE2 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				14DC889A298B757B0084FAE2 /* MenuSectionCell.swift */,
+				14DC8899298B757B0084FAE2 /* MenuCell.swift */,
+			);
+			path = MenuCell;
 			sourceTree = "<group>";
 		};
 		7F8C36C215B5ADE35D05608E /* Frameworks */ = {
@@ -904,6 +977,8 @@
 				14C746362977BEAF0002BF26 /* LaunchScreen.storyboard in Resources */,
 				14C746332977BEAF0002BF26 /* Assets.xcassets in Resources */,
 				1487C2E4297A412500FBF9CD /* Color.xcassets in Resources */,
+				14DC88A5298B75EE0084FAE2 /* DashBoard.storyboard in Resources */,
+				14DC889E298B757B0084FAE2 /* Menu.storyboard in Resources */,
 				1487C316297FDC7400FBF9CD /* Onboarding.storyboard in Resources */,
 				1426D3BE29890984003E9ED3 /* Montserrat-ExtraBold.ttf in Resources */,
 				1426D3C12989098C003E9ED3 /* Montserrat-Regular.ttf in Resources */,
@@ -980,12 +1055,14 @@
 				1487C29F297934DF00FBF9CD /* PaddedTextField.swift in Sources */,
 				1487C2F8297F900300FBF9CD /* ProfileDetailResponse.swift in Sources */,
 				1405688E2977EE550068573F /* NetworkingResult.swift in Sources */,
+				14DC88AC298B76310084FAE2 /* DashBoardCoordinator.swift in Sources */,
 				14C746112977BEAE0002BF26 /* AppDelegate.swift in Sources */,
 				1487C2CE2979354C00FBF9CD /* UITapGestureRecognizer.swift in Sources */,
 				1487C2DA29795FB800FBF9CD /* AuthRouter.swift in Sources */,
 				1405686B2977EB050068573F /* FrameworkCacheKey.swift in Sources */,
 				140568832977ECE20068573F /* ResultBuilder.swift in Sources */,
 				140568532977E4340068573F /* BaseView.swift in Sources */,
+				14DC88A0298B757B0084FAE2 /* MenuSectionCell.swift in Sources */,
 				1487C2A0297934DF00FBF9CD /* GradientView.swift in Sources */,
 				1487C315297FDC7400FBF9CD /* OnboardingViewModel.swift in Sources */,
 				1405687A2977EC720068573F /* Client.swift in Sources */,
@@ -1011,6 +1088,7 @@
 				1426D3B42988E013003E9ED3 /* BioMetricViewModel.swift in Sources */,
 				1487C2D12979433D00FBF9CD /* StoryBoardEnum.swift in Sources */,
 				1487C302297F90B500FBF9CD /* SignUpModel.swift in Sources */,
+				14DC88AA298B76200084FAE2 /* DashBoardViewModel.swift in Sources */,
 				1487C31D297FDC7F00FBF9CD /* OnboardingSlideView.swift in Sources */,
 				1487C2CA2979354C00FBF9CD /* UITableViewExtension.swift in Sources */,
 				1405685F2977E98E0068573F /* FrameworkConstant.swift in Sources */,
@@ -1021,6 +1099,7 @@
 				1487C2E0297A40B400FBF9CD /* UIImage.swift in Sources */,
 				140568512977E4150068573F /* FrameworkBaseController.swift in Sources */,
 				1487C314297FDC7400FBF9CD /* OnboardingController.swift in Sources */,
+				14DC88A2298B757B0084FAE2 /* MenuViewModel.swift in Sources */,
 				1487C2F2297F8F9B00FBF9CD /* Profile.swift in Sources */,
 				1487C2C52979354C00FBF9CD /* String.swift in Sources */,
 				1487C2C72979354C00FBF9CD /* Date.swift in Sources */,
@@ -1032,18 +1111,21 @@
 				140568722977EC050068573F /* CacheManager.swift in Sources */,
 				140568A22977EF7A0068573F /* Connection.swift in Sources */,
 				140568582977E4950068573F /* ClientConfig.swift in Sources */,
+				14DC88B0298B7BDB0084FAE2 /* Menu+Data.swift in Sources */,
 				1426D3C929891C8A003E9ED3 /* CongratulationViewModel.swift in Sources */,
 				1405685C2977E4C20068573F /* Environment.swift in Sources */,
 				14C7462C2977BEAE0002BF26 /* ViewController.swift in Sources */,
 				1487C2E2297A40E200FBF9CD /* UIColor.swift in Sources */,
 				140568882977ED2D0068573F /* Networking.swift in Sources */,
 				140568762977EC330068573F /* CacheError.swift in Sources */,
+				14DC889F298B757B0084FAE2 /* MenuCell.swift in Sources */,
 				14C746132977BEAE0002BF26 /* SceneDelegate.swift in Sources */,
 				1487C28F29790C2600FBF9CD /* AppLaunchBuilder.swift in Sources */,
 				1487C2C12979354C00FBF9CD /* NSAttributedString.swift in Sources */,
 				140568672977EA330068573F /* Protocol.swift in Sources */,
 				1487C2CD2979354C00FBF9CD /* UIApplication.swift in Sources */,
 				140568952977EEA60068573F /* OperationQueueable.swift in Sources */,
+				14DC88A8298B760E0084FAE2 /* DashBoardController.swift in Sources */,
 				1426D3AD2988DF47003E9ED3 /* AuthCoordinator.swift in Sources */,
 				1487C2B92979354C00FBF9CD /* Nibloadable.swift in Sources */,
 				1487C2CF2979354C00FBF9CD /* UIView.swift in Sources */,
@@ -1055,6 +1137,7 @@
 				1405686D2977EB340068573F /* TokenManager.swift in Sources */,
 				1487C2C82979354C00FBF9CD /* BaseController.swift in Sources */,
 				140568932977EE940068573F /* FrameworkOperation.swift in Sources */,
+				14DC88A1298B757B0084FAE2 /* MenuCoordinator.swift in Sources */,
 				1487C2CC2979354C00FBF9CD /* Encodable.swift in Sources */,
 				1487C300297F909800FBF9CD /* LoginEmailResponse.swift in Sources */,
 				14C7462A2977BEAE0002BF26 /* Constant.swift in Sources */,
@@ -1069,6 +1152,7 @@
 				14C746192977BEAE0002BF26 /* DiFactory.swift in Sources */,
 				1487C2EE297F8F5500FBF9CD /* SocialLoginResponse.swift in Sources */,
 				1487C2BB2979354C00FBF9CD /* BaseCoordinator+Nav Extension.swift in Sources */,
+				14DC889D298B757B0084FAE2 /* MenuController.swift in Sources */,
 				1405689F2977EF4C0068573F /* Token.swift in Sources */,
 				1487C2CB2979354C00FBF9CD /* AlertAction.swift in Sources */,
 				1405685A2977E4AB0068573F /* Config.swift in Sources */,
