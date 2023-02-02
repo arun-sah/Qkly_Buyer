@@ -10,6 +10,7 @@ import Foundation
 enum AuthRoute: AppRoutable {
     case signIn
     case signUp
+    case facebookEmailUpdate
     case finish
    
 }
