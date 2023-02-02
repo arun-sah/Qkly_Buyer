@@ -30,6 +30,10 @@ final public class UserManager {
     let networkingResult = PassthroughSubject<NetworkingResult<SignUpModel>, Never>()
     /// The result returned form networking
     let networkingResultCurrentUserProfile    = PassthroughSubject<NetworkingResult<UserProfileResponse>, Never>()
+    let networkingResultCurrentUserDetails    = PassthroughSubject<NetworkingResult<CurrentUserDetailsResponse>, Never>()
+    
+    let networkingResultLogin                = PassthroughSubject<NetworkingResult<[LoginAccessToken]>, Never>()
+    let networkingResultSocialLogin                = PassthroughSubject<NetworkingResult<SocialLoginResponse>, Never>()
    
     /// Initializer
     init(networking: Networking) {

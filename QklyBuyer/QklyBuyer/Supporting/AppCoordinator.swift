@@ -45,12 +45,12 @@ final class AppCoordinator: BaseCoordinator {
             guard let self = self else {
                 return
             }
-            let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
-            if !isonboardingDone {
+           // let isonboardingDone = self.userDefaultCacheManager.get(Bool.self, forKey: FrameworkCacheKey.isOnboardingDone) ?? false
+          //  if !isonboardingDone {
                 self.runOnboardingCoordinator(with: deeplink)
-                return
-            }
-            self.runAuthCoordinator(with: deeplink)
+              //  return
+           // }
+           // self.runAuthCoordinator(with: deeplink)
                
         }
     }
@@ -66,7 +66,8 @@ final class AppCoordinator: BaseCoordinator {
         let onboardingCoordinator = OnboardingCoordinator(route: route)
         onboardingCoordinator.onFinish = { [weak self] in
             guard let self = self else {return}
-            self.performRedirection()
+           // self.performRedirection()
+            self.runAuthCoordinator(with: deepLink)
         }
         coordinate(to: onboardingCoordinator)
     }
@@ -84,7 +85,10 @@ final class AppCoordinator: BaseCoordinator {
         let authCoordinator = AuthCoordinator(route: route, userManager: userManager)
         authCoordinator.onFinish = { [weak self] in
             guard let self = self else { return }
-            self.performRedirection()
+           // self.performRedirection()
+            
+            // fot checkSideMenu
+            self.runSideMenuCoordinator(with: deepLink)
         }
         coordinate(to: authCoordinator)
     }
@@ -92,6 +96,22 @@ final class AppCoordinator: BaseCoordinator {
     /// clears deep link
     private func clearDeepLink() {
         self.deepLink = nil
+    }
+    
+    /// runs Side menu coordinator
+    private func runSideMenuCoordinator(with deepLink: DeepLink?) {
+        // check if coordinator already exists
+        if let coordinator = self.getChild(type: MenuCoordinator.self) {
+            // coordinator already exists hence directly start
+            coordinator.start(with: deepLink)
+            return
+        }
+        let coordinator = MenuCoordinator(route: route, userManager: userManager, deepLink: deepLink)
+        coordinator.onFinish = { [weak self] in
+            guard let self = self else { return }
+            self.performRedirection()
+        }
+        coordinate(to: coordinator)
     }
     
 }

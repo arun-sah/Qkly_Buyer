@@ -1,0 +1,47 @@
+//
+//  OutlinedTextField.swift
+//  Qkly
+//
+//  Created by Arun Sah on 17/11/2021.
+//
+
+import Foundation
+import MaterialComponents
+import MaterialComponents.MaterialTextFields
+import UIKit
+class OutlinedTextField: UITextField{
+    func setUpTextField(textfield:MDCOutlinedTextField, placeholder:String){
+        textfield.label.text = placeholder
+<<<<<<< HEAD
+        //textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+=======
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
+>>>>>>> dc992d4312bcc30b3bfbe3b66c47d3186fedc507
+        textfield.sizeToFit()
+    }
+    func setUpTextFieldDropDown(textfield:MDCOutlinedTextField, placeholder:String){
+        textfield.label.text = placeholder
+      //  let image = UIImage.arrowDown
+     //   let imageview = UIImageView(image: image )
+      //  imageview.tintColor = UIColor.black
+       // textfield.rightView = imageview
+        textfield.rightViewMode = .always
+<<<<<<< HEAD
+        //textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+=======
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
+>>>>>>> dc992d4312bcc30b3bfbe3b66c47d3186fedc507
+        textfield.sizeToFit()
+    }
+    func setUpTextFieldForPassword(textfield:MDCOutlinedTextField, placeholder:String){
+        textfield.label.text = placeholder
+        textfield.isSecureTextEntry = true
+<<<<<<< HEAD
+        //textfield.setOutlineColor(UIColor.appColor!, for: .editing)
+=======
+        textfield.setOutlineColor(UIColor.app_primary_purple!, for: .editing)
+>>>>>>> dc992d4312bcc30b3bfbe3b66c47d3186fedc507
+        textfield.sizeToFit()
+    }
+    
+}

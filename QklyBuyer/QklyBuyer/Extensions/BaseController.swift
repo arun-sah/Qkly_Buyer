@@ -251,3 +251,13 @@ extension UIViewController {
     
     
 }
+
+import SwiftUI
+
+extension BaseController {
+    
+    func getSwiftUIWrapperController(forView view: some View) -> UIViewController {
+        UIHostingController(rootView: view)
+    }
+    
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_1" translatesAutoresizingMaskIntoConstraints="NO" id="oI9-FV-lWr" userLabel="ImageView">
-                    <rect key="frame" x="40" y="327" width="334" height="271"/>
+                    <rect key="frame" x="40" y="202" width="334" height="271"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
@@ -31,22 +31,32 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Discovered &amp; Find world class talent Top talent to provide the services you need" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-in-xnZ">
-                    <rect key="frame" x="0.0" y="676" width="414" height="70"/>
+                    <rect key="frame" x="0.0" y="566" width="414" height="120"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="70" id="rxd-sp-9hR"/>
+                        <constraint firstAttribute="height" constant="70" id="rxd-sp-9hR">
+                            <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                        </constraint>
                     </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                     <color key="textColor" name="app_primary_black"/>
                     <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="22"/>
+                    </variation>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Discovered" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bne-Kc-yiD">
-                    <rect key="frame" x="0.0" y="633" width="414" height="35"/>
+                    <rect key="frame" x="0.0" y="508" width="414" height="50"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="35" id="x5O-I0-p1S"/>
+                        <constraint firstAttribute="height" constant="35" id="x5O-I0-p1S">
+                            <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                        </constraint>
                     </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-ExtraBold" family="Montserrat" pointSize="24"/>
                     <color key="textColor" name="app_primary_purple"/>
                     <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="Montserrat-ExtraBold" family="Montserrat" pointSize="30"/>
+                    </variation>
                 </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="QOr-gh-HEr"/>
@@ -60,7 +70,7 @@
                 <constraint firstItem="QOr-gh-HEr" firstAttribute="trailing" secondItem="hBc-in-xnZ" secondAttribute="trailing" id="ZmG-lh-WuL"/>
                 <constraint firstItem="oI9-FV-lWr" firstAttribute="leading" secondItem="QOr-gh-HEr" secondAttribute="leading" constant="40" id="jQG-DB-feH"/>
                 <constraint firstItem="hBc-in-xnZ" firstAttribute="top" secondItem="bne-Kc-yiD" secondAttribute="bottom" constant="8" symbolic="YES" id="jon-Ea-vAl"/>
-                <constraint firstItem="hBc-in-xnZ" firstAttribute="bottom" secondItem="QOr-gh-HEr" secondAttribute="bottom" constant="-150" id="urp-9C-yYJ"/>
+                <constraint firstItem="hBc-in-xnZ" firstAttribute="bottom" secondItem="QOr-gh-HEr" secondAttribute="bottom" constant="-210" id="urp-9C-yYJ"/>
                 <constraint firstItem="bne-Kc-yiD" firstAttribute="leading" secondItem="QOr-gh-HEr" secondAttribute="leading" id="xTT-Ju-0ta"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

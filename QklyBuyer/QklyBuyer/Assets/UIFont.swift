@@ -27,8 +27,12 @@ extension UIFont {
         let font = UIFont(name: weight.fontName, size: size.value)
         return font!
     }
-    static func appBoldFont(ofSize size: AppFontSize) -> UIFont {
+    static func appExtraBoldFont(ofSize size: AppFontSize) -> UIFont {
         let font = UIFont(name: AppFontWeight.extraBold.fontName, size: size.value)
+        return font!
+    }
+    static func appBoldFont(ofSize size: AppFontSize) -> UIFont {
+        let font = UIFont(name: AppFontWeight.bold.fontName, size: size.value)
         return font!
     }
     static func appSemiBoldFont(ofSize size: AppFontSize) -> UIFont {
