@@ -71,7 +71,6 @@
                                             <color key="baseForegroundColor" name="app_primary_black"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="dashboardButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oNi-a3-fBY"/>
                                             <action selector="myProfileButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PpF-Ic-STL"/>
                                         </connections>
                                     </button>

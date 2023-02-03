@@ -97,7 +97,7 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
             return headerCell
             
         case .freelancer:
-            headerCell.configure(data: sectionData)
+            headerCell.configure(data: sectionData,isSubMenuExpanded: viewModel.isFreelanceExpanded)
             headerCell.sectionButton.tag = section
             headerCell.sectionButton.addTarget(self, action: #selector(headerClicked), for: .touchUpInside)
             let celltitleString =  MenuCellData.allCases.map({$0.title})

@@ -32,14 +32,14 @@ class MenuSectionCell: UITableViewCell {
 
     }
     
-    func configure(data: MenuSectionData) {
+    func configure(data: MenuSectionData, isSubMenuExpanded:Bool = true) {
         descLabel.font = UIFont.appMediumFont(ofSize: .size_16)
         descLabel.textColor = UIColor.app_primary_black ?? .black
         descLabel.text = data.title.trim
         leadingImageView.image = data.image
         
         if data == .freelancer {
-            ddownArrowImage.image = UIImage.icon_drop_down?.withTintColor(UIColor.app_primary_black_0_6 ?? .black)
+            ddownArrowImage.image = isSubMenuExpanded ? UIImage.icon_drop_up?.withTintColor(UIColor.app_primary_black_0_6 ?? .black): UIImage.icon_drop_down?.withTintColor(UIColor.app_primary_black_0_6 ?? .black)
             ddownArrowImage.isHidden = false
         } else {
             ddownArrowImage.isHidden = true
