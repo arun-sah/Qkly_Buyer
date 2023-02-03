@@ -109,7 +109,9 @@ open class BaseController: UIViewController {
     
     
     /// setup trigger
-    open func setupUI() {}
+    open func setupUI() {
+      
+    }
     
     /// Observer for events
     open func observeEvents() {}

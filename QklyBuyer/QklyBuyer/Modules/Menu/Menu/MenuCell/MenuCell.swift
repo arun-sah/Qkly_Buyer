@@ -28,15 +28,6 @@ class MenuCell: UITableViewCell {
     func configure(celltype:MenuCellData) {
         iconImage.image = celltype.image
         descLabel.text = celltype.title
-        
-//        switch celltype {
-//        case .findFreelancer:
-//            <#code#>
-//        case .myFreelancer:
-//            <#code#>
-//        case .favouriteFreelancer:
-//            <#code#>
-//        }
 
     }
     

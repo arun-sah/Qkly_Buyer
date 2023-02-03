@@ -58,6 +58,10 @@ final class AppLaunchBuilder {
         setAppCordinator()
         configureSideMenu()
         
+        if #available(iOS 15.0, *) {
+            UITableView.appearance().sectionHeaderTopPadding = 0
+        }
+        
         //let the app starts
         return true
     }

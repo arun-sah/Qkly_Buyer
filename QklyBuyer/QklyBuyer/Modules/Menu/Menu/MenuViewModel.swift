@@ -12,6 +12,7 @@ import UIKit
 class MenuViewModel: BaseViewModel {
     let userManager: UserManager?
     var selectedSidemenuType: MenuData?
+    var isFreelanceExpanded:Bool = true
     init(userManager: UserManager, selectedSidemenuType:MenuData?) {
         self.selectedSidemenuType = selectedSidemenuType
         self.userManager = userManager

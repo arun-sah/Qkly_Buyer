@@ -233,7 +233,7 @@ extension QBValidationTextField: UITextFieldDelegate {
     }
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        delegate?.textFieldShoudBeginEditing?(textField: self) ?? false
+        delegate?.textFieldShoudBeginEditing?(textField: self) ?? true
     }
     
 }

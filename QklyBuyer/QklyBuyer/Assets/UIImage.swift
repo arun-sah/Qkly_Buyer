@@ -73,6 +73,10 @@ extension UIImage {
     static var icon_watch :                  UIImage? { return UIImage.named("watch") }
     static var icon_Web :                    UIImage? { return UIImage.named("Web") }
     static var icon_zip_code :               UIImage? { return UIImage.named("zip_code") }
+    static var icon_drop_down :              UIImage? { return UIImage.named("drop_down") }
+    static var icon_drop_up :                UIImage? { return UIImage.named("drop_up") }
+
+    
    
 
     // MARK: Onboarding
