@@ -17,9 +17,33 @@ class ForgotPasswordViewModel: BaseViewModel {
     init(userManager: UserManager) {
         self.userManager = userManager
         super.init()
+        observeValidation()
     }
     
-    var email: String = ""
+    @Published var email: String = ""
+    
+    var emailValidationState            = CurrentValueSubject<(Bool, String), Never>((false, ""))
+    
+    private func observeValidation() {
+        $email.sink {[weak self] value in
+            guard let self else { return }
+            self.emailValidationState.value = self.isEmailValid(string: value ?? "")
+        }.store(in: &bag)
+    }
+    
+    func isEmailValid(string: String) -> (Bool, String) {
+        let valid = string != "" && string.validateEmail()
+        let message: String = {
+            if string == "" {
+                return "Email should not be empty"
+            }
+            if !string.validateEmail() {
+                return "Please enter a valid email"
+            }
+            return ""
+        }()
+        return (valid, message)
+    }
     
 //    func isValid() -> (Bool, String) {
 //        let message = invalidCredentialMessage()
