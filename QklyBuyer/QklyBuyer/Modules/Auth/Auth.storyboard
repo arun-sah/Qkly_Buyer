@@ -251,7 +251,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" spacing="20"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Don’t worry we got you covered\nEnter your email and we’ll send you the\ninstructions." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Zh0-um-Fcj">
-                                <rect key="frame" x="30" y="500.66666666666669" width="330" height="34.333333333333314"/>
+                                <rect key="frame" x="30" y="477.66666666666669" width="330" height="34.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" name="app_primary_black"/>
                                 <nil key="highlightedColor"/>
@@ -260,7 +260,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ran into trouble?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="l6v-do-Cfm">
-                                <rect key="frame" x="30" y="451.33333333333331" width="330" height="34.333333333333314"/>
+                                <rect key="frame" x="30" y="428.33333333333331" width="330" height="34.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="28"/>
                                 <color key="textColor" red="0.30196078430000001" green="0.30980392159999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -269,47 +269,21 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forgotPassword" translatesAutoresizingMaskIntoConstraints="NO" id="SJi-fc-G5V">
-                                <rect key="frame" x="87" y="267.33333333333331" width="216" height="134"/>
+                                <rect key="frame" x="87" y="244.33333333333337" width="216" height="134"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SJi-fc-G5V" secondAttribute="height" multiplier="240:149" id="1I3-Ar-VFf"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Te-fy-wh3">
-                                <rect key="frame" x="30" y="555" width="330" height="85"/>
+                                <rect key="frame" x="30" y="532" width="330" height="108"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Email Id" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="SOO-c6-NwQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="330" height="25"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKw-nm-yml" customClass="QBValidationTextField" customModule="QklyBuyer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="108"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="JyU-az-TA4">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="35"/>
-                                            </constraint>
+                                            <constraint firstAttribute="height" constant="108" id="BX7-No-Bjx"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
-                                        <color key="textColor" red="0.43137254899999999" green="0.43529411759999997" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="26"/>
-                                        </variation>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QlZ-7T-3hr">
-                                        <rect key="frame" x="0.0" y="35" width="330" height="50"/>
-                                        <color key="backgroundColor" name="app_Off_White"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="HbP-ZQ-zms">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="65"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="24"/>
-                                        </variation>
-                                    </textField>
+                                    </view>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pk-OL-cMo">
@@ -359,7 +333,7 @@
                     </view>
                     <connections>
                         <outlet property="descLabel" destination="Zh0-um-Fcj" id="Jgx-yy-sF9"/>
-                        <outlet property="emailTextField" destination="QlZ-7T-3hr" id="XFu-40-ZP3"/>
+                        <outlet property="emailTextField" destination="EKw-nm-yml" id="4Sx-UM-y44"/>
                         <outlet property="ranIntoTrouble" destination="l6v-do-Cfm" id="pi7-xd-nfO"/>
                     </connections>
                 </viewController>
@@ -382,7 +356,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Congratulations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcm-cg-btW">
-                                <rect key="frame" x="20" y="688.66666666666652" width="350" height="39.333333333333371"/>
+                                <rect key="frame" x="20" y="630.33333333333326" width="350" height="37.333333333333371"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="32"/>
                                 <color key="textColor" name="app_primary_purple"/>
                                 <nil key="highlightedColor"/>
@@ -391,7 +365,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egm-hM-LwM">
-                                <rect key="frame" x="20" y="743" width="350" height="0.0"/>
+                                <rect key="frame" x="20" y="682.66666666666663" width="350" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                 <color key="textColor" name="app_primary_black"/>
                                 <nil key="highlightedColor"/>
@@ -805,41 +779,15 @@
                                 </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ppn-5b-6dc">
-                                <rect key="frame" x="30" y="492" width="330" height="85"/>
+                                <rect key="frame" x="30" y="492" width="330" height="108"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Email Id" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="r0a-d3-Lc3">
-                                        <rect key="frame" x="0.0" y="0.0" width="330" height="25"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nbz-3D-gkp" customClass="QBValidationTextField" customModule="QklyBuyer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="108"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="xxP-Dd-LDU">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="35"/>
-                                            </constraint>
+                                            <constraint firstAttribute="height" constant="108" id="2n7-nZ-5uw"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
-                                        <color key="textColor" red="0.43137254899999999" green="0.43529411759999997" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="26"/>
-                                        </variation>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ato-hy-5gy">
-                                        <rect key="frame" x="0.0" y="35" width="330" height="50"/>
-                                        <color key="backgroundColor" name="app_Off_White"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="nZF-Fw-fmh">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="65"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="6"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="24"/>
-                                        </variation>
-                                    </textField>
+                                    </view>
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRA-rP-YEN">
@@ -928,6 +876,7 @@
                     </view>
                     <connections>
                         <outlet property="backIconButton" destination="8A6-Oc-sJM" id="MIo-5G-8zO"/>
+                        <outlet property="emailTextField" destination="nbz-3D-gkp" id="JhR-xz-ula"/>
                         <outlet property="enterYouEmailLabel" destination="bVm-8Z-dPq" id="Xup-IP-01w"/>
                         <outlet property="facebookButton" destination="SBY-M7-0K0" id="T2G-uq-8fI"/>
                     </connections>
@@ -959,9 +908,6 @@
         <image name="facebook_email_background" width="375" height="252"/>
         <image name="fingerprint_enable" width="147" height="275"/>
         <image name="forgotPassword" width="200.66667175292969" height="149.66667175292969"/>
-        <namedColor name="app_Off_White">
-            <color red="0.96862745098039216" green="0.97254901960784312" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="app_primary_black">
             <color red="0.30196078431372547" green="0.30980392156862746" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Property 1=Variant4.png",
+      "filename" : "Group 80850.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Property 1=Variant4@2x.png",
+      "filename" : "Group 80850@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Property 1=Variant4@3x.png",
+      "filename" : "Group 80850@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

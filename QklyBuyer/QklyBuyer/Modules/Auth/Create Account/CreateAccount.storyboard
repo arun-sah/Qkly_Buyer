@@ -497,6 +497,9 @@ Cg
                                         <rect key="frame" x="20" y="58" width="24" height="24"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="back-button-white"/>
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="X2h-jE-uOJ" eventType="touchUpInside" id="xwa-87-T9x"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

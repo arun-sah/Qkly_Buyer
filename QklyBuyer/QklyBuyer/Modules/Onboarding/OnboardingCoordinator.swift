@@ -26,14 +26,16 @@ class OnboardingCoordinator: BaseCoordinator {
     }
     
     private func showOnboarding() {
-        let onboardingViewModel  = OnboardingViewModel()
-        let onboardingController = ControllerRoute.onboardingController(viewmodel: onboardingViewModel)
-        onboardingViewModel.trigger.sink { [weak self] route in
-            guard let self = self else { return }
-            self.handleRoutes(route)
-        }.store(in: &bag)
-        route.setRoot(onboardingController, hideBar: true)
-       
+//        let onboardingViewModel  = OnboardingViewModel()
+//        let onboardingController = ControllerRoute.onboardingController(viewmodel: onboardingViewModel)
+//        onboardingViewModel.trigger.sink { [weak self] route in
+//            guard let self = self else { return }
+//            self.handleRoutes(route)
+//        }.store(in: &bag)
+        
+        let controller = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginController")
+
+        route.setRoot(controller, hideBar: true)
     }
     
     
