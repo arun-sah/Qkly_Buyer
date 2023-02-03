@@ -33,7 +33,7 @@ class OnboardingCoordinator: BaseCoordinator {
 //            self.handleRoutes(route)
 //        }.store(in: &bag)
         
-        let controller = UIStoryboard(name: "CreateAccount", bundle: nil).instantiateViewController(withIdentifier: "CreateAccountController")
+        let controller = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginController")
 
         route.setRoot(controller, hideBar: true)
     }
