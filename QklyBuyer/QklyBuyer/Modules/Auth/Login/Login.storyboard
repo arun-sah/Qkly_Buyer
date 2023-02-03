@@ -31,31 +31,26 @@
                                 <rect key="frame" x="0.0" y="200" width="393" height="800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPi-UU-0cR">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="744.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="702.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kTS-rt-08a">
-                                                <rect key="frame" x="20" y="30" width="353" height="694.66666666666663"/>
+                                                <rect key="frame" x="20" y="30" width="353" height="652.33333333333337"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45b-BR-aO6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="34.333333333333336"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                                    </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLs-IM-CYB" customClass="QBValidationTextField" customModule="QklyBuyer" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="42.333333333333314" width="353" height="108"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="108"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="108" id="fsD-hA-052"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwQ-8V-SOr" customClass="QBValidationTextField" customModule="QklyBuyer" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="158.33333333333331" width="353" height="108"/>
+                                                        <rect key="frame" x="0.0" y="116" width="353" height="108"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="108" id="fA9-bT-Lry"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLb-Vx-wn6">
-                                                        <rect key="frame" x="0.0" y="274.33333333333331" width="353" height="40"/>
+                                                        <rect key="frame" x="0.0" y="232" width="353" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWM-Yc-vHg">
                                                                 <rect key="frame" x="245" y="0.0" width="108" height="40"/>
@@ -64,6 +59,9 @@
                                                                 <state key="normal" title="Forgot Password?">
                                                                     <color key="titleColor" red="0.67450980390000004" green="0.1960784314" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="forgotPasswordButtonTapped:" destination="6C6-iB-uP9" eventType="touchUpInside" id="zem-1D-MuO"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,14 +73,14 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omJ-oz-TOh">
-                                                        <rect key="frame" x="0.0" y="322.33333333333337" width="353" height="24"/>
+                                                        <rect key="frame" x="0.0" y="280" width="353" height="24"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="Mj1-84-rgX"/>
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wKc-Ye-zp6">
-                                                        <rect key="frame" x="0.0" y="354.33333333333337" width="353" height="48"/>
+                                                        <rect key="frame" x="0.0" y="312" width="353" height="48"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SH2-TJ-xoA" customClass="FormActionButton" customModule="QklyBuyer" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="273" height="48"/>
@@ -118,14 +116,14 @@
                                                         </subviews>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfd-WK-9f5">
-                                                        <rect key="frame" x="0.0" y="410.33333333333337" width="353" height="12"/>
+                                                        <rect key="frame" x="0.0" y="368" width="353" height="12"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="12" id="yCZ-aY-pZa"/>
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qTg-8A-Sbg">
-                                                        <rect key="frame" x="0.0" y="430.33333333333337" width="353" height="56"/>
+                                                        <rect key="frame" x="0.0" y="388" width="353" height="56"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWt-40-wDG">
                                                                 <rect key="frame" x="0.0" y="27.666666666666629" width="115.66666666666667" height="1"/>
@@ -161,7 +159,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvn-4P-Fzv">
-                                                        <rect key="frame" x="0.0" y="494.33333333333337" width="353" height="50"/>
+                                                        <rect key="frame" x="0.0" y="452" width="353" height="50"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="oLR-cG-vwc">
                                                                 <rect key="frame" x="5.6666666666666572" y="0.0" width="342" height="50"/>
@@ -363,14 +361,14 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcm-IC-hJG">
-                                                        <rect key="frame" x="0.0" y="552.33333333333337" width="353" height="30"/>
+                                                        <rect key="frame" x="0.0" y="510" width="353" height="30"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="hUr-C2-jb8"/>
                                                         </constraints>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSj-6n-g20">
-                                                        <rect key="frame" x="0.0" y="590.33333333333337" width="353" height="31.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="548" width="353" height="31.333333333333371"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain">
                                                             <attributedString key="attributedTitle">
@@ -406,9 +404,12 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="signupButtonTapped:" destination="6C6-iB-uP9" eventType="touchUpInside" id="brc-XD-ss1"/>
+                                                        </connections>
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnf-Jb-sV5">
-                                                        <rect key="frame" x="0.0" y="629.66666666666663" width="353" height="65"/>
+                                                        <rect key="frame" x="0.0" y="587.33333333333337" width="353" height="65"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="65" id="XdE-9V-024"/>
@@ -511,6 +512,7 @@
                         <outlet property="navViewHeightConstraint" destination="dzq-zF-4hc" id="CLb-QU-Hey"/>
                         <outlet property="passwordTextField" destination="lwQ-8V-SOr" id="AXP-JU-vzt"/>
                         <outlet property="scrollView" destination="zUm-zA-EDa" id="NdT-SJ-GN9"/>
+                        <outlet property="signupButton" destination="NSj-6n-g20" id="QyA-ca-bRU"/>
                         <outlet property="upperNavView" destination="I8r-KS-weJ" id="nvc-IL-BOK"/>
                     </connections>
                 </viewController>

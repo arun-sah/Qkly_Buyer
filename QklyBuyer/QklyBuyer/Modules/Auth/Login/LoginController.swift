@@ -44,6 +44,7 @@ class LoginController: BaseController {
     
     @IBOutlet weak var loginButton: FormActionButton!
     @IBOutlet weak var biometricButton: UIButton!
+    @IBOutlet weak var signupButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,8 +94,8 @@ class LoginController: BaseController {
         }.store(in: &viewModel.bag)
 
         loginButton.formButtonTapped.receive(on: RunLoop.main).sink { _ in
-            print("t")
-        }
+            
+        }.store(in: &viewModel.bag)
         
     }
     
@@ -123,6 +124,16 @@ class LoginController: BaseController {
         }
 
         return isValid
+    }
+    
+    @IBAction func signupButtonTapped(_ sender: UIButton) {
+        let createVC = UIStoryboard(name: "CreateAccount", bundle: nil).instantiateViewController(withIdentifier: "CreateAccountController")
+        self.navigationController?.pushViewController(createVC, animated: true)
+    }
+    
+    @IBAction func forgotPasswordButtonTapped(_ sender: UIButton) {
+        let forgotPswVC = UIStoryboard(name: "Auth", bundle: nil).instantiateViewController(withIdentifier: "ForgotPasswordController")
+        self.navigationController?.pushViewController(forgotPswVC, animated: true)
     }
     
 }

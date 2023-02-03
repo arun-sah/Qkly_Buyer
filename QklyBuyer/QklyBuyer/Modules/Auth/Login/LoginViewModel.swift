@@ -22,7 +22,9 @@ class LoginViewModel: BaseViewModel {
     @Published var password: String?
     
     var biometricType: LABiometryType = {
-        LAContext().biometryType
+        let context = LAContext()
+        let available = try? context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none)
+        return context.biometryType
     }()
     
     private func observeValidation() {
