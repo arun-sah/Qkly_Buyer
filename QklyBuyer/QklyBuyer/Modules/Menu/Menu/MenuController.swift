@@ -22,17 +22,11 @@ class MenuController: BaseController {
     }
     
     override func setupUI() {
-        
         // Setup tableview
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        tableView.contentInsetAdjustmentBehavior = .never
-        self.edgesForExtendedLayout = UIRectEdge.init(rawValue: 0)
-        
         sideMenuController?.delegate = self
-        
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -44,7 +38,16 @@ class MenuController: BaseController {
         super.viewWillTransition(to: size, with: coordinator)
         view.layoutIfNeeded()
     }
+    @IBAction func dashboardButtonTapped(_ sender: UIButton) {
+        viewModel.trigger.send(AuthRoute.finish)
+    }
     
+    @IBAction func myProfileButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func crossButtonTapped(_ sender: UIButton) {
+        sideMenuController?.hideMenu()
+    }
 }
 
 extension MenuController: UITableViewDelegate, UITableViewDataSource {
@@ -109,61 +112,34 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
         case .logout:
             headerCell.configure(data: sectionData)
             headerCell.backgroundColorView.backgroundColor = UIColor.app_primary_red_0_1
-            
             return headerCell
         }
-        
-        
-        
-        
-        
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        
         let sectionData = MenuSectionData.allCases[section]
         switch sectionData {
-        case .singleLine:
-            return 20
-        default:
-            return 50
+        case .singleLine:  return 20
+        default:  return 50
         }
-        
     }
-    
-    
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         if MenuSectionData.allCases[indexPath.section] == .freelancer {
             return 45
-        }else {
-            return 0
-        }
-        
-        
+        }else { return 0  }
     }
     
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        
-        return UIView(frame: .zero)
-    }
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 1
-    }
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? { return UIView(frame: .zero) }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {  1 }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rowIndex = indexPath.row
         viewModel.selectedSidemenuType = MenuCellData.allCases[rowIndex]
         tableView.reloadData()
     }
-    
-    
-    
-    
-    @IBAction func dashboardButtonTapped(_ sender: UIButton) {
-        viewModel.trigger.send(AuthRoute.finish)
-    }
+   
     @objc func headerClicked(_ sender: UIButton){
         let index = sender.tag
         if MenuSectionData.allCases[index] == .freelancer {

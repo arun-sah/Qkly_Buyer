@@ -56,6 +56,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="cross"/>
+                                        <connections>
+                                            <action selector="crossButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="06h-BS-O5D"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7j-Tb-zZs">
                                         <rect key="frame" x="0.0" y="128" width="292" height="35"/>
@@ -69,6 +72,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="dashboardButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oNi-a3-fBY"/>
+                                            <action selector="myProfileButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PpF-Ic-STL"/>
                                         </connections>
                                     </button>
                                 </subviews>
