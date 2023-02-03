@@ -13,12 +13,17 @@ class FaceBookEmailController: BaseController {
     @IBOutlet weak var facebookButton: UIButton!
     @IBOutlet weak var enterYouEmailLabel: UILabel!
     
+    @IBOutlet weak var emailTextField: QBValidationTextField!
+    
     @IBOutlet weak var backIconButton: UIButton!
     var viewModel: FaceBookEmailViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    override func setupUI() {
         backIconButton.setImage(UIImage.icon_arrow_left?.withTintColor(UIColor.app_white ?? .white, renderingMode: .alwaysOriginal), for: .normal)
         
         let didntSeeIt = AppString.enterYour.value.withAttributes([
@@ -31,6 +36,9 @@ class FaceBookEmailController: BaseController {
         ])
         let text = didntSeeIt + contactUs
         enterYouEmailLabel.attributedText = text
+        
+        emailTextField.textFieldPlaceholder = "Enter Email here"
+        emailTextField.titlePlaceholder = "Your Email Id"
     }
     
     override func viewWillLayoutSubviews() {

@@ -13,7 +13,7 @@ class ForgotPasswordController: BaseController {
     
     @IBOutlet weak var ranIntoTrouble: UILabel!
     @IBOutlet weak var descLabel: UILabel!
-    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var emailTextField: QBValidationTextField!
     
     
     var viewModel: ForgotPasswordViewModel!
@@ -21,12 +21,10 @@ class ForgotPasswordController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         emailTextField.delegate = self
-        uiSetUp()
-       
+        bindValues()
     }
     
-    func uiSetUp(){
-        
+    override func setupUI() {
         let ranInto = AppString.ranInto.value.withAttributes([
             .textColor(UIColor.app_primary_black ?? .black),
             .font(UIFont.appBoldFont(ofSize: .size_32))
@@ -39,6 +37,16 @@ class ForgotPasswordController: BaseController {
         ranIntoTrouble.attributedText = text
         
         descLabel.text = AppString.forgotDesc.value
+        
+        emailTextField.titlePlaceholder = "Your Email Id"
+        emailTextField.textFieldPlaceholder = "Enter Email here"
+    }
+    
+    func bindValues() {
+        emailTextField.publisher.sink {[weak self] textField in
+            guard let self else {return}
+            self.viewModel.email = textField.text
+        }.store(in: &viewModel.bag)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -76,20 +84,4 @@ class ForgotPasswordController: BaseController {
     
 }
 
-extension ForgotPasswordController: UITextFieldDelegate {
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-       
-            view.endEditing(true)
-            validateAndRequest()
-    
-        return true
-    }
-    
-//    func textFieldDidEndEditing(_ textField: UITextField) {
-//        if textField == emailTextField {
-//            viewModel.email = emailTextField.text ?? ""
-//        }
-//    }
-    
-}
+extension ForgotPasswordController: QBValidationTextFieldDelegate {}
