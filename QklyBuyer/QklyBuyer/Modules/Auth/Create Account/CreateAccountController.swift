@@ -220,9 +220,11 @@ class CreateAccountController: BaseController {
         _ = viewModel.validateAndSendRequest()
     }
     
-//    @IBAction func signinButtonTapped(_ sender: UIButton) {
-//
-//    }
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+
 
 }
 
